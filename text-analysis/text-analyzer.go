@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"io/ioutil"
 	"os"
 	"strings"
@@ -9,6 +8,8 @@ import (
 	"sort"
 
 	"encoding/json"
+
+	"log"
 
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/aws/credentials"
@@ -36,7 +37,7 @@ func main() {
 
 	fileContent, err := ioutil.ReadFile(inputFileName)
 	if err != nil {
-		fmt.Print(err)
+		log.Fatal(err)
 	}
 
 	fileContentAsString := string(fileContent)
@@ -45,17 +46,17 @@ func main() {
 
 	analyseSentiment, err := AnalyseTextSentiment(client, fileContentAsString)
 	if err != nil {
-		fmt.Print(err)
+		log.Fatal(err)
 	}
 
 	analyseEntities, err := AnalyseTextEntities(client, fileContentAsString)
 	if err != nil {
-		fmt.Print(err)
+		log.Fatal(err)
 	}
 
 	analyseKeyPhrases, err := AnalyseKeyPhrases(client, fileContentAsString)
 	if err != nil {
-		fmt.Print(err)
+		log.Fatal(err)
 	}
 
 	result := AnalysisResult{
@@ -118,11 +119,11 @@ func AnalyseTextSentiment(client *comprehend.Comprehend, text string) ([]Sentime
 }
 
 func AnalyseSentenceSentiment(client *comprehend.Comprehend, sentence string) (SentimentResult, error) {
-	input := &comprehend.BatchDetectSentimentInput{}
+	input := &comprehend.DetectSentimentInput{}
 	input.SetLanguageCode("en")
-	input.SetTextList([]*string{aws.String(sentence)})
-	result, err := client.BatchDetectSentiment(input)
-	return SentimentResult{sentence, result.ResultList[0].SentimentScore.Negative}, err
+	input.SetText(sentence)
+	result, err := client.DetectSentiment(input)
+	return SentimentResult{sentence, result.SentimentScore.Negative}, err
 }
 
 type EntityResult struct {
@@ -139,14 +140,14 @@ type EntityTypeResult struct {
 
 func AnalyseTextEntities(client *comprehend.Comprehend, text string) (EntityResult, error) {
 	var entityArray []EntityTypeResult
-	input := &comprehend.BatchDetectEntitiesInput{}
+	input := &comprehend.DetectEntitiesInput{}
 	input.SetLanguageCode("en")
-	input.SetTextList([]*string{aws.String(text)})
-	entities, err := client.BatchDetectEntities(input)
+	input.SetText(text)
+	entities, err := client.DetectEntities(input)
 	if err != nil {
 		return EntityResult{}, err
 	}
-	for _, entity := range entities.ResultList[0].Entities {
+	for _, entity := range entities.Entities {
 		entityArray = append(entityArray, EntityTypeResult{Text: *entity.Text, Type: *entity.Type})
 	}
 	return AnalyseEntity(entityArray), err
@@ -197,14 +198,14 @@ type KeyPhrasesResult struct {
 
 func AnalyseKeyPhrases(client *comprehend.Comprehend, text string) ([]KeyPhrasesResult, error) {
 	var keyPhrasesArray []KeyPhrasesResult
-	input := &comprehend.BatchDetectKeyPhrasesInput{}
+	input := &comprehend.DetectKeyPhrasesInput{}
 	input.SetLanguageCode("en")
-	input.SetTextList([]*string{aws.String(text)})
-	keyPhrases, err := client.BatchDetectKeyPhrases(input)
+	input.SetText(text)
+	keyPhrases, err := client.DetectKeyPhrases(input)
 	if err != nil {
 		return keyPhrasesArray, err
 	}
-	for _, keyPhrase := range keyPhrases.ResultList[0].KeyPhrases {
+	for _, keyPhrase := range keyPhrases.KeyPhrases {
 		keyPhrasesArray = AddKeyPhraseIfUnique(keyPhrasesArray, KeyPhrasesResult{Text: *keyPhrase.Text})
 	}
 	return keyPhrasesArray, err
