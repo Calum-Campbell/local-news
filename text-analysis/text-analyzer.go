@@ -21,7 +21,7 @@ import (
 type AnalysisResult struct {
 	DataSource           string
 	TopNegativeSentiment []SentimentResult
-	Entities             []EntityResult
+	Entities             []EntityTypeResult
 	KeyPhrases           []KeyPhrasesResult
 }
 
@@ -140,28 +140,63 @@ func AnalyseSentenceSentiment(client *comprehend.Comprehend, sentence string) (S
 //}
 
 type EntityResult struct {
+	People        []EntityTypeResult
+	Places        []EntityTypeResult
+	Dates         []EntityTypeResult
+	Organisations []EntityTypeResult
+}
+
+type EntityTypeResult struct {
 	Text string
 	Type string
 }
 
-func AnalyseTextEntities(client *comprehend.Comprehend, text string) ([]EntityResult, error) {
-	var entityTextArray []EntityResult
+func AnalyseTextEntities(client *comprehend.Comprehend, text string) ([]EntityTypeResult, error) {
+	var entityArray []EntityTypeResult
 	input := &comprehend.BatchDetectEntitiesInput{}
 	input.SetLanguageCode("en")
 	input.SetTextList([]*string{aws.String(text)})
 	entities, err := client.BatchDetectEntities(input)
 	if err != nil {
-		return entityTextArray, err
+		return entityArray, err
 	}
 	for _, entity := range entities.ResultList[0].Entities {
-		entityTextArray = append(entityTextArray, EntityResult{Text: *entity.Text, Type: *entity.Type})
+		entityArray = append(entityArray, EntityTypeResult{Text: *entity.Text, Type: *entity.Type})
 	}
-	return entityTextArray, err
+	AnalyseEntity(entityArray)
+	return entityArray, err
 }
 
-//func AnalyseEntity(client *comprehend.Comprehend, text string) (EntityResult, error) {
-//
-//}
+func addIfUnique(typeArray []EntityTypeResult, entity EntityTypeResult) []EntityTypeResult {
+	for _, n := range typeArray {
+		if n.Text == entity.Text {
+			return typeArray
+		}
+	}
+	return append(typeArray, entity)
+}
+
+func AnalyseEntity(entityArray []EntityTypeResult) EntityResult {
+	var people []EntityTypeResult
+	var places []EntityTypeResult
+	var dates []EntityTypeResult
+	var organisations []EntityTypeResult
+
+	for _, entity := range entityArray {
+		switch entityType := entity.Type; entityType {
+		case "PERSON":
+			people = addIfUnique(people, EntityTypeResult{Text: entity.Text, Type: entity.Type})
+		case "LOCATION":
+			places = addIfUnique(places, EntityTypeResult{Text: entity.Text, Type: entity.Type})
+		case "DATE":
+			dates = addIfUnique(dates, EntityTypeResult{Text: entity.Text, Type: entity.Type})
+		case "ORGANIZATION":
+			organisations = addIfUnique(organisations, EntityTypeResult{Text: entity.Text, Type: entity.Type})
+		}
+	}
+	fmt.Print(people)
+	return EntityResult{People: people, Places: places, Dates: dates, Organisations: organisations}
+}
 
 type KeyPhrasesResult struct {
 	Text string

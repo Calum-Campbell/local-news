@@ -28,6 +28,18 @@
  ],
  "Entities": [
   {
+   "Text": "The Guardian",
+   "Type": "ORGANIZATION"
+  },
+  {
+   "Text": "2 o clock",
+   "Type": "DATE"
+  },
+  {
+   "Text": "London",
+   "Type": "LOCATION"
+  },
+  {
    "Text": "Mary Jane Kelly",
    "Type": "PERSON"
   },
@@ -81,6 +93,18 @@
   }
  ],
  "KeyPhrases": [
+  {
+   "Text": "Reports"
+  },
+  {
+   "Text": "The Guardian"
+  },
+  {
+   "Text": "2 o clock"
+  },
+  {
+   "Text": "London"
+  },
   {
    "Text": "the police officer"
   },
