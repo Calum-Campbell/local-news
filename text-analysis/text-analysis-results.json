@@ -25,5 +25,220 @@
    "Sentence": "The place looks like an abattoir, but it is a woman’s bedroom",
    "NegativeSentiment": 0.054481033235788345
   }
+ ],
+ "Entities": [
+  {
+   "Text": "Mary Jane Kelly",
+   "Type": "PERSON"
+  },
+  {
+   "Text": "five canonical victims",
+   "Type": "QUANTITY"
+  },
+  {
+   "Text": "Jack the Ripper",
+   "Type": "PERSON"
+  },
+  {
+   "Text": "Kelly",
+   "Type": "PERSON"
+  },
+  {
+   "Text": "25",
+   "Type": "QUANTITY"
+  },
+  {
+   "Text": "five women",
+   "Type": "QUANTITY"
+  },
+  {
+   "Text": "August",
+   "Type": "DATE"
+  },
+  {
+   "Text": "November 1888",
+   "Type": "DATE"
+  },
+  {
+   "Text": "Kelly",
+   "Type": "PERSON"
+  },
+  {
+   "Text": "Kelly",
+   "Type": "PERSON"
+  },
+  {
+   "Text": "one",
+   "Type": "QUANTITY"
+  },
+  {
+   "Text": "Kelly",
+   "Type": "PERSON"
+  },
+  {
+   "Text": "four victims",
+   "Type": "QUANTITY"
+  }
+ ],
+ "KeyPhrases": [
+  {
+   "Text": "the police officer"
+  },
+  {
+   "Text": "the room"
+  },
+  {
+   "Text": "more times"
+  },
+  {
+   "Text": "–"
+  },
+  {
+   "Text": "TV"
+  },
+  {
+   "Text": "films"
+  },
+  {
+   "Text": "graphic novels"
+  },
+  {
+   "Text": "podcasts"
+  },
+  {
+   "Text": "The place"
+  },
+  {
+   "Text": "an abattoir"
+  },
+  {
+   "Text": "a woman"
+  },
+  {
+   "Text": "’s bedroom"
+  },
+  {
+   "Text": "Blood"
+  },
+  {
+   "Text": "the walls"
+  },
+  {
+   "Text": "the drenched mattress"
+  },
+  {
+   "Text": "The room"
+  },
+  {
+   "Text": "’s inhabitant"
+  },
+  {
+   "Text": "a sex worker"
+  },
+  {
+   "Text": "Mary Jane Kelly"
+  },
+  {
+   "Text": "her body"
+  },
+  {
+   "Text": "the photographer"
+  },
+  {
+   "Text": "infamous picture"
+  },
+  {
+   "Text": "Her legs"
+  },
+  {
+   "Text": "her head"
+  },
+  {
+   "Text": "the side"
+  },
+  {
+   "Text": "More than any"
+  },
+  {
+   "Text": "the other five canonical victims"
+  },
+  {
+   "Text": "Jack the Ripper"
+  },
+  {
+   "Text": "Kelly"
+  },
+  {
+   "Text": "the poster girl"
+  },
+  {
+   "Text": "these crimes"
+  },
+  {
+   "Text": "25"
+  },
+  {
+   "Text": "the youngest"
+  },
+  {
+   "Text": "the five women"
+  },
+  {
+   "Text": "August and November 1888"
+  },
+  {
+   "Text": "Kelly"
+  },
+  {
+   "Text": "account"
+  },
+  {
+   "Text": "her profession"
+  },
+  {
+   "Text": "the most “popular”"
+  },
+  {
+   "Text": "Ripperologists – people"
+  },
+  {
+   "Text": "mostly men"
+  },
+  {
+   "Text": "the unsolved murders"
+  },
+  {
+   "Text": "a hobby"
+  },
+  {
+   "Text": "Kelly"
+  },
+  {
+   "Text": "the one"
+  },
+  {
+   "Text": "the killer"
+  },
+  {
+   "Text": "the least"
+  },
+  {
+   "Text": "Kelly"
+  },
+  {
+   "Text": "the sickening image"
+  },
+  {
+   "Text": "her corpse"
+  },
+  {
+   "Text": "the equally disturbing photos"
+  },
+  {
+   "Text": "the other four victims"
+  },
+  {
+   "Text": "interest"
+  }
  ]
 }
