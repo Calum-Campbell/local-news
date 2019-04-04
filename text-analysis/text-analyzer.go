@@ -21,7 +21,10 @@ import (
 type AnalysisResult struct {
 	DataSource           string
 	TopNegativeSentiment []SentimentResult
-	Entities             []EntityTypeResult
+	People               []EntityTypeResult
+	Places               []EntityTypeResult
+	Dates                []EntityTypeResult
+	Organisations        []EntityTypeResult
 	KeyPhrases           []KeyPhrasesResult
 }
 
@@ -58,7 +61,10 @@ func main() {
 	result := AnalysisResult{
 		DataSource:           inputFileName,
 		TopNegativeSentiment: analyseSentiment,
-		Entities:             analyseEntities,
+		People:               analyseEntities.People,
+		Places:               analyseEntities.Places,
+		Dates:                analyseEntities.Dates,
+		Organisations:        analyseEntities.Organisations,
 		KeyPhrases:           analyseKeyPhrases,
 	}
 
@@ -151,25 +157,24 @@ type EntityTypeResult struct {
 	Type string
 }
 
-func AnalyseTextEntities(client *comprehend.Comprehend, text string) ([]EntityTypeResult, error) {
+func AnalyseTextEntities(client *comprehend.Comprehend, text string) (EntityResult, error) {
 	var entityArray []EntityTypeResult
 	input := &comprehend.BatchDetectEntitiesInput{}
 	input.SetLanguageCode("en")
 	input.SetTextList([]*string{aws.String(text)})
 	entities, err := client.BatchDetectEntities(input)
 	if err != nil {
-		return entityArray, err
+		return EntityResult{}, err
 	}
 	for _, entity := range entities.ResultList[0].Entities {
 		entityArray = append(entityArray, EntityTypeResult{Text: *entity.Text, Type: *entity.Type})
 	}
-	AnalyseEntity(entityArray)
-	return entityArray, err
+	return AnalyseEntity(entityArray), err
 }
 
-func addIfUnique(typeArray []EntityTypeResult, entity EntityTypeResult) []EntityTypeResult {
-	for _, n := range typeArray {
-		if n.Text == entity.Text {
+func AddEntityIfUnique(typeArray []EntityTypeResult, entity EntityTypeResult) []EntityTypeResult {
+	for _, i := range typeArray {
+		if i.Text == entity.Text {
 			return typeArray
 		}
 	}
@@ -185,17 +190,25 @@ func AnalyseEntity(entityArray []EntityTypeResult) EntityResult {
 	for _, entity := range entityArray {
 		switch entityType := entity.Type; entityType {
 		case "PERSON":
-			people = addIfUnique(people, EntityTypeResult{Text: entity.Text, Type: entity.Type})
+			people = AddEntityIfUnique(people, EntityTypeResult{Text: entity.Text, Type: entity.Type})
 		case "LOCATION":
-			places = addIfUnique(places, EntityTypeResult{Text: entity.Text, Type: entity.Type})
+			places = AddEntityIfUnique(places, EntityTypeResult{Text: entity.Text, Type: entity.Type})
 		case "DATE":
-			dates = addIfUnique(dates, EntityTypeResult{Text: entity.Text, Type: entity.Type})
+			dates = AddEntityIfUnique(dates, EntityTypeResult{Text: entity.Text, Type: entity.Type})
 		case "ORGANIZATION":
-			organisations = addIfUnique(organisations, EntityTypeResult{Text: entity.Text, Type: entity.Type})
+			organisations = AddEntityIfUnique(organisations, EntityTypeResult{Text: entity.Text, Type: entity.Type})
 		}
 	}
-	fmt.Print(people)
 	return EntityResult{People: people, Places: places, Dates: dates, Organisations: organisations}
+}
+
+func AddKeyPhraseIfUnique(keyPhrasesArray []KeyPhrasesResult, keyPhrase KeyPhrasesResult) []KeyPhrasesResult {
+	for _, i := range keyPhrasesArray {
+		if i.Text == keyPhrase.Text {
+			return keyPhrasesArray
+		}
+	}
+	return append(keyPhrasesArray, keyPhrase)
 }
 
 type KeyPhrasesResult struct {
@@ -212,7 +225,7 @@ func AnalyseKeyPhrases(client *comprehend.Comprehend, text string) ([]KeyPhrases
 		return keyPhrasesArray, err
 	}
 	for _, keyPhrase := range keyPhrases.ResultList[0].KeyPhrases {
-		keyPhrasesArray = append(keyPhrasesArray, KeyPhrasesResult{Text: *keyPhrase.Text})
+		keyPhrasesArray = AddKeyPhraseIfUnique(keyPhrasesArray, KeyPhrasesResult{Text: *keyPhrase.Text})
 	}
 	return keyPhrasesArray, err
 }

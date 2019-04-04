@@ -26,26 +26,10 @@
    "NegativeSentiment": 0.054481033235788345
   }
  ],
- "Entities": [
-  {
-   "Text": "The Guardian",
-   "Type": "ORGANIZATION"
-  },
-  {
-   "Text": "2 o clock",
-   "Type": "DATE"
-  },
-  {
-   "Text": "London",
-   "Type": "LOCATION"
-  },
+ "People": [
   {
    "Text": "Mary Jane Kelly",
    "Type": "PERSON"
-  },
-  {
-   "Text": "five canonical victims",
-   "Type": "QUANTITY"
   },
   {
    "Text": "Jack the Ripper",
@@ -54,14 +38,18 @@
   {
    "Text": "Kelly",
    "Type": "PERSON"
-  },
+  }
+ ],
+ "Places": [
   {
-   "Text": "25",
-   "Type": "QUANTITY"
-  },
+   "Text": "London",
+   "Type": "LOCATION"
+  }
+ ],
+ "Dates": [
   {
-   "Text": "five women",
-   "Type": "QUANTITY"
+   "Text": "2 o clock",
+   "Type": "DATE"
   },
   {
    "Text": "August",
@@ -70,26 +58,12 @@
   {
    "Text": "November 1888",
    "Type": "DATE"
-  },
+  }
+ ],
+ "Organisations": [
   {
-   "Text": "Kelly",
-   "Type": "PERSON"
-  },
-  {
-   "Text": "Kelly",
-   "Type": "PERSON"
-  },
-  {
-   "Text": "one",
-   "Type": "QUANTITY"
-  },
-  {
-   "Text": "Kelly",
-   "Type": "PERSON"
-  },
-  {
-   "Text": "four victims",
-   "Type": "QUANTITY"
+   "Text": "The Guardian",
+   "Type": "ORGANIZATION"
   }
  ],
  "KeyPhrases": [
@@ -211,9 +185,6 @@
    "Text": "August and November 1888"
   },
   {
-   "Text": "Kelly"
-  },
-  {
    "Text": "account"
   },
   {
@@ -235,9 +206,6 @@
    "Text": "a hobby"
   },
   {
-   "Text": "Kelly"
-  },
-  {
    "Text": "the one"
   },
   {
@@ -245,9 +213,6 @@
   },
   {
    "Text": "the least"
-  },
-  {
-   "Text": "Kelly"
   },
   {
    "Text": "the sickening image"
