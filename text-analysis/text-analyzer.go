@@ -125,26 +125,6 @@ func AnalyseSentenceSentiment(client *comprehend.Comprehend, sentence string) (S
 	return SentimentResult{sentence, result.ResultList[0].SentimentScore.Negative}, err
 }
 
-// if we need to calculate the frequency of an array of strings
-
-//func dup_count(entityList []string) map[string]int {
-//
-//	duplicate_frequency := make(map[string]int)
-//
-//	for _, entityText := range entityList {
-//		// check if the item/element exist in the duplicate_frequency map
-//
-//		_, exist := duplicate_frequency[entityText]
-//
-//		if exist {
-//			duplicate_frequency[entityText] += 1 // increase counter by 1 if already in the map
-//		} else {
-//			duplicate_frequency[entityText] = 1 // else start counting from 1
-//		}
-//	}
-//	return duplicate_frequency
-//}
-
 type EntityResult struct {
 	People        []EntityTypeResult
 	Places        []EntityTypeResult
