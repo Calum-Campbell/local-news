@@ -97,16 +97,28 @@ func CreateComprehendClient(profile string) (*comprehend.Comprehend, error) {
 }
 
 type SentimentResult struct {
-	Sentence          string
-	NegativeSentiment *float64
+	Sentence             string
+	SurroundingSentences string
+	NegativeSentiment    *float64
 }
 
 func AnalyseTextSentiment(client *comprehend.Comprehend, text string) ([]SentimentResult, error) {
 	sentences := strings.Split(text, ". ")
+	var surroundingSentences string
 	var sentimentArray []SentimentResult
 
-	for _, sentence := range sentences {
-		sentenceSentimentAnalysis, err := AnalyseSentenceSentiment(client, sentence)
+	for i := 0; i <= len(sentences)-1; i++ {
+		if len(sentences) >= 3 {
+			switch sentenceIndex := i; sentenceIndex {
+			case 0:
+				surroundingSentences = strings.Join([]string{sentences[i], sentences[i+1], sentences[i+2]}, ". ")
+			case len(sentences) - 1:
+				surroundingSentences = strings.Join([]string{sentences[i-2], sentences[i-1], sentences[i]}, ". ")
+			default:
+				surroundingSentences = strings.Join([]string{sentences[i-1], sentences[i], sentences[i+1]}, ". ")
+			}
+		}
+		sentenceSentimentAnalysis, err := AnalyseSentenceSentiment(client, sentences[i], surroundingSentences)
 		if err != nil {
 			return sentimentArray, err
 		}
@@ -118,12 +130,12 @@ func AnalyseTextSentiment(client *comprehend.Comprehend, text string) ([]Sentime
 	return sentimentArray[0:6], nil
 }
 
-func AnalyseSentenceSentiment(client *comprehend.Comprehend, sentence string) (SentimentResult, error) {
+func AnalyseSentenceSentiment(client *comprehend.Comprehend, sentence string, surroundingSentences string) (SentimentResult, error) {
 	input := &comprehend.DetectSentimentInput{}
 	input.SetLanguageCode("en")
 	input.SetText(sentence)
 	result, err := client.DetectSentiment(input)
-	return SentimentResult{sentence, result.SentimentScore.Negative}, err
+	return SentimentResult{sentence, surroundingSentences, result.SentimentScore.Negative}, err
 }
 
 type EntityResult struct {
