@@ -1,5 +1,5 @@
 {
- "DataSource": "text-analysis/test-file.txt",
+ "DataSource": "this.txt",
  "TopNegativeSentiment": [
   {
    "Sentence": "Blood is splashed on the walls and seeping into the drenched mattress",
@@ -12,8 +12,8 @@
    "NegativeSentiment": 0.44255325198173523
   },
   {
-   "Sentence": "Although we know the least about Kelly, the sickening image of her corpse, alongside the equally disturbing photos of the other four victims, continues to drum up interest.",
-   "SurroundingSentences": "Kelly, described as being attractive and overtly sexual (on account of her profession), is regarded as the most “popular” among Ripperologists – people (mostly men) for whom investigating the unsolved murders is a hobby. Kelly also happens to be the one most heinously murdered by the killer. Although we know the least about Kelly, the sickening image of her corpse, alongside the equally disturbing photos of the other four victims, continues to drum up interest.",
+   "Sentence": "Although we know the least about Kelly, the sickening image of her corpse, alongside the equally disturbing photos of the other four victims, continues to drum up interest.\n",
+   "SurroundingSentences": "Kelly, described as being attractive and overtly sexual (on account of her profession), is regarded as the most “popular” among Ripperologists – people (mostly men) for whom investigating the unsolved murders is a hobby. Kelly also happens to be the one most heinously murdered by the killer. Although we know the least about Kelly, the sickening image of her corpse, alongside the equally disturbing photos of the other four victims, continues to drum up interest.\n",
    "NegativeSentiment": 0.4159722626209259
   },
   {
@@ -30,6 +30,26 @@
    "Sentence": "The place looks like an abattoir, but it is a woman’s bedroom",
    "SurroundingSentences": "We are all familiar with what the police officer sees when he enters the room; we have seen it more times than we care to recall – on TV, in films, in graphic novels, we have heard it described on podcasts. The place looks like an abattoir, but it is a woman’s bedroom. Blood is splashed on the walls and seeping into the drenched mattress",
    "NegativeSentiment": 0.054481033235788345
+  },
+  {
+   "Sentence": "Kelly, described as being attractive and overtly sexual (on account of her profession), is regarded as the most “popular” among Ripperologists – people (mostly men) for whom investigating the unsolved murders is a hobby",
+   "SurroundingSentences": "At 25, she was the youngest of the five women murdered between August and November 1888. Kelly, described as being attractive and overtly sexual (on account of her profession), is regarded as the most “popular” among Ripperologists – people (mostly men) for whom investigating the unsolved murders is a hobby. Kelly also happens to be the one most heinously murdered by the killer",
+   "NegativeSentiment": 0.020743269473314285
+  },
+  {
+   "Sentence": "Kelly also happens to be the one most heinously murdered by the killer",
+   "SurroundingSentences": "Kelly, described as being attractive and overtly sexual (on account of her profession), is regarded as the most “popular” among Ripperologists – people (mostly men) for whom investigating the unsolved murders is a hobby. Kelly also happens to be the one most heinously murdered by the killer. Although we know the least about Kelly, the sickening image of her corpse, alongside the equally disturbing photos of the other four victims, continues to drum up interest.\n",
+   "NegativeSentiment": 0.020212432369589806
+  },
+  {
+   "Sentence": "Reports by The Guardian at 2 o clock in London",
+   "SurroundingSentences": "Reports by The Guardian at 2 o clock in London. We are all familiar with what the police officer sees when he enters the room; we have seen it more times than we care to recall – on TV, in films, in graphic novels, we have heard it described on podcasts. The place looks like an abattoir, but it is a woman’s bedroom",
+   "NegativeSentiment": 0.010358935222029686
+  },
+  {
+   "Sentence": "At 25, she was the youngest of the five women murdered between August and November 1888",
+   "SurroundingSentences": "Her legs are splayed; her head is tipped ever-so-come-hithery to the side.\n\nMore than any of the other five canonical victims of Jack the Ripper, it is Kelly who has become the poster girl for these crimes. At 25, she was the youngest of the five women murdered between August and November 1888. Kelly, described as being attractive and overtly sexual (on account of her profession), is regarded as the most “popular” among Ripperologists – people (mostly men) for whom investigating the unsolved murders is a hobby",
+   "NegativeSentiment": 0.002228569006547332
   }
  ],
  "People": [
