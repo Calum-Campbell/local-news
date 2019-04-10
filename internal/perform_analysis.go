@@ -102,6 +102,8 @@ func PerformAnalysis(
 	var mux sync.Mutex
 	var wg sync.WaitGroup
 
+	result.DataSource = s3FileName
+
 	wg.Add(3)
 
 	go func() {

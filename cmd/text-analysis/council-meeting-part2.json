@@ -1,0 +1,8073 @@
+{
+ "DataSource": "cmp2.txt",
+ "TopNegativeSentiment": [
+  {
+   "Sentence": "This totally lacks foresight and vision",
+   "SurroundingSentences": "Finally, nothing in the capital but programme would indicate that there any plans from twenty twenty for future years to expand provision of service, provide a review of the cares of care, a system or provide purpose built accommodation for independent living. This totally lacks foresight and vision. Thank you",
+   "NegativeSentiment": 0.9766900539398193
+  },
+  {
+   "Sentence": "This council's reliance on outsource provisioned has failed to produce the standards of care necessary to ensure the older and disabled residents can live with dignity free from degrading treatment",
+   "SurroundingSentences": "Optimistic on valuable officer time is spent trying to recoup rising debt from  you clearly cannot afford to pay  madam, where the bars record on both social care and care homes is no longer as good as it wass. This council's reliance on outsource provisioned has failed to produce the standards of care necessary to ensure the older and disabled residents can live with dignity free from degrading treatment. This is shown by numerous adverse reports from the Hollis Commission, the large amount of senior managers time spent trying to bring providers up to standard on the desperate search for alternatives to replace providers",
+   "NegativeSentiment": 0.9724554419517517
+  },
+  {
+   "Sentence": "I think this is a very poor given the level of people who are you nationals",
+   "SurroundingSentences": "Okay,     I can't even have a debate which has been fully acknowledged since December. I think this is a very poor given the level of people who are you nationals. Given the level of people who voted in this in the two in the two constituencies to remain, I think this is so discourteous",
+   "NegativeSentiment": 0.9507283568382263
+  },
+  {
+   "Sentence": "Two new waste that we're going to have to collect",
+   "SurroundingSentences": "At the moment, we are looking at everything from new ways of collecting waste. Two new waste that we're going to have to collect. That may well end up in a completely circular economy",
+   "NegativeSentiment": 0.9395034909248352
+  },
+  {
+   "Sentence": "Bad planning decisions come blight our neighbourhoods for generations dis benefit our communities and change the DNA of cancer in Chelsea forever",
+   "SurroundingSentences": "Others require national intervention, the planning system and the outcomes of it are the foundation of change in the borough. Bad planning decisions come blight our neighbourhoods for generations dis benefit our communities and change the DNA of cancer in Chelsea forever. We need to get this right",
+   "NegativeSentiment": 0.9392778873443604
+  },
+  {
+   "Sentence": "It was not nice",
+   "SurroundingSentences": "So if you could record your votes by us in the buttons. It was not nice. So the voting is now closed the voting as a shown on the screens and details, and it will be recorded in the in the minutes",
+   "NegativeSentiment": 0.9366176724433899
+  },
+  {
+   "Sentence": "They want some convenience, the same convenience they get from deliver ruin Amazon",
+   "SurroundingSentences": "Residents do not want to wait all day for a ban repairman to arrive or not. They want some convenience, the same convenience they get from deliver ruin Amazon. A new procurement appear",
+   "NegativeSentiment": 0.9338089227676392
+  },
+  {
+   "Sentence": "But these do not go far enough, given the need on what residents are telling us from the listening forums on stronger communities consultation",
+   "SurroundingSentences": "They have taken some difficult decisions and come up with innovative solutions to the river services despite the cut off funding available. But these do not go far enough, given the need on what residents are telling us from the listening forums on stronger communities consultation. I welcome the recommendations from the Youth Working Group has to create and you approached your services through consultations involving use in making decisions are listening to their view",
+   "NegativeSentiment": 0.9271305799484253
+  },
+  {
+   "Sentence": "I would find it very difficult to justify social housing and an oligarch home",
+   "SurroundingSentences": "Andi. I would find it very difficult to justify social housing and an oligarch home. Certainly cost it would cost us",
+   "NegativeSentiment": 0.9154394865036011
+  },
+  {
+   "Sentence": "And that does really make it very difficult for us to communicate and be honest with each other",
+   "SurroundingSentences": "But I did find it genuinely difficult understanding some of the items that put forward but any fully understand stood one of them when Counsellor Hanson got up. And that does really make it very difficult for us to communicate and be honest with each other. So I do reiterate that Call Tio do things early",
+   "NegativeSentiment": 0.9108620882034302
+  }
+ ],
+ "People": [
+  {
+   "Text": "Ellie",
+   "Type": "PERSON"
+  },
+  {
+   "Text": "Laurie",
+   "Type": "PERSON"
+  },
+  {
+   "Text": "Karen",
+   "Type": "PERSON"
+  },
+  {
+   "Text": "Grateful",
+   "Type": "PERSON"
+  },
+  {
+   "Text": "Deputy Mayor",
+   "Type": "PERSON"
+  },
+  {
+   "Text": "Edison",
+   "Type": "PERSON"
+  },
+  {
+   "Text": "Casey",
+   "Type": "PERSON"
+  },
+  {
+   "Text": "Lee",
+   "Type": "PERSON"
+  },
+  {
+   "Text": "Counsellor Campbell",
+   "Type": "PERSON"
+  },
+  {
+   "Text": "Theo",
+   "Type": "PERSON"
+  },
+  {
+   "Text": "Obata",
+   "Type": "PERSON"
+  },
+  {
+   "Text": "Casta Larry",
+   "Type": "PERSON"
+  },
+  {
+   "Text": "Hamann",
+   "Type": "PERSON"
+  },
+  {
+   "Text": "Lindsay Counsellor Palmer",
+   "Type": "PERSON"
+  },
+  {
+   "Text": "Cancer Bennett",
+   "Type": "PERSON"
+  },
+  {
+   "Text": "Mayor",
+   "Type": "PERSON"
+  },
+  {
+   "Text": "Tio",
+   "Type": "PERSON"
+  },
+  {
+   "Text": "Vic Casey",
+   "Type": "PERSON"
+  },
+  {
+   "Text": "Renfield",
+   "Type": "PERSON"
+  },
+  {
+   "Text": "Khan",
+   "Type": "PERSON"
+  },
+  {
+   "Text": "Hammond",
+   "Type": "PERSON"
+  },
+  {
+   "Text": "Teo",
+   "Type": "PERSON"
+  },
+  {
+   "Text": "Andi",
+   "Type": "PERSON"
+  },
+  {
+   "Text": "Counsellor Mason",
+   "Type": "PERSON"
+  },
+  {
+   "Text": "Farrah",
+   "Type": "PERSON"
+  },
+  {
+   "Text": "Khun d'oh",
+   "Type": "PERSON"
+  },
+  {
+   "Text": "CZ Elizabeth",
+   "Type": "PERSON"
+  },
+  {
+   "Text": "Maura",
+   "Type": "PERSON"
+  },
+  {
+   "Text": "Kasahara",
+   "Type": "PERSON"
+  },
+  {
+   "Text": "Madam Mayor",
+   "Type": "PERSON"
+  },
+  {
+   "Text": "Julie",
+   "Type": "PERSON"
+  },
+  {
+   "Text": "Onda",
+   "Type": "PERSON"
+  },
+  {
+   "Text": "Henson",
+   "Type": "PERSON"
+  },
+  {
+   "Text": "Madam",
+   "Type": "PERSON"
+  },
+  {
+   "Text": "Mohr",
+   "Type": "PERSON"
+  },
+  {
+   "Text": "Councillor Mason",
+   "Type": "PERSON"
+  },
+  {
+   "Text": "Toa",
+   "Type": "PERSON"
+  },
+  {
+   "Text": "Blakeman",
+   "Type": "PERSON"
+  },
+  {
+   "Text": "Faras",
+   "Type": "PERSON"
+  },
+  {
+   "Text": "Counsellor Palmer",
+   "Type": "PERSON"
+  },
+  {
+   "Text": "Maurin",
+   "Type": "PERSON"
+  },
+  {
+   "Text": "Counsellor Henderson",
+   "Type": "PERSON"
+  },
+  {
+   "Text": "Lindsay",
+   "Type": "PERSON"
+  },
+  {
+   "Text": "Fishman",
+   "Type": "PERSON"
+  },
+  {
+   "Text": "Castle Lindsay",
+   "Type": "PERSON"
+  },
+  {
+   "Text": "Campbell",
+   "Type": "PERSON"
+  },
+  {
+   "Text": "Taylor Smith",
+   "Type": "PERSON"
+  },
+  {
+   "Text": "Labour Mayor Sadiq Khan",
+   "Type": "PERSON"
+  },
+  {
+   "Text": "Paschal",
+   "Type": "PERSON"
+  },
+  {
+   "Text": "Sultan of Brunei",
+   "Type": "PERSON"
+  },
+  {
+   "Text": "Counsellor Atkinson",
+   "Type": "PERSON"
+  },
+  {
+   "Text": "May",
+   "Type": "PERSON"
+  },
+  {
+   "Text": "Counsellor Hanson",
+   "Type": "PERSON"
+  },
+  {
+   "Text": "Monnet",
+   "Type": "PERSON"
+  },
+  {
+   "Text": "Taylor",
+   "Type": "PERSON"
+  },
+  {
+   "Text": "T M O",
+   "Type": "PERSON"
+  },
+  {
+   "Text": "Mason",
+   "Type": "PERSON"
+  },
+  {
+   "Text": "Stein",
+   "Type": "PERSON"
+  },
+  {
+   "Text": "Williams",
+   "Type": "PERSON"
+  },
+  {
+   "Text": "Bennett",
+   "Type": "PERSON"
+  },
+  {
+   "Text": "Castle Healy",
+   "Type": "PERSON"
+  },
+  {
+   "Text": "Jenny Lind",
+   "Type": "PERSON"
+  },
+  {
+   "Text": "Prince Albert",
+   "Type": "PERSON"
+  },
+  {
+   "Text": "Ben",
+   "Type": "PERSON"
+  },
+  {
+   "Text": "Claire",
+   "Type": "PERSON"
+  },
+  {
+   "Text": "Thomas",
+   "Type": "PERSON"
+  },
+  {
+   "Text": "Freeman",
+   "Type": "PERSON"
+  },
+  {
+   "Text": "Robert",
+   "Type": "PERSON"
+  },
+  {
+   "Text": "Brompton",
+   "Type": "PERSON"
+  },
+  {
+   "Text": "Burrows",
+   "Type": "PERSON"
+  },
+  {
+   "Text": "K C",
+   "Type": "PERSON"
+  },
+  {
+   "Text": "Durin Weatherhead",
+   "Type": "PERSON"
+  },
+  {
+   "Text": "Barbara Campbell",
+   "Type": "PERSON"
+  },
+  {
+   "Text": "David Campion",
+   "Type": "PERSON"
+  },
+  {
+   "Text": "Pembridge",
+   "Type": "PERSON"
+  },
+  {
+   "Text": "Barrett",
+   "Type": "PERSON"
+  },
+  {
+   "Text": "Randall",
+   "Type": "PERSON"
+  },
+  {
+   "Text": "Varvara",
+   "Type": "PERSON"
+  },
+  {
+   "Text": "Myskina",
+   "Type": "PERSON"
+  },
+  {
+   "Text": "Smith",
+   "Type": "PERSON"
+  },
+  {
+   "Text": "Evans",
+   "Type": "PERSON"
+  },
+  {
+   "Text": "Laura",
+   "Type": "PERSON"
+  },
+  {
+   "Text": "Josh Randall",
+   "Type": "PERSON"
+  },
+  {
+   "Text": "Healy",
+   "Type": "PERSON"
+  },
+  {
+   "Text": "Dawn Counsellor Rendall",
+   "Type": "PERSON"
+  },
+  {
+   "Text": "Robert Child",
+   "Type": "PERSON"
+  },
+  {
+   "Text": "Henderson",
+   "Type": "PERSON"
+  },
+  {
+   "Text": "Wei",
+   "Type": "PERSON"
+  },
+  {
+   "Text": "Thie",
+   "Type": "PERSON"
+  },
+  {
+   "Text": "Justin Camacho",
+   "Type": "PERSON"
+  },
+  {
+   "Text": "Lindsay Madam",
+   "Type": "PERSON"
+  }
+ ],
+ "Places": [
+  {
+   "Text": "London",
+   "Type": "LOCATION"
+  },
+  {
+   "Text": "Kinston",
+   "Type": "LOCATION"
+  },
+  {
+   "Text": "Chelsea",
+   "Type": "LOCATION"
+  },
+  {
+   "Text": "High Street Kensington",
+   "Type": "LOCATION"
+  },
+  {
+   "Text": "Ladbroke Grove",
+   "Type": "LOCATION"
+  },
+  {
+   "Text": "South Kensington",
+   "Type": "LOCATION"
+  },
+  {
+   "Text": "Latimer Road",
+   "Type": "LOCATION"
+  },
+  {
+   "Text": "Parma",
+   "Type": "LOCATION"
+  },
+  {
+   "Text": "Westway",
+   "Type": "LOCATION"
+  },
+  {
+   "Text": "European",
+   "Type": "LOCATION"
+  },
+  {
+   "Text": "Europe",
+   "Type": "LOCATION"
+  },
+  {
+   "Text": "Notting Hill",
+   "Type": "LOCATION"
+  },
+  {
+   "Text": "Westminster Brent",
+   "Type": "LOCATION"
+  },
+  {
+   "Text": "Hammersmith Fulham",
+   "Type": "LOCATION"
+  },
+  {
+   "Text": "european",
+   "Type": "LOCATION"
+  },
+  {
+   "Text": "North Kensington",
+   "Type": "LOCATION"
+  },
+  {
+   "Text": "South Point",
+   "Type": "LOCATION"
+  },
+  {
+   "Text": "West way",
+   "Type": "LOCATION"
+  },
+  {
+   "Text": "Hammersmith",
+   "Type": "LOCATION"
+  },
+  {
+   "Text": "Fulham",
+   "Type": "LOCATION"
+  },
+  {
+   "Text": "Vancouver",
+   "Type": "LOCATION"
+  },
+  {
+   "Text": "DH",
+   "Type": "LOCATION"
+  },
+  {
+   "Text": "Bara",
+   "Type": "LOCATION"
+  },
+  {
+   "Text": "Holland Park",
+   "Type": "LOCATION"
+  },
+  {
+   "Text": "Kennedy Leisure Centre",
+   "Type": "LOCATION"
+  },
+  {
+   "Text": "Kensington",
+   "Type": "LOCATION"
+  },
+  {
+   "Text": "Torrey",
+   "Type": "LOCATION"
+  },
+  {
+   "Text": "North South",
+   "Type": "LOCATION"
+  },
+  {
+   "Text": "Holland House",
+   "Type": "LOCATION"
+  },
+  {
+   "Text": "Holland Park Opera",
+   "Type": "LOCATION"
+  },
+  {
+   "Text": "Orangerie",
+   "Type": "LOCATION"
+  },
+  {
+   "Text": "Middle East",
+   "Type": "LOCATION"
+  },
+  {
+   "Text": "Qatar",
+   "Type": "LOCATION"
+  },
+  {
+   "Text": "Canadians",
+   "Type": "LOCATION"
+  },
+  {
+   "Text": "Town Hall",
+   "Type": "LOCATION"
+  },
+  {
+   "Text": "Hillsborough",
+   "Type": "LOCATION"
+  },
+  {
+   "Text": "Hazelwood tower",
+   "Type": "LOCATION"
+  },
+  {
+   "Text": "Lancaster",
+   "Type": "LOCATION"
+  },
+  {
+   "Text": "West State",
+   "Type": "LOCATION"
+  },
+  {
+   "Text": "France",
+   "Type": "LOCATION"
+  },
+  {
+   "Text": "UK",
+   "Type": "LOCATION"
+  },
+  {
+   "Text": "Brompton Road",
+   "Type": "LOCATION"
+  },
+  {
+   "Text": "England",
+   "Type": "LOCATION"
+  },
+  {
+   "Text": "Brompton",
+   "Type": "LOCATION"
+  },
+  {
+   "Text": "St Thomas's Centre of Westerners",
+   "Type": "LOCATION"
+  },
+  {
+   "Text": "west London",
+   "Type": "LOCATION"
+  },
+  {
+   "Text": "RP",
+   "Type": "LOCATION"
+  },
+  {
+   "Text": "Pembridge",
+   "Type": "LOCATION"
+  },
+  {
+   "Text": "US",
+   "Type": "LOCATION"
+  },
+  {
+   "Text": "Portabello",
+   "Type": "LOCATION"
+  },
+  {
+   "Text": "N H s England",
+   "Type": "LOCATION"
+  },
+  {
+   "Text": "Rome",
+   "Type": "LOCATION"
+  },
+  {
+   "Text": "Austin",
+   "Type": "LOCATION"
+  },
+  {
+   "Text": "Sidney Street",
+   "Type": "LOCATION"
+  },
+  {
+   "Text": "Horton",
+   "Type": "LOCATION"
+  },
+  {
+   "Text": "Royal Brompton",
+   "Type": "LOCATION"
+  },
+  {
+   "Text": "America",
+   "Type": "LOCATION"
+  },
+  {
+   "Text": "Westminster",
+   "Type": "LOCATION"
+  }
+ ],
+ "Dates": [
+  {
+   "Text": "last year",
+   "Type": "DATE"
+  },
+  {
+   "Text": "December",
+   "Type": "DATE"
+  },
+  {
+   "Text": "past year",
+   "Type": "DATE"
+  },
+  {
+   "Text": "next year",
+   "Type": "DATE"
+  },
+  {
+   "Text": "this year",
+   "Type": "DATE"
+  },
+  {
+   "Text": "next five years",
+   "Type": "DATE"
+  },
+  {
+   "Text": "last week",
+   "Type": "DATE"
+  },
+  {
+   "Text": "last night",
+   "Type": "DATE"
+  },
+  {
+   "Text": "last ten years",
+   "Type": "DATE"
+  },
+  {
+   "Text": "March",
+   "Type": "DATE"
+  },
+  {
+   "Text": "June twenty",
+   "Type": "DATE"
+  },
+  {
+   "Text": "this evening",
+   "Type": "DATE"
+  },
+  {
+   "Text": "today",
+   "Type": "DATE"
+  },
+  {
+   "Text": "Last year",
+   "Type": "DATE"
+  },
+  {
+   "Text": "couple of weeks later",
+   "Type": "DATE"
+  },
+  {
+   "Text": "next three years",
+   "Type": "DATE"
+  },
+  {
+   "Text": "May",
+   "Type": "DATE"
+  },
+  {
+   "Text": "Monday",
+   "Type": "DATE"
+  },
+  {
+   "Text": "tonight",
+   "Type": "DATE"
+  },
+  {
+   "Text": "five years ago",
+   "Type": "DATE"
+  },
+  {
+   "Text": "late March",
+   "Type": "DATE"
+  },
+  {
+   "Text": "Last week",
+   "Type": "DATE"
+  },
+  {
+   "Text": "ten O'Clock",
+   "Type": "DATE"
+  },
+  {
+   "Text": "next seven years",
+   "Type": "DATE"
+  },
+  {
+   "Text": "last month",
+   "Type": "DATE"
+  },
+  {
+   "Text": "February twenty seventeen",
+   "Type": "DATE"
+  },
+  {
+   "Text": "April",
+   "Type": "DATE"
+  },
+  {
+   "Text": "earlier this week",
+   "Type": "DATE"
+  },
+  {
+   "Text": "this month",
+   "Type": "DATE"
+  }
+ ],
+ "Organisations": [
+  {
+   "Text": "Hollis Commission",
+   "Type": "ORGANIZATION"
+  },
+  {
+   "Text": "Youth Working Group",
+   "Type": "ORGANIZATION"
+  },
+  {
+   "Text": "Department of Education",
+   "Type": "ORGANIZATION"
+  },
+  {
+   "Text": "Holland Park School",
+   "Type": "ORGANIZATION"
+  },
+  {
+   "Text": "Road Town Planning Institute",
+   "Type": "ORGANIZATION"
+  },
+  {
+   "Text": "Labour Council",
+   "Type": "ORGANIZATION"
+  },
+  {
+   "Text": "Labour Group",
+   "Type": "ORGANIZATION"
+  },
+  {
+   "Text": "Ministry of Defence",
+   "Type": "ORGANIZATION"
+  },
+  {
+   "Text": "Defence Infrastructure Organisation",
+   "Type": "ORGANIZATION"
+  },
+  {
+   "Text": "DH",
+   "Type": "ORGANIZATION"
+  },
+  {
+   "Text": "Iran",
+   "Type": "ORGANIZATION"
+  },
+  {
+   "Text": "Apple",
+   "Type": "ORGANIZATION"
+  },
+  {
+   "Text": "Westway",
+   "Type": "ORGANIZATION"
+  },
+  {
+   "Text": "OPEC",
+   "Type": "ORGANIZATION"
+  },
+  {
+   "Text": "Leighton House",
+   "Type": "ORGANIZATION"
+  },
+  {
+   "Text": "Hollywood",
+   "Type": "ORGANIZATION"
+  },
+  {
+   "Text": "Muslim",
+   "Type": "ORGANIZATION"
+  },
+  {
+   "Text": "Islamic",
+   "Type": "ORGANIZATION"
+  },
+  {
+   "Text": "Heritage Lottery Fund",
+   "Type": "ORGANIZATION"
+  },
+  {
+   "Text": "Outreach Workers",
+   "Type": "ORGANIZATION"
+  },
+  {
+   "Text": "Hackett",
+   "Type": "ORGANIZATION"
+  },
+  {
+   "Text": "Google",
+   "Type": "ORGANIZATION"
+  },
+  {
+   "Text": "Ondas Council",
+   "Type": "ORGANIZATION"
+  },
+  {
+   "Text": "EU",
+   "Type": "ORGANIZATION"
+  },
+  {
+   "Text": "Airbnb",
+   "Type": "ORGANIZATION"
+  },
+  {
+   "Text": "HMO",
+   "Type": "ORGANIZATION"
+  },
+  {
+   "Text": "Housing Scrutiny Committee",
+   "Type": "ORGANIZATION"
+  },
+  {
+   "Text": "Citizens Advice Bureau Kensington",
+   "Type": "ORGANIZATION"
+  },
+  {
+   "Text": "Holland House",
+   "Type": "ORGANIZATION"
+  },
+  {
+   "Text": "Kensington Library",
+   "Type": "ORGANIZATION"
+  },
+  {
+   "Text": "Save Holland House",
+   "Type": "ORGANIZATION"
+  },
+  {
+   "Text": "Abramovich",
+   "Type": "ORGANIZATION"
+  },
+  {
+   "Text": "CCG",
+   "Type": "ORGANIZATION"
+  },
+  {
+   "Text": "Labour Party",
+   "Type": "ORGANIZATION"
+  },
+  {
+   "Text": "Onda Council",
+   "Type": "ORGANIZATION"
+  },
+  {
+   "Text": "TCC",
+   "Type": "ORGANIZATION"
+  },
+  {
+   "Text": "Straight Scrutiny Committee",
+   "Type": "ORGANIZATION"
+  },
+  {
+   "Text": "Amazon",
+   "Type": "ORGANIZATION"
+  },
+  {
+   "Text": "Treasury",
+   "Type": "ORGANIZATION"
+  },
+  {
+   "Text": "Royal Brompton Hospital",
+   "Type": "ORGANIZATION"
+  },
+  {
+   "Text": "Royal Brompton",
+   "Type": "ORGANIZATION"
+  },
+  {
+   "Text": "Sydney Wing",
+   "Type": "ORGANIZATION"
+  },
+  {
+   "Text": "CPC",
+   "Type": "ORGANIZATION"
+  },
+  {
+   "Text": "Roll Brompton",
+   "Type": "ORGANIZATION"
+  },
+  {
+   "Text": "Brompton",
+   "Type": "ORGANIZATION"
+  },
+  {
+   "Text": "King's Health",
+   "Type": "ORGANIZATION"
+  },
+  {
+   "Text": "Brompton Services",
+   "Type": "ORGANIZATION"
+  },
+  {
+   "Text": "MHS England",
+   "Type": "ORGANIZATION"
+  },
+  {
+   "Text": "N hs England",
+   "Type": "ORGANIZATION"
+  },
+  {
+   "Text": "Chelsea",
+   "Type": "ORGANIZATION"
+  },
+  {
+   "Text": "Westminster Hospital",
+   "Type": "ORGANIZATION"
+  },
+  {
+   "Text": "Conservative Party",
+   "Type": "ORGANIZATION"
+  },
+  {
+   "Text": "Adult Social Can Health Committee",
+   "Type": "ORGANIZATION"
+  },
+  {
+   "Text": "Royal Marsden",
+   "Type": "ORGANIZATION"
+  },
+  {
+   "Text": "Tommy's",
+   "Type": "ORGANIZATION"
+  },
+  {
+   "Text": "Evelina",
+   "Type": "ORGANIZATION"
+  },
+  {
+   "Text": "Hammersmith Hospital",
+   "Type": "ORGANIZATION"
+  },
+  {
+   "Text": "Charleston West",
+   "Type": "ORGANIZATION"
+  },
+  {
+   "Text": "Westminster",
+   "Type": "ORGANIZATION"
+  },
+  {
+   "Text": "N Hs England",
+   "Type": "ORGANIZATION"
+  }
+ ],
+ "KeyPhrases": [
+  {
+   "Text": "Optimistic"
+  },
+  {
+   "Text": "valuable officer time"
+  },
+  {
+   "Text": "rising debt"
+  },
+  {
+   "Text": "madam"
+  },
+  {
+   "Text": "the bars record"
+  },
+  {
+   "Text": "both social care"
+  },
+  {
+   "Text": "care homes"
+  },
+  {
+   "Text": "This council"
+  },
+  {
+   "Text": "reliance"
+  },
+  {
+   "Text": "outsource provisioned"
+  },
+  {
+   "Text": "the standards"
+  },
+  {
+   "Text": "care"
+  },
+  {
+   "Text": "the older and disabled residents"
+  },
+  {
+   "Text": "dignity"
+  },
+  {
+   "Text": "degrading treatment"
+  },
+  {
+   "Text": "numerous adverse reports"
+  },
+  {
+   "Text": "the Hollis Commission"
+  },
+  {
+   "Text": "the large amount"
+  },
+  {
+   "Text": "senior managers time"
+  },
+  {
+   "Text": "providers"
+  },
+  {
+   "Text": "standard"
+  },
+  {
+   "Text": "the desperate search"
+  },
+  {
+   "Text": "alternatives"
+  },
+  {
+   "Text": "the other two items"
+  },
+  {
+   "Text": "our alternative adult social social care budget"
+  },
+  {
+   "Text": "life"
+  },
+  {
+   "Text": "those vulnerable groups"
+  },
+  {
+   "Text": "evidence"
+  },
+  {
+   "Text": "a review"
+  },
+  {
+   "Text": "people"
+  },
+  {
+   "Text": "the special projects reserve"
+  },
+  {
+   "Text": "the boroughs care homes"
+  },
+  {
+   "Text": "a view"
+  },
+  {
+   "Text": "the house"
+  },
+  {
+   "Text": "fruit"
+  },
+  {
+   "Text": "fifty thousand pounds"
+  },
+  {
+   "Text": "study"
+  },
+  {
+   "Text": "Just very"
+  },
+  {
+   "Text": "The other review"
+  },
+  {
+   "Text": "a personal  independence payments"
+  },
+  {
+   "Text": "nine weeks"
+  },
+  {
+   "Text": "assessment"
+  },
+  {
+   "Text": "decision"
+  },
+  {
+   "Text": "many disabled people"
+  },
+  {
+   "Text": "more than two months"
+  },
+  {
+   "Text": "left side"
+  },
+  {
+   "Text": "the weight"
+  },
+  {
+   "Text": "only six working days"
+  },
+  {
+   "Text": "the league member"
+  },
+  {
+   "Text": "council officers"
+  },
+  {
+   "Text": "family and children services"
+  },
+  {
+   "Text": "the way"
+  },
+  {
+   "Text": "some difficult decisions"
+  },
+  {
+   "Text": "innovative solutions"
+  },
+  {
+   "Text": "the river services"
+  },
+  {
+   "Text": "the cut"
+  },
+  {
+   "Text": "the need"
+  },
+  {
+   "Text": "residents"
+  },
+  {
+   "Text": "the listening forums"
+  },
+  {
+   "Text": "stronger communities consultation"
+  },
+  {
+   "Text": "the recommendations"
+  },
+  {
+   "Text": "the Youth Working Group"
+  },
+  {
+   "Text": "your services"
+  },
+  {
+   "Text": "consultations"
+  },
+  {
+   "Text": "decisions"
+  },
+  {
+   "Text": "their view"
+  },
+  {
+   "Text": "the fund"
+  },
+  {
+   "Text": "the new youth parliament"
+  },
+  {
+   "Text": "the labour group"
+  },
+  {
+   "Text": "some years"
+  },
+  {
+   "Text": "The council leadership"
+  },
+  {
+   "Text": "young people"
+  },
+  {
+   "Text": "their needs"
+  },
+  {
+   "Text": "the bulk"
+  },
+  {
+   "Text": "Mrs Delivery"
+  },
+  {
+   "Text": "house"
+  },
+  {
+   "Text": "more youth clubs"
+  },
+  {
+   "Text": "the We"
+  },
+  {
+   "Text": "integrated services"
+  },
+  {
+   "Text": "unhealed account"
+  },
+  {
+   "Text": "other part"
+  },
+  {
+   "Text": "our children services"
+  },
+  {
+   "Text": "Ellie Help"
+  },
+  {
+   "Text": "youth offending team"
+  },
+  {
+   "Text": "The current contract"
+  },
+  {
+   "Text": "the years"
+  },
+  {
+   "Text": "a significant provisions"
+  },
+  {
+   "Text": "the delivery"
+  },
+  {
+   "Text": "these services"
+  },
+  {
+   "Text": "our alternative budget"
+  },
+  {
+   "Text": "additional budget"
+  },
+  {
+   "Text": "a location"
+  },
+  {
+   "Text": "one hundred thousand pounds"
+  },
+  {
+   "Text": "services"
+  },
+  {
+   "Text": "no renewal"
+  },
+  {
+   "Text": "epic"
+  },
+  {
+   "Text": "establishment"
+  },
+  {
+   "Text": "House team"
+  },
+  {
+   "Text": "the details"
+  },
+  {
+   "Text": "commitments"
+  },
+  {
+   "Text": "some way"
+  },
+  {
+   "Text": "structured toh goto"
+  },
+  {
+   "Text": "holidays and weekends"
+  },
+  {
+   "Text": "Our alternative budget"
+  },
+  {
+   "Text": "sixty thousand pounds"
+  },
+  {
+   "Text": "these vulnerable community assets"
+  },
+  {
+   "Text": "valuable community"
+  },
+  {
+   "Text": "the holiday and weekend"
+  },
+  {
+   "Text": "children"
+  },
+  {
+   "Text": "a parent"
+  },
+  {
+   "Text": "my two children"
+  },
+  {
+   "Text": "secondary school"
+  },
+  {
+   "Text": "a compulsory list"
+  },
+  {
+   "Text": "items"
+  },
+  {
+   "Text": "one retailer"
+  },
+  {
+   "Text": "higher prices"
+  },
+  {
+   "Text": "each toe"
+  },
+  {
+   "Text": "no consideration"
+  },
+  {
+   "Text": "families"
+  },
+  {
+   "Text": "the children"
+  },
+  {
+   "Text": "Parents and students"
+  },
+  {
+   "Text": "no prize genetic items"
+  },
+  {
+   "Text": "any number"
+  },
+  {
+   "Text": "the policy"
+  },
+  {
+   "Text": "ofthe school uniforms"
+  },
+  {
+   "Text": "Schools"
+  },
+  {
+   "Text": "branded uniforms"
+  },
+  {
+   "Text": "a minimum"
+  },
+  {
+   "Text": "the Department"
+  },
+  {
+   "Text": "Education guidance"
+  },
+  {
+   "Text": "uniforms"
+  },
+  {
+   "Text": "no school uniforms"
+  },
+  {
+   "Text": "family"
+  },
+  {
+   "Text": "the school"
+  },
+  {
+   "Text": "their choice"
+  },
+  {
+   "Text": "a family"
+  },
+  {
+   "Text": "three hundred fifty pounds"
+  },
+  {
+   "Text": "child"
+  },
+  {
+   "Text": "a full uniform"
+  },
+  {
+   "Text": "Holland Park School"
+  },
+  {
+   "Text": "two or more teenage children"
+  },
+  {
+   "Text": "poverty"
+  },
+  {
+   "Text": "low income families"
+  },
+  {
+   "Text": "a provision"
+  },
+  {
+   "Text": "seventy thousand pounds"
+  },
+  {
+   "Text": "Alternative project"
+  },
+  {
+   "Text": "two thousand nineteen twenty Tow pilot"
+  },
+  {
+   "Text": "A school uniform grand scheme"
+  },
+  {
+   "Text": "that right"
+  },
+  {
+   "Text": "this Council leadership team"
+  },
+  {
+   "Text": "a school uniform"
+  },
+  {
+   "Text": "Hardship"
+  },
+  {
+   "Text": "grant"
+  },
+  {
+   "Text": "fun"
+  },
+  {
+   "Text": "all members"
+  },
+  {
+   "Text": "the family and children services"
+  },
+  {
+   "Text": "Alternative budget"
+  },
+  {
+   "Text": "Cancer"
+  },
+  {
+   "Text": "Mr Deputy"
+  },
+  {
+   "Text": "this speech"
+  },
+  {
+   "Text": "behalf"
+  },
+  {
+   "Text": "cancer Laurie"
+  },
+  {
+   "Text": "the alternative budget"
+  },
+  {
+   "Text": "these words Cancer"
+  },
+  {
+   "Text": "Chelsea Council benefits"
+  },
+  {
+   "Text": "a staff team"
+  },
+  {
+   "Text": "a wealth"
+  },
+  {
+   "Text": "qualifications"
+  },
+  {
+   "Text": "this service"
+  },
+  {
+   "Text": "a cause"
+  },
+  {
+   "Text": "such huge public frustration"
+  },
+  {
+   "Text": "Year"
+  },
+  {
+   "Text": "year"
+  },
+  {
+   "Text": "the Planning Department"
+  },
+  {
+   "Text": "allocated budget"
+  },
+  {
+   "Text": "twelve million pounds"
+  },
+  {
+   "Text": "its purpose"
+  },
+  {
+   "Text": "advice and developments and decisions"
+  },
+  {
+   "Text": "five thousand burning applications"
+  },
+  {
+   "Text": "a year"
+  },
+  {
+   "Text": "Corporate developers and investors"
+  },
+  {
+   "Text": "the expert advice"
+  },
+  {
+   "Text": "our highly qualified officers"
+  },
+  {
+   "Text": "their council tax"
+  },
+  {
+   "Text": "the architectural heritage"
+  },
+  {
+   "Text": "their community"
+  },
+  {
+   "Text": "unwanted development"
+  },
+  {
+   "Text": "the support"
+  },
+  {
+   "Text": "the bar"
+  },
+  {
+   "Text": "planning applications"
+  },
+  {
+   "Text": "misery"
+  },
+  {
+   "Text": "the life"
+  },
+  {
+   "Text": "our residents"
+  },
+  {
+   "Text": "this labour budget"
+  },
+  {
+   "Text": "balance"
+  },
+  {
+   "Text": "resources"
+  },
+  {
+   "Text": "the planning process"
+  },
+  {
+   "Text": "the skills"
+  },
+  {
+   "Text": "undesirable applications"
+  },
+  {
+   "Text": "the second year"
+  },
+  {
+   "Text": "planning aid"
+  },
+  {
+   "Text": "London"
+  },
+  {
+   "Text": "sessions"
+  },
+  {
+   "Text": "effective objectives"
+  },
+  {
+   "Text": "good planning"
+  },
+  {
+   "Text": "Citizens"
+  },
+  {
+   "Text": "our budget"
+  },
+  {
+   "Text": "air support"
+  },
+  {
+   "Text": "funding"
+  },
+  {
+   "Text": "building control"
+  },
+  {
+   "Text": "a critical regulatory process"
+  },
+  {
+   "Text": "the necessary conditions"
+  },
+  {
+   "Text": "the construction process"
+  },
+  {
+   "Text": "a proactive approach"
+  },
+  {
+   "Text": "this matter"
+  },
+  {
+   "Text": "inspection"
+  },
+  {
+   "Text": "developments"
+  },
+  {
+   "Text": "the committee"
+  },
+  {
+   "Text": "enforcement"
+  },
+  {
+   "Text": "a stronger message"
+  },
+  {
+   "Text": "developers"
+  },
+  {
+   "Text": "the consequence"
+  },
+  {
+   "Text": "approved plans"
+  },
+  {
+   "Text": "the council time and money"
+  },
+  {
+   "Text": "the number"
+  },
+  {
+   "Text": "retrospective applications"
+  },
+  {
+   "Text": "more resident friendly service"
+  },
+  {
+   "Text": "a drastic financial implications"
+  },
+  {
+   "Text": "a few simple changes"
+  },
+  {
+   "Text": "the planning department"
+  },
+  {
+   "Text": "Will campaign"
+  },
+  {
+   "Text": "the Road Town Planning Institute"
+  },
+  {
+   "Text": "counsels"
+  },
+  {
+   "Text": "the power"
+  },
+  {
+   "Text": "planning fees"
+  },
+  {
+   "Text": "the bill"
+  },
+  {
+   "Text": "the entire administration"
+  },
+  {
+   "Text": "the twenty percent increase"
+  },
+  {
+   "Text": "fees"
+  },
+  {
+   "Text": "last year"
+  },
+  {
+   "Text": "the government"
+  },
+  {
+   "Text": "the whole process"
+  },
+  {
+   "Text": "the council"
+  },
+  {
+   "Text": "more discretion"
+  },
+  {
+   "Text": "the pre planning advice service"
+  },
+  {
+   "Text": "Thiss advice service"
+  },
+  {
+   "Text": "the framework"
+  },
+  {
+   "Text": "officers"
+  },
+  {
+   "Text": "the developer"
+  },
+  {
+   "Text": "advice"
+  },
+  {
+   "Text": "the lifetime"
+  },
+  {
+   "Text": "the application"
+  },
+  {
+   "Text": "a recommendation"
+  },
+  {
+   "Text": "These fees"
+  },
+  {
+   "Text": "substantial"
+  },
+  {
+   "Text": "this process"
+  },
+  {
+   "Text": "the department"
+  },
+  {
+   "Text": "the type"
+  },
+  {
+   "Text": "application"
+  },
+  {
+   "Text": "twenty seventeen eighteen"
+  },
+  {
+   "Text": "eight hundred"
+  },
+  {
+   "Text": "twenty five thousand pounds"
+  },
+  {
+   "Text": "the value"
+  },
+  {
+   "Text": "some developments"
+  },
+  {
+   "Text": "Developers"
+  },
+  {
+   "Text": "contributions"
+  },
+  {
+   "Text": "funds"
+  },
+  {
+   "Text": "a limited budget"
+  },
+  {
+   "Text": "other services"
+  },
+  {
+   "Text": "Such a social Karen"
+  },
+  {
+   "Text": "Grateful planning advice"
+  },
+  {
+   "Text": "a part"
+  },
+  {
+   "Text": "the application process"
+  },
+  {
+   "Text": "the most distrust"
+  },
+  {
+   "Text": "our planning system"
+  },
+  {
+   "Text": "The current system"
+  },
+  {
+   "Text": "his unaccountable"
+  },
+  {
+   "Text": "another sheet yourselves"
+  },
+  {
+   "Text": "the foot approach"
+  },
+  {
+   "Text": "general governance"
+  },
+  {
+   "Text": "The new planning code"
+  },
+  {
+   "Text": "conduct"
+  },
+  {
+   "Text": "the leadership"
+  },
+  {
+   "Text": "December"
+  },
+  {
+   "Text": "any scrutiny"
+  },
+  {
+   "Text": "restrictions"
+  },
+  {
+   "Text": "counsellors"
+  },
+  {
+   "Text": "their uncompromised advice"
+  },
+  {
+   "Text": "their residents"
+  },
+  {
+   "Text": "spite"
+  },
+  {
+   "Text": "all that"
+  },
+  {
+   "Text": "fantastic examples"
+  },
+  {
+   "Text": "community groups"
+  },
+  {
+   "Text": "rapacious development"
+  },
+  {
+   "Text": "the past year"
+  },
+  {
+   "Text": "the newcomer house"
+  },
+  {
+   "Text": "Kinston Forum applications"
+  },
+  {
+   "Text": "the work"
+  },
+  {
+   "Text": "my Labour Council colleagues"
+  },
+  {
+   "Text": "their work residents"
+  },
+  {
+   "Text": "their campaigns"
+  },
+  {
+   "Text": "Mr. Deputy Mayor"
+  },
+  {
+   "Text": "no want"
+  },
+  {
+   "Text": "our officers"
+  },
+  {
+   "Text": "a structural problem"
+  },
+  {
+   "Text": "the measures"
+  },
+  {
+   "Text": "simple fixes"
+  },
+  {
+   "Text": "national intervention"
+  },
+  {
+   "Text": "the planning system"
+  },
+  {
+   "Text": "the outcomes"
+  },
+  {
+   "Text": "the foundation"
+  },
+  {
+   "Text": "change"
+  },
+  {
+   "Text": "the borough"
+  },
+  {
+   "Text": "Bad planning decisions"
+  },
+  {
+   "Text": "blight"
+  },
+  {
+   "Text": "our neighbourhoods"
+  },
+  {
+   "Text": "generations"
+  },
+  {
+   "Text": "our communities"
+  },
+  {
+   "Text": "the DNA"
+  },
+  {
+   "Text": "cancer"
+  },
+  {
+   "Text": "Chelsea"
+  },
+  {
+   "Text": "this right"
+  },
+  {
+   "Text": "more power"
+  },
+  {
+   "Text": "the hands"
+  },
+  {
+   "Text": "those most affected"
+  },
+  {
+   "Text": "power"
+  },
+  {
+   "Text": "our people"
+  },
+  {
+   "Text": "the Edison"
+  },
+  {
+   "Text": "the depth"
+  },
+  {
+   "Text": "some progress"
+  },
+  {
+   "Text": "step free access"
+  },
+  {
+   "Text": "the budgeting"
+  },
+  {
+   "Text": "those facilities"
+  },
+  {
+   "Text": "High Street Kensington"
+  },
+  {
+   "Text": "Ladbroke Grove"
+  },
+  {
+   "Text": "college"
+  },
+  {
+   "Text": "the mayor"
+  },
+  {
+   "Text": "matched funding"
+  },
+  {
+   "Text": "the cuts"
+  },
+  {
+   "Text": "central government"
+  },
+  {
+   "Text": "our be Casey residents"
+  },
+  {
+   "Text": "the reduction"
+  },
+  {
+   "Text": "the bus services"
+  },
+  {
+   "Text": "the area"
+  },
+  {
+   "Text": "This initiative"
+  },
+  {
+   "Text": "our community"
+  },
+  {
+   "Text": "future years"
+  },
+  {
+   "Text": "South Kensington"
+  },
+  {
+   "Text": "Latimer Road"
+  },
+  {
+   "Text": "the announcement"
+  },
+  {
+   "Text": "free swimming"
+  },
+  {
+   "Text": "dates"
+  },
+  {
+   "Text": "this fall"
+  },
+  {
+   "Text": "line"
+  },
+  {
+   "Text": "our election manifesto tohave free swimming"
+  },
+  {
+   "Text": "sixteen"
+  },
+  {
+   "Text": "the over sixty five"
+  },
+  {
+   "Text": "a Parma"
+  },
+  {
+   "Text": "a free swim"
+  },
+  {
+   "Text": "the membership initiatives"
+  },
+  {
+   "Text": "our health and leisure centres"
+  },
+  {
+   "Text": "Swimming"
+  },
+  {
+   "Text": "an excellent form"
+  },
+  {
+   "Text": "exercise"
+  },
+  {
+   "Text": "increases"
+  },
+  {
+   "Text": "obesity and communities"
+  },
+  {
+   "Text": "The health benefits"
+  },
+  {
+   "Text": "swimming"
+  },
+  {
+   "Text": "our citizens"
+  },
+  {
+   "Text": "the healthier citizens"
+  },
+  {
+   "Text": "the less chance"
+  },
+  {
+   "Text": "The benefits"
+  },
+  {
+   "Text": "the greening initiative"
+  },
+  {
+   "Text": "the Westway  pollution"
+  },
+  {
+   "Text": "Ten years"
+  },
+  {
+   "Text": "a life"
+  },
+  {
+   "Text": "next year"
+  },
+  {
+   "Text": "discussion"
+  },
+  {
+   "Text": "air quality"
+  },
+  {
+   "Text": "party political"
+  },
+  {
+   "Text": "the failure"
+  },
+  {
+   "Text": "our be Casey"
+  },
+  {
+   "Text": "waste streams"
+  },
+  {
+   "Text": "their outsourced contractors"
+  },
+  {
+   "Text": "an investor"
+  },
+  {
+   "Text": "initiative"
+  },
+  {
+   "Text": "conjunction"
+  },
+  {
+   "Text": "that outsourced West contractor Suez"
+  },
+  {
+   "Text": "imposition"
+  },
+  {
+   "Text": "the contract"
+  },
+  {
+   "Text": "the savings"
+  },
+  {
+   "Text": "six hundred ten thousand"
+  },
+  {
+   "Text": "six hundred"
+  },
+  {
+   "Text": "thirty five pounds"
+  },
+  {
+   "Text": "three years"
+  },
+  {
+   "Text": "quite a few police officers"
+  },
+  {
+   "Text": "these savings"
+  },
+  {
+   "Text": "a waste department"
+  },
+  {
+   "Text": "the RV Casey"
+  },
+  {
+   "Text": "any waste"
+  },
+  {
+   "Text": "incineration"
+  },
+  {
+   "Text": "energy"
+  },
+  {
+   "Text": "waste"
+  },
+  {
+   "Text": "the waste stream"
+  },
+  {
+   "Text": "six thousand tonnes"
+  },
+  {
+   "Text": "wet waste"
+  },
+  {
+   "Text": "your sweepers"
+  },
+  {
+   "Text": "our Casey"
+  },
+  {
+   "Text": "wistfulness"
+  },
+  {
+   "Text": "the job"
+  },
+  {
+   "Text": "outsourcing contractors"
+  },
+  {
+   "Text": "the ability"
+  },
+  {
+   "Text": "the methodology"
+  },
+  {
+   "Text": "our own era"
+  },
+  {
+   "Text": "action"
+  },
+  {
+   "Text": "the end"
+  },
+  {
+   "Text": "tragic intransigence"
+  },
+  {
+   "Text": "the contractor"
+  },
+  {
+   "Text": "the league members"
+  },
+  {
+   "Text": "the new waste contract"
+  },
+  {
+   "Text": "Twenty eleven"
+  },
+  {
+   "Text": "addition"
+  },
+  {
+   "Text": "rainwater"
+  },
+  {
+   "Text": "the town hall"
+  },
+  {
+   "Text": "The water bill"
+  },
+  {
+   "Text": "twenty eighteen nineteen"
+  },
+  {
+   "Text": "approximately fifty thousand pounds"
+  },
+  {
+   "Text": "nine litres"
+  },
+  {
+   "Text": "water"
+  },
+  {
+   "Text": "every flush"
+  },
+  {
+   "Text": "our European citizens"
+  },
+  {
+   "Text": "the uncertainty"
+  },
+  {
+   "Text": "Brexit"
+  },
+  {
+   "Text": "my colleagues"
+  },
+  {
+   "Text": "Lee"
+  },
+  {
+   "Text": "her European citizens"
+  },
+  {
+   "Text": "tohave expatriots"
+  },
+  {
+   "Text": "Europe"
+  },
+  {
+   "Text": "Counsellor Campbell"
+  },
+  {
+   "Text": "comments"
+  },
+  {
+   "Text": "father"
+  },
+  {
+   "Text": "a European advisory service"
+  },
+  {
+   "Text": "the town hall Theo"
+  },
+  {
+   "Text": "the majority group"
+  },
+  {
+   "Text": "suit"
+  },
+  {
+   "Text": "the other later policies"
+  },
+  {
+   "Text": "their budget"
+  },
+  {
+   "Text": "this year"
+  },
+  {
+   "Text": "a budget"
+  },
+  {
+   "Text": "Obata"
+  },
+  {
+   "Text": "seven more speakers"
+  },
+  {
+   "Text": "Council"
+  },
+  {
+   "Text": "wishes"
+  },
+  {
+   "Text": "this order"
+  },
+  {
+   "Text": "Casta Larry Counsellor Wait Counsellor"
+  },
+  {
+   "Text": "Councillor Hamann Council Lindsay Counsellor Palmer Cancer Bennett"
+  },
+  {
+   "Text": "more Okay"
+  },
+  {
+   "Text": "nine nine"
+  },
+  {
+   "Text": "the list"
+  },
+  {
+   "Text": "five more"
+  },
+  {
+   "Text": "Counsellor"
+  },
+  {
+   "Text": "lobby"
+  },
+  {
+   "Text": "the world"
+  },
+  {
+   "Text": "Good evening"
+  },
+  {
+   "Text": "Mr Mayor"
+  },
+  {
+   "Text": "Deputy Mayor"
+  },
+  {
+   "Text": "the opportunity"
+  },
+  {
+   "Text": "this council"
+  },
+  {
+   "Text": "the second time"
+  },
+  {
+   "Text": "toe size"
+  },
+  {
+   "Text": "the budget"
+  },
+  {
+   "Text": "my talk"
+  },
+  {
+   "Text": "grand"
+  },
+  {
+   "Text": "so many times"
+  },
+  {
+   "Text": "thirty seconds"
+  },
+  {
+   "Text": "my old time"
+  },
+  {
+   "Text": "Toa grand"
+  },
+  {
+   "Text": "the fifty million  allocation"
+  },
+  {
+   "Text": "the next five years"
+  },
+  {
+   "Text": "the grand"
+  },
+  {
+   "Text": "Recovery scheme"
+  },
+  {
+   "Text": "the implementation"
+  },
+  {
+   "Text": "the whole budget"
+  },
+  {
+   "Text": "the details control"
+  },
+  {
+   "Text": "place"
+  },
+  {
+   "Text": "regard"
+  },
+  {
+   "Text": "things"
+  },
+  {
+   "Text": "A cz"
+  },
+  {
+   "Text": "an element"
+  },
+  {
+   "Text": "concern"
+  },
+  {
+   "Text": "Young mothers"
+  },
+  {
+   "Text": "secure space"
+  },
+  {
+   "Text": "tow drop"
+  },
+  {
+   "Text": "their children"
+  },
+  {
+   "Text": "my working group  party"
+  },
+  {
+   "Text": "the  establishments"
+  },
+  {
+   "Text": "the Youth Revue"
+  },
+  {
+   "Text": "these issues"
+  },
+  {
+   "Text": "a recovery programme"
+  },
+  {
+   "Text": "the  planning"
+  },
+  {
+   "Text": "the training"
+  },
+  {
+   "Text": "Esso"
+  },
+  {
+   "Text": "the allocation"
+  },
+  {
+   "Text": "the leadership toe"
+  },
+  {
+   "Text": "the Grand"
+  },
+  {
+   "Text": "Recovery Scrutiny Committee"
+  },
+  {
+   "Text": "a committee member"
+  },
+  {
+   "Text": "six scrutiny committees"
+  },
+  {
+   "Text": "the absence"
+  },
+  {
+   "Text": "that committee"
+  },
+  {
+   "Text": "the contact"
+  },
+  {
+   "Text": "the whoever"
+  },
+  {
+   "Text": "the digital platform"
+  },
+  {
+   "Text": "engagement"
+  },
+  {
+   "Text": "active invasion Mint"
+  },
+  {
+   "Text": "Tio"
+  },
+  {
+   "Text": "the holistic approach"
+  },
+  {
+   "Text": "disintegrated approach"
+  },
+  {
+   "Text": "the I"
+  },
+  {
+   "Text": "the positive image"
+  },
+  {
+   "Text": "our council"
+  },
+  {
+   "Text": "the day"
+  },
+  {
+   "Text": "our Vic Casey"
+  },
+  {
+   "Text": "our counsel"
+  },
+  {
+   "Text": "this budget"
+  },
+  {
+   "Text": "an overall reduction"
+  },
+  {
+   "Text": "the third year"
+  },
+  {
+   "Text": "the same time"
+  },
+  {
+   "Text": "the time"
+  },
+  {
+   "Text": "the earthy adult social care precept"
+  },
+  {
+   "Text": "government"
+  },
+  {
+   "Text": "The principle"
+  },
+  {
+   "Text": "government thinking"
+  },
+  {
+   "Text": "an adequate adult social care provisional present"
+  },
+  {
+   "Text": "the future"
+  },
+  {
+   "Text": "our borough"
+  },
+  {
+   "Text": "an increase"
+  },
+  {
+   "Text": "six percent"
+  },
+  {
+   "Text": "twenty thirty"
+  },
+  {
+   "Text": "the fastest age old age group"
+  },
+  {
+   "Text": "adults"
+  },
+  {
+   "Text": "sixty five"
+  },
+  {
+   "Text": "the population growth"
+  },
+  {
+   "Text": "twenty nine percent"
+  },
+  {
+   "Text": "sixty nine percent increase"
+  },
+  {
+   "Text": "older people"
+  },
+  {
+   "Text": "eighty five"
+  },
+  {
+   "Text": "a considerable cut"
+  },
+  {
+   "Text": "a third party grants"
+  },
+  {
+   "Text": "nearly eight million"
+  },
+  {
+   "Text": "these cuts"
+  },
+  {
+   "Text": "less funding"
+  },
+  {
+   "Text": "the impact"
+  },
+  {
+   "Text": "the client groups"
+  },
+  {
+   "Text": "the capital"
+  },
+  {
+   "Text": "programme"
+  },
+  {
+   "Text": "any plans"
+  },
+  {
+   "Text": "twenty twenty"
+  },
+  {
+   "Text": "provision"
+  },
+  {
+   "Text": "service"
+  },
+  {
+   "Text": "the cares"
+  },
+  {
+   "Text": "a system"
+  },
+  {
+   "Text": "purpose"
+  },
+  {
+   "Text": "accommodation"
+  },
+  {
+   "Text": "independent living"
+  },
+  {
+   "Text": "foresight and vision"
+  },
+  {
+   "Text": "Waive Counsellor"
+  },
+  {
+   "Text": "my first budget"
+  },
+  {
+   "Text": "a new counsellor"
+  },
+  {
+   "Text": "Labour Group"
+  },
+  {
+   "Text": "two days"
+  },
+  {
+   "Text": "your budget"
+  },
+  {
+   "Text": "scrutiny"
+  },
+  {
+   "Text": "your own incompetence"
+  },
+  {
+   "Text": "your complete lack"
+  },
+  {
+   "Text": "fiscal responsibility"
+  },
+  {
+   "Text": "their budgets"
+  },
+  {
+   "Text": "A two point"
+  },
+  {
+   "Text": "nine nine percent"
+  },
+  {
+   "Text": "town council tax increase"
+  },
+  {
+   "Text": "a responsible thing"
+  },
+  {
+   "Text": "difficult decisions"
+  },
+  {
+   "Text": "Labour"
+  },
+  {
+   "Text": "zero percent increase"
+  },
+  {
+   "Text": "difficult fiscal service sizes"
+  },
+  {
+   "Text": "a major incident"
+  },
+  {
+   "Text": "Renfield"
+  },
+  {
+   "Text": "mad company"
+  },
+  {
+   "Text": "The two percent increase"
+  },
+  {
+   "Text": "labour"
+  },
+  {
+   "Text": "the  social care precept"
+  },
+  {
+   "Text": "a great thing"
+  },
+  {
+   "Text": "the vulnerable"
+  },
+  {
+   "Text": "vital support services"
+  },
+  {
+   "Text": "My debut speech"
+  },
+  {
+   "Text": "the right thing"
+  },
+  {
+   "Text": "the Adult Social Care"
+  },
+  {
+   "Text": "Scrutiny Committee"
+  },
+  {
+   "Text": "the good work"
+  },
+  {
+   "Text": "the amounts"
+  },
+  {
+   "Text": "money"
+  },
+  {
+   "Text": "our taxes"
+  },
+  {
+   "Text": "the lowest court"
+  },
+  {
+   "Text": "the London leadership"
+  },
+  {
+   "Text": "Mr Khan"
+  },
+  {
+   "Text": "his tax"
+  },
+  {
+   "Text": "his increased"
+  },
+  {
+   "Text": "you guys"
+  },
+  {
+   "Text": "Counsellor Hammond"
+  },
+  {
+   "Text": "a map"
+  },
+  {
+   "Text": "two points"
+  },
+  {
+   "Text": "The first one"
+  },
+  {
+   "Text": "the road maintenance budget"
+  },
+  {
+   "Text": "this borough"
+  },
+  {
+   "Text": "The reason"
+  },
+  {
+   "Text": "a good job"
+  },
+  {
+   "Text": "the transport Highways department"
+  },
+  {
+   "Text": "a really good job"
+  },
+  {
+   "Text": "a proper perent preventative maintenance budget"
+  },
+  {
+   "Text": "the Ministry"
+  },
+  {
+   "Text": "Defence"
+  },
+  {
+   "Text": "my past work"
+  },
+  {
+   "Text": "the Defence Infrastructure Organisation"
+  },
+  {
+   "Text": "all preventive maintenance"
+  },
+  {
+   "Text": "just reactive maintenance"
+  },
+  {
+   "Text": "buildings"
+  },
+  {
+   "Text": "roads"
+  },
+  {
+   "Text": "runways"
+  },
+  {
+   "Text": "other infrastructure"
+  },
+  {
+   "Text": "The result"
+  },
+  {
+   "Text": "the cost"
+  },
+  {
+   "Text": "maintenance"
+  },
+  {
+   "Text": "prevention"
+  },
+  {
+   "Text": "first place"
+  },
+  {
+   "Text": "DH"
+  },
+  {
+   "Text": "the cost stations"
+  },
+  {
+   "Text": "the costs"
+  },
+  {
+   "Text": "the maintenance"
+  },
+  {
+   "Text": "DH buildings"
+  },
+  {
+   "Text": "their team"
+  },
+  {
+   "Text": "no way"
+  },
+  {
+   "Text": "this vicious cycle"
+  },
+  {
+   "Text": "its roads"
+  },
+  {
+   "Text": "its way"
+  },
+  {
+   "Text": "The roads"
+  },
+  {
+   "Text": "such a good condition"
+  },
+  {
+   "Text": "very few potholes"
+  },
+  {
+   "Text": "many burrows and counties"
+  },
+  {
+   "Text": "an excellent preventative maintenance budget"
+  },
+  {
+   "Text": "the council executive"
+  },
+  {
+   "Text": "the officers"
+  },
+  {
+   "Text": "the continuing"
+  },
+  {
+   "Text": "that programme"
+  },
+  {
+   "Text": "the coming year"
+  },
+  {
+   "Text": "My second point"
+  },
+  {
+   "Text": "Tio eyes"
+  },
+  {
+   "Text": "one line line item"
+  },
+  {
+   "Text": "the labour budget"
+  },
+  {
+   "Text": "the whole thing"
+  },
+  {
+   "Text": "a lot"
+  },
+  {
+   "Text": "lots"
+  },
+  {
+   "Text": "Teo"
+  },
+  {
+   "Text": "last week"
+  },
+  {
+   "Text": "the magic money tree"
+  },
+  {
+   "Text": "all sorts"
+  },
+  {
+   "Text": "gold"
+  },
+  {
+   "Text": "A lot"
+  },
+  {
+   "Text": "detritus"
+  },
+  {
+   "Text": "a little gold"
+  },
+  {
+   "Text": "the opposition line Item one"
+  },
+  {
+   "Text": "the sentiment"
+  },
+  {
+   "Text": "the registration scheme"
+  },
+  {
+   "Text": "the scourge"
+  },
+  {
+   "Text": "short term holiday"
+  },
+  {
+   "Text": "DH rogue landlords"
+  },
+  {
+   "Text": "his problem"
+  },
+  {
+   "Text": "my ward neighbours"
+  },
+  {
+   "Text": "Notting Hill"
+  },
+  {
+   "Text": "the exact wording"
+  },
+  {
+   "Text": "the opposition"
+  },
+  {
+   "Text": "motion"
+  },
+  {
+   "Text": "the costing"
+  },
+  {
+   "Text": "board"
+  },
+  {
+   "Text": "a counsel"
+  },
+  {
+   "Text": "the executive nodding"
+  },
+  {
+   "Text": "the green"
+  },
+  {
+   "Text": "the result"
+  },
+  {
+   "Text": "the public"
+  },
+  {
+   "Text": "scrutiny Committee"
+  },
+  {
+   "Text": "its something"
+  },
+  {
+   "Text": "time"
+  },
+  {
+   "Text": "notes"
+  },
+  {
+   "Text": "a site"
+  },
+  {
+   "Text": "your time  counts"
+  },
+  {
+   "Text": "very interesting comments"
+  },
+  {
+   "Text": "cats"
+  },
+  {
+   "Text": "the yard and counsel counsel"
+  },
+  {
+   "Text": "their very constructive comments"
+  },
+  {
+   "Text": "the youth Revue"
+  },
+  {
+   "Text": "their participation"
+  },
+  {
+   "Text": "a teenager"
+  },
+  {
+   "Text": "all times"
+  },
+  {
+   "Text": "the fact"
+  },
+  {
+   "Text": "so much feedback"
+  },
+  {
+   "Text": "that feedback"
+  },
+  {
+   "Text": "an event"
+  },
+  {
+   "Text": "last night"
+  },
+  {
+   "Text": "the heart"
+  },
+  {
+   "Text": "Um"
+  },
+  {
+   "Text": "a couple"
+  },
+  {
+   "Text": "the comments and observations"
+  },
+  {
+   "Text": "the epic services"
+  },
+  {
+   "Text": "terms"
+  },
+  {
+   "Text": "just a quick answer"
+  },
+  {
+   "Text": "that point"
+  },
+  {
+   "Text": "Andi"
+  },
+  {
+   "Text": "community event"
+  },
+  {
+   "Text": "Counsellor Mason"
+  },
+  {
+   "Text": "community adventure"
+  },
+  {
+   "Text": "the last ten years"
+  },
+  {
+   "Text": "four hundred fifty community playgrounds"
+  },
+  {
+   "Text": "one hundred forty"
+  },
+  {
+   "Text": "This Farrah"
+  },
+  {
+   "Text": "the only council"
+  },
+  {
+   "Text": "free play"
+  },
+  {
+   "Text": "the few councils"
+  },
+  {
+   "Text": "a tall Westminster Brent"
+  },
+  {
+   "Text": "Hammersmith Fulham"
+  },
+  {
+   "Text": "No funding"
+  },
+  {
+   "Text": "the community playgrounds"
+  },
+  {
+   "Text": "a result"
+  },
+  {
+   "Text": "those children"
+  },
+  {
+   "Text": "the border"
+  },
+  {
+   "Text": "our anew czars"
+  },
+  {
+   "Text": "that contract way"
+  },
+  {
+   "Text": "period"
+  },
+  {
+   "Text": "users"
+  },
+  {
+   "Text": "the enormous pressure"
+  },
+  {
+   "Text": "financial future"
+  },
+  {
+   "Text": "the sustainability"
+  },
+  {
+   "Text": "the sort"
+  },
+  {
+   "Text": "his things"
+  },
+  {
+   "Text": "awesome"
+  },
+  {
+   "Text": "kitchens"
+  },
+  {
+   "Text": "indoor space"
+  },
+  {
+   "Text": "measures"
+  },
+  {
+   "Text": "yl thie other boroughs"
+  },
+  {
+   "Text": "all our neighbours"
+  },
+  {
+   "Text": "any funds"
+  },
+  {
+   "Text": "their counsel"
+  },
+  {
+   "Text": "their community play"
+  },
+  {
+   "Text": "that way"
+  },
+  {
+   "Text": "Khun d"
+  },
+  {
+   "Text": "the same collaborative way"
+  },
+  {
+   "Text": "the use review"
+  },
+  {
+   "Text": "community"
+  },
+  {
+   "Text": "a tiny bar"
+  },
+  {
+   "Text": "teo"
+  },
+  {
+   "Text": "counsellor folks"
+  },
+  {
+   "Text": "yes cancer"
+  },
+  {
+   "Text": "the two hundred thousand"
+  },
+  {
+   "Text": "european advisory service"
+  },
+  {
+   "Text": "a bit"
+  },
+  {
+   "Text": "their service"
+  },
+  {
+   "Text": "page eighteen"
+  },
+  {
+   "Text": "risk"
+  },
+  {
+   "Text": "the central government"
+  },
+  {
+   "Text": "two hundred thousand"
+  },
+  {
+   "Text": "brexit"
+  },
+  {
+   "Text": "so something"
+  },
+  {
+   "Text": "European residents"
+  },
+  {
+   "Text": "the idea"
+  },
+  {
+   "Text": "a way"
+  },
+  {
+   "Text": "a CZ Elizabeth"
+  },
+  {
+   "Text": "March thirtieth"
+  },
+  {
+   "Text": "a service"
+  },
+  {
+   "Text": "the service"
+  },
+  {
+   "Text": "the Europeans"
+  },
+  {
+   "Text": "state"
+  },
+  {
+   "Text": "Sense"
+  },
+  {
+   "Text": "five minutes"
+  },
+  {
+   "Text": "your passport"
+  },
+  {
+   "Text": "the reason"
+  },
+  {
+   "Text": "the process"
+  },
+  {
+   "Text": "five years"
+  },
+  {
+   "Text": "bank statements"
+  },
+  {
+   "Text": "a shame"
+  },
+  {
+   "Text": "your Apple phone"
+  },
+  {
+   "Text": "Apple"
+  },
+  {
+   "Text": "the equipment"
+  },
+  {
+   "Text": "one member"
+  },
+  {
+   "Text": "star"
+  },
+  {
+   "Text": "the whole year"
+  },
+  {
+   "Text": "June twenty"
+  },
+  {
+   "Text": "That moment"
+  },
+  {
+   "Text": "Maura"
+  },
+  {
+   "Text": "more information"
+  },
+  {
+   "Text": "Kasahara"
+  },
+  {
+   "Text": "just a couple"
+  },
+  {
+   "Text": "my portfolio"
+  },
+  {
+   "Text": "attention"
+  },
+  {
+   "Text": "this evening"
+  },
+  {
+   "Text": "the corporate grand scheme"
+  },
+  {
+   "Text": "two point"
+  },
+  {
+   "Text": "two million pounds"
+  },
+  {
+   "Text": "twenty nine organisations"
+  },
+  {
+   "Text": "the birth"
+  },
+  {
+   "Text": "the north"
+  },
+  {
+   "Text": "Madam Mayor"
+  },
+  {
+   "Text": "the only bar"
+  },
+  {
+   "Text": "a corporate ground scheme"
+  },
+  {
+   "Text": "this nature"
+  },
+  {
+   "Text": "this camera"
+  },
+  {
+   "Text": "Julie"
+  },
+  {
+   "Text": "years"
+  },
+  {
+   "Text": "the only funding"
+  },
+  {
+   "Text": "the third sector"
+  },
+  {
+   "Text": "voluntary organisations"
+  },
+  {
+   "Text": "the bearer"
+  },
+  {
+   "Text": "the commissioning work"
+  },
+  {
+   "Text": "social care"
+  },
+  {
+   "Text": "Many more"
+  },
+  {
+   "Text": "much more amount"
+  },
+  {
+   "Text": "those organisations"
+  },
+  {
+   "Text": "our supplementary schools"
+  },
+  {
+   "Text": "the barrel"
+  },
+  {
+   "Text": "particular the funding"
+  },
+  {
+   "Text": "enormous amount"
+  },
+  {
+   "Text": "the Westway trust"
+  },
+  {
+   "Text": "a range"
+  },
+  {
+   "Text": "over twenty supplementary schools"
+  },
+  {
+   "Text": "these schools"
+  },
+  {
+   "Text": "base"
+  },
+  {
+   "Text": "the normal day schools"
+  },
+  {
+   "Text": "our children"
+  },
+  {
+   "Text": "a real good start"
+  },
+  {
+   "Text": "the community budget"
+  },
+  {
+   "Text": "the whole race"
+  },
+  {
+   "Text": "other funding"
+  },
+  {
+   "Text": "the amount"
+  },
+  {
+   "Text": "many, many ways"
+  },
+  {
+   "Text": "just a touch"
+  },
+  {
+   "Text": "the community safety"
+  },
+  {
+   "Text": "the comments"
+  },
+  {
+   "Text": "our various cuts"
+  },
+  {
+   "Text": "this today"
+  },
+  {
+   "Text": "cuts"
+  },
+  {
+   "Text": "our community police team"
+  },
+  {
+   "Text": "Onda"
+  },
+  {
+   "Text": "the London crime prevention"
+  },
+  {
+   "Text": "a notification"
+  },
+  {
+   "Text": "a three hundred thousand pounds"
+  },
+  {
+   "Text": "that mo pack"
+  },
+  {
+   "Text": "the London Crime Prevention Fund"
+  },
+  {
+   "Text": "his fund"
+  },
+  {
+   "Text": "four hundred"
+  },
+  {
+   "Text": "one hundred"
+  },
+  {
+   "Text": "a really cut"
+  },
+  {
+   "Text": "OPEC"
+  },
+  {
+   "Text": "a simple fact"
+  },
+  {
+   "Text": "four point"
+  },
+  {
+   "Text": "seven million"
+  },
+  {
+   "Text": "community safety"
+  },
+  {
+   "Text": "the leader"
+  },
+  {
+   "Text": "another hundred"
+  },
+  {
+   "Text": "another million"
+  },
+  {
+   "Text": "crime"
+  },
+  {
+   "Text": "the police"
+  },
+  {
+   "Text": "those two"
+  },
+  {
+   "Text": "support"
+  },
+  {
+   "Text": "Council Hobbies Council"
+  },
+  {
+   "Text": "past spell"
+  },
+  {
+   "Text": "my colleague"
+  },
+  {
+   "Text": "the  headlines"
+  },
+  {
+   "Text": "the virus communities"
+  },
+  {
+   "Text": "all the general details"
+  },
+  {
+   "Text": "environment"
+  },
+  {
+   "Text": "communities"
+  },
+  {
+   "Text": "recovery"
+  },
+  {
+   "Text": "the recent work"
+  },
+  {
+   "Text": "reorganisation"
+  },
+  {
+   "Text": "the outside"
+  },
+  {
+   "Text": "much reorganisation"
+  },
+  {
+   "Text": "lower cost"
+  },
+  {
+   "Text": "better services"
+  },
+  {
+   "Text": "street cleaning and management"
+  },
+  {
+   "Text": "vehicle pollution"
+  },
+  {
+   "Text": "foot transport"
+  },
+  {
+   "Text": "cycling"
+  },
+  {
+   "Text": "electric vehicles"
+  },
+  {
+   "Text": "Investment"
+  },
+  {
+   "Text": "alternative budget"
+  },
+  {
+   "Text": "the late budget"
+  },
+  {
+   "Text": "an apology"
+  },
+  {
+   "Text": "Leighton House"
+  },
+  {
+   "Text": "their opposition"
+  },
+  {
+   "Text": "less understanding"
+  },
+  {
+   "Text": "Hollywood"
+  },
+  {
+   "Text": "the bail maps"
+  },
+  {
+   "Text": "The English Patient"
+  },
+  {
+   "Text": "a she"
+  },
+  {
+   "Text": "Last year"
+  },
+  {
+   "Text": "several Muslim late ladies"
+  },
+  {
+   "Text": "the church"
+  },
+  {
+   "Text": "North Kensington"
+  },
+  {
+   "Text": "their forthcoming visit"
+  },
+  {
+   "Text": "A couple"
+  },
+  {
+   "Text": "weeks"
+  },
+  {
+   "Text": "fact"
+  },
+  {
+   "Text": "each other"
+  },
+  {
+   "Text": "their culture"
+  },
+  {
+   "Text": "their background"
+  },
+  {
+   "Text": "mother countries"
+  },
+  {
+   "Text": "those countries"
+  },
+  {
+   "Text": "the other"
+  },
+  {
+   "Text": "the staff"
+  },
+  {
+   "Text": "moments"
+  },
+  {
+   "Text": "their outreach work"
+  },
+  {
+   "Text": "the North"
+  },
+  {
+   "Text": "the South Point"
+  },
+  {
+   "Text": "the project"
+  },
+  {
+   "Text": "outreach war cultures"
+  },
+  {
+   "Text": "the contribution"
+  },
+  {
+   "Text": "Islamic art"
+  },
+  {
+   "Text": "the whole borough"
+  },
+  {
+   "Text": "Leighton House work"
+  },
+  {
+   "Text": "the friends"
+  },
+  {
+   "Text": "quarter"
+  },
+  {
+   "Text": "the money"
+  },
+  {
+   "Text": "Heritage Lottery Fund"
+  },
+  {
+   "Text": "about a year"
+  },
+  {
+   "Text": "exhaustive examination"
+  },
+  {
+   "Text": "the Outreach Workers"
+  },
+  {
+   "Text": "Result"
+  },
+  {
+   "Text": "its responsibilities"
+  },
+  {
+   "Text": "the building"
+  },
+  {
+   "Text": "media access"
+  },
+  {
+   "Text": "Part"
+  },
+  {
+   "Text": "the results"
+  },
+  {
+   "Text": "this work"
+  },
+  {
+   "Text": "the museum"
+  },
+  {
+   "Text": "Run"
+  },
+  {
+   "Text": "reductions"
+  },
+  {
+   "Text": "future council budgets"
+  },
+  {
+   "Text": "this suggestion"
+  },
+  {
+   "Text": "a wet waste"
+  },
+  {
+   "Text": "an interesting but small projects"
+  },
+  {
+   "Text": "cancer and Henson"
+  },
+  {
+   "Text": "the moment"
+  },
+  {
+   "Text": "relation"
+  },
+  {
+   "Text": "an area"
+  },
+  {
+   "Text": "West way"
+  },
+  {
+   "Text": "the re procurement"
+  },
+  {
+   "Text": "the waste contract"
+  },
+  {
+   "Text": "effect"
+  },
+  {
+   "Text": "Time"
+  },
+  {
+   "Text": "some ten or more years"
+  },
+  {
+   "Text": "the deaf deferent consultation"
+  },
+  {
+   "Text": "new ways"
+  },
+  {
+   "Text": "Two new waste"
+  },
+  {
+   "Text": "a completely circular economy"
+  },
+  {
+   "Text": "How much"
+  },
+  {
+   "Text": "a contract"
+  },
+  {
+   "Text": "any ideas"
+  },
+  {
+   "Text": "our opposition colleagues"
+  },
+  {
+   "Text": "The G l L new contract"
+  },
+  {
+   "Text": "free swims"
+  },
+  {
+   "Text": "zero two weights"
+  },
+  {
+   "Text": "sixteen and concessions"
+  },
+  {
+   "Text": "Building control"
+  },
+  {
+   "Text": "a senior surveyor"
+  },
+  {
+   "Text": "expert"
+  },
+  {
+   "Text": "far advice"
+  },
+  {
+   "Text": "the consultations"
+  },
+  {
+   "Text": "the Hackett report"
+  },
+  {
+   "Text": "a ll"
+  },
+  {
+   "Text": "The central government"
+  },
+  {
+   "Text": "the regulations"
+  },
+  {
+   "Text": "the whole country"
+  },
+  {
+   "Text": "the review"
+  },
+  {
+   "Text": "Counsellor Pascal"
+  },
+  {
+   "Text": "your remarks"
+  },
+  {
+   "Text": "conclusion"
+  },
+  {
+   "Text": "every five minutes"
+  },
+  {
+   "Text": "the final final thing"
+  },
+  {
+   "Text": "the street improvements work"
+  },
+  {
+   "Text": "committed projects"
+  },
+  {
+   "Text": "some income"
+  },
+  {
+   "Text": "the surplus"
+  },
+  {
+   "Text": "the car park reserve"
+  },
+  {
+   "Text": "the ring things"
+  },
+  {
+   "Text": "Council Addenbrooke"
+  },
+  {
+   "Text": "this opportunity"
+  },
+  {
+   "Text": "all the staff"
+  },
+  {
+   "Text": "adult social care"
+  },
+  {
+   "Text": "grandfather"
+  },
+  {
+   "Text": "all their hard work"
+  },
+  {
+   "Text": "the bereaved"
+  },
+  {
+   "Text": "the survivors"
+  },
+  {
+   "Text": "our other partners"
+  },
+  {
+   "Text": "all their input"
+  },
+  {
+   "Text": "the dedicated service"
+  },
+  {
+   "Text": "the only cats"
+  },
+  {
+   "Text": "care charges"
+  },
+  {
+   "Text": "Hammersmith and Fulham"
+  },
+  {
+   "Text": "forty million funding gap"
+  },
+  {
+   "Text": "the next three years"
+  },
+  {
+   "Text": "a time"
+  },
+  {
+   "Text": "pressures"
+  },
+  {
+   "Text": "complexity"
+  },
+  {
+   "Text": "needs and market conditions"
+  },
+  {
+   "Text": "the proposal"
+  },
+  {
+   "Text": "homecare charges"
+  },
+  {
+   "Text": "sense"
+  },
+  {
+   "Text": "The adult social care precept"
+  },
+  {
+   "Text": "the pressures"
+  },
+  {
+   "Text": "Many social service professionals"
+  },
+  {
+   "Text": "the care"
+  },
+  {
+   "Text": "home and home care market"
+  },
+  {
+   "Text": "the establishment"
+  },
+  {
+   "Text": "our Quality Assurance Team"
+  },
+  {
+   "Text": "the providers"
+  },
+  {
+   "Text": "CC"
+  },
+  {
+   "Text": "a changing culture"
+  },
+  {
+   "Text": "all our providers"
+  },
+  {
+   "Text": "the ambition"
+  },
+  {
+   "Text": "improvement"
+  },
+  {
+   "Text": "our provisional care homes"
+  },
+  {
+   "Text": "older residents"
+  },
+  {
+   "Text": "disabilities"
+  },
+  {
+   "Text": "no extra cost"
+  },
+  {
+   "Text": "Mohr"
+  },
+  {
+   "Text": "better accommodation"
+  },
+  {
+   "Text": "Madam"
+  },
+  {
+   "Text": "our service users"
+  },
+  {
+   "Text": "the centre"
+  },
+  {
+   "Text": "our decision"
+  },
+  {
+   "Text": "a meet"
+  },
+  {
+   "Text": "the local concrete"
+  },
+  {
+   "Text": "personalisation"
+  },
+  {
+   "Text": "the possibility"
+  },
+  {
+   "Text": "an evil"
+  },
+  {
+   "Text": "more choice"
+  },
+  {
+   "Text": "their own decisions"
+  },
+  {
+   "Text": "a little bit"
+  },
+  {
+   "Text": "Just set"
+  },
+  {
+   "Text": "an item"
+  },
+  {
+   "Text": "the risk"
+  },
+  {
+   "Text": "the wrath"
+  },
+  {
+   "Text": "Councillor Mason"
+  },
+  {
+   "Text": "a lack"
+  },
+  {
+   "Text": "understanding"
+  },
+  {
+   "Text": "Toa"
+  },
+  {
+   "Text": "the suggestion"
+  },
+  {
+   "Text": "accounts"
+  },
+  {
+   "Text": "the wheel"
+  },
+  {
+   "Text": "formulation"
+  },
+  {
+   "Text": "an early opportunity"
+  },
+  {
+   "Text": "that close"
+  },
+  {
+   "Text": "some new ideas"
+  },
+  {
+   "Text": "credit"
+  },
+  {
+   "Text": "the issue"
+  },
+  {
+   "Text": "capital"
+  },
+  {
+   "Text": "revenue"
+  },
+  {
+   "Text": "an important issue"
+  },
+  {
+   "Text": "the highlight"
+  },
+  {
+   "Text": "One thing"
+  },
+  {
+   "Text": "a twenty million potential shortfall"
+  },
+  {
+   "Text": "the year"
+  },
+  {
+   "Text": "a council taxing increase"
+  },
+  {
+   "Text": "a knock"
+  },
+  {
+   "Text": "the insurance reserve"
+  },
+  {
+   "Text": "an option"
+  },
+  {
+   "Text": "the provisions"
+  },
+  {
+   "Text": "the legal fees"
+  },
+  {
+   "Text": "gun"
+  },
+  {
+   "Text": "grateful enquiries"
+  },
+  {
+   "Text": "merit"
+  },
+  {
+   "Text": "your dogged pursuit"
+  },
+  {
+   "Text": "oligarchs"
+  },
+  {
+   "Text": "large, expensive houses"
+  },
+  {
+   "Text": "the first"
+  },
+  {
+   "Text": "idea"
+  },
+  {
+   "Text": "compulsory"
+  },
+  {
+   "Text": "a ridiculous political dogma"
+  },
+  {
+   "Text": "current value"
+  },
+  {
+   "Text": "social housing"
+  },
+  {
+   "Text": "an oligarch home"
+  },
+  {
+   "Text": "The other suggestion"
+  },
+  {
+   "Text": "counts"
+  },
+  {
+   "Text": "a Blakeman"
+  },
+  {
+   "Text": "the GMO"
+  },
+  {
+   "Text": "the Housing Minister"
+  },
+  {
+   "Text": "houses"
+  },
+  {
+   "Text": "Amendment"
+  },
+  {
+   "Text": "your example"
+  },
+  {
+   "Text": "Vancouver"
+  },
+  {
+   "Text": "the fifty thousand pounds"
+  },
+  {
+   "Text": "the special Reserve"
+  },
+  {
+   "Text": "Google Google"
+  },
+  {
+   "Text": "a few questions"
+  },
+  {
+   "Text": "some legs"
+  },
+  {
+   "Text": "quite an interesting idea"
+  },
+  {
+   "Text": "the initial reaction"
+  },
+  {
+   "Text": "questionings"
+  },
+  {
+   "Text": "the illegality"
+  },
+  {
+   "Text": "sixty nine empty homes"
+  },
+  {
+   "Text": "this barren"
+  },
+  {
+   "Text": "a premium"
+  },
+  {
+   "Text": "Faras"
+  },
+  {
+   "Text": "the property Scrutiny Committee"
+  },
+  {
+   "Text": "Counsellor Palmer"
+  },
+  {
+   "Text": "some quick comments"
+  },
+  {
+   "Text": "delightful comments"
+  },
+  {
+   "Text": "the Labour group"
+  },
+  {
+   "Text": "his great love"
+  },
+  {
+   "Text": "wider taxation"
+  },
+  {
+   "Text": "very wealthy"
+  },
+  {
+   "Text": "the band"
+  },
+  {
+   "Text": "the Yes"
+  },
+  {
+   "Text": "the problem"
+  },
+  {
+   "Text": "this room"
+  },
+  {
+   "Text": "just short"
+  },
+  {
+   "Text": "That person"
+  },
+  {
+   "Text": "tax"
+  },
+  {
+   "Text": "the tune"
+  },
+  {
+   "Text": "seventy five thousand"
+  },
+  {
+   "Text": "only twenty thousand"
+  },
+  {
+   "Text": "the Bara"
+  },
+  {
+   "Text": "one thousand six hundred"
+  },
+  {
+   "Text": "the person"
+  },
+  {
+   "Text": "forty six times"
+  },
+  {
+   "Text": "government grant"
+  },
+  {
+   "Text": "council"
+  },
+  {
+   "Text": "the wealth"
+  },
+  {
+   "Text": "Maurin council tax"
+  },
+  {
+   "Text": "Counsellor Henderson"
+  },
+  {
+   "Text": "ages"
+  },
+  {
+   "Text": "Just a very quick point"
+  },
+  {
+   "Text": "the Youth Services Review"
+  },
+  {
+   "Text": "Ondas Council Well"
+  },
+  {
+   "Text": "a position"
+  },
+  {
+   "Text": "those decisions"
+  },
+  {
+   "Text": "the EU services review"
+  },
+  {
+   "Text": "a great example"
+  },
+  {
+   "Text": "The right way"
+  },
+  {
+   "Text": "arbitrary ahs"
+  },
+  {
+   "Text": "part"
+  },
+  {
+   "Text": "the EU"
+  },
+  {
+   "Text": "Services Review Working Group"
+  },
+  {
+   "Text": "phallus eaters"
+  },
+  {
+   "Text": "labour counsellors"
+  },
+  {
+   "Text": "view"
+  },
+  {
+   "Text": "that review"
+  },
+  {
+   "Text": "hundreds"
+  },
+  {
+   "Text": "parents"
+  },
+  {
+   "Text": "the barrow"
+  },
+  {
+   "Text": "other stakeholders"
+  },
+  {
+   "Text": "teachers"
+  },
+  {
+   "Text": "many months"
+  },
+  {
+   "Text": "DNA"
+  },
+  {
+   "Text": "a use"
+  },
+  {
+   "Text": "your services design"
+  },
+  {
+   "Text": "the needs"
+  },
+  {
+   "Text": "ofthe the young people"
+  },
+  {
+   "Text": "mohr difficult decisions"
+  },
+  {
+   "Text": "use services"
+  },
+  {
+   "Text": "Review"
+  },
+  {
+   "Text": "those difficult decisions"
+  },
+  {
+   "Text": "Councilmanic counsellor Lindsay"
+  },
+  {
+   "Text": "Counsellor Colleagues"
+  },
+  {
+   "Text": "a new contract"
+  },
+  {
+   "Text": "gel"
+  },
+  {
+   "Text": "a long way"
+  },
+  {
+   "Text": "the zero cost"
+  },
+  {
+   "Text": "all swimmers"
+  },
+  {
+   "Text": "the age"
+  },
+  {
+   "Text": "not Teo sixteen"
+  },
+  {
+   "Text": "nought"
+  },
+  {
+   "Text": "eight people"
+  },
+  {
+   "Text": "fifteen"
+  },
+  {
+   "Text": "one pound"
+  },
+  {
+   "Text": "the leisure centre"
+  },
+  {
+   "Text": "participation"
+  },
+  {
+   "Text": "activity"
+  },
+  {
+   "Text": "some people"
+  },
+  {
+   "Text": "a leisure centre"
+  },
+  {
+   "Text": "sport"
+  },
+  {
+   "Text": "Tis"
+  },
+  {
+   "Text": "time and effort"
+  },
+  {
+   "Text": "our  participation"
+  },
+  {
+   "Text": "those people"
+  },
+  {
+   "Text": "leisure centres"
+  },
+  {
+   "Text": "quite a lot"
+  },
+  {
+   "Text": "outdoor gyms"
+  },
+  {
+   "Text": "such things"
+  },
+  {
+   "Text": "an insinuation"
+  },
+  {
+   "Text": "the Holland Park playground"
+  },
+  {
+   "Text": "the Labour amendment"
+  },
+  {
+   "Text": "the two thousand"
+  },
+  {
+   "Text": "Housing Act"
+  },
+  {
+   "Text": "their suggestion"
+  },
+  {
+   "Text": "their concerns"
+  },
+  {
+   "Text": "Counsel Hammond"
+  },
+  {
+   "Text": "the difficulties"
+  },
+  {
+   "Text": "Airbnb"
+  },
+  {
+   "Text": "HMO"
+  },
+  {
+   "Text": "poor housing stock"
+  },
+  {
+   "Text": "many points"
+  },
+  {
+   "Text": "Rural council tax payers"
+  },
+  {
+   "Text": "good value"
+  },
+  {
+   "Text": "an average D band taxpayer"
+  },
+  {
+   "Text": "two pounds"
+  },
+  {
+   "Text": "thirty eight"
+  },
+  {
+   "Text": "a day"
+  },
+  {
+   "Text": "our rubbish"
+  },
+  {
+   "Text": "our streets"
+  },
+  {
+   "Text": "the lights"
+  },
+  {
+   "Text": "my dog"
+  },
+  {
+   "Text": "the beautiful parking"
+  },
+  {
+   "Text": "Kids"
+  },
+  {
+   "Text": "all the beautiful playgrounds"
+  },
+  {
+   "Text": "my tax"
+  },
+  {
+   "Text": "my neighbours"
+  },
+  {
+   "Text": "a supported living scheme"
+  },
+  {
+   "Text": "twelve residents"
+  },
+  {
+   "Text": "a complex range ofthe needs"
+  },
+  {
+   "Text": "a one"
+  },
+  {
+   "Text": "one care"
+  },
+  {
+   "Text": "a daily basis"
+  },
+  {
+   "Text": "a large proportion"
+  },
+  {
+   "Text": "Counsellors"
+  },
+  {
+   "Text": "Fishman"
+  },
+  {
+   "Text": "the  issue"
+  },
+  {
+   "Text": "coming sort"
+  },
+  {
+   "Text": "the debate"
+  },
+  {
+   "Text": "the wind"
+  },
+  {
+   "Text": "your sails"
+  },
+  {
+   "Text": "other people"
+  },
+  {
+   "Text": "the news"
+  },
+  {
+   "Text": "the schools"
+  },
+  {
+   "Text": "the new development plan"
+  },
+  {
+   "Text": "the road"
+  },
+  {
+   "Text": "the Housing Scrutiny Committee"
+  },
+  {
+   "Text": "press"
+  },
+  {
+   "Text": "public health"
+  },
+  {
+   "Text": "Castle Lindsay"
+  },
+  {
+   "Text": "lead member"
+  },
+  {
+   "Text": "the Kennedy Leisure Centre"
+  },
+  {
+   "Text": "the new contract"
+  },
+  {
+   "Text": "the Centre Management contract"
+  },
+  {
+   "Text": "his gels Better Leisure contract"
+  },
+  {
+   "Text": "the new management contract situation"
+  },
+  {
+   "Text": "this more staff"
+  },
+  {
+   "Text": "my pitch"
+  },
+  {
+   "Text": "The public"
+  },
+  {
+   "Text": "Counsel Lindsay"
+  },
+  {
+   "Text": "high"
+  },
+  {
+   "Text": "the leisure centres"
+  },
+  {
+   "Text": "Kensington"
+  },
+  {
+   "Text": "the south"
+  },
+  {
+   "Text": "Better management"
+  },
+  {
+   "Text": "the healthiest"
+  },
+  {
+   "Text": "extra police officers"
+  },
+  {
+   "Text": "difficulties"
+  },
+  {
+   "Text": "police officers"
+  },
+  {
+   "Text": "the seats"
+  },
+  {
+   "Text": "corporate services"
+  },
+  {
+   "Text": "Citizens Advice Bureau Kensington"
+  },
+  {
+   "Text": "the best"
+  },
+  {
+   "Text": "the country"
+  },
+  {
+   "Text": "majority budget"
+  },
+  {
+   "Text": "the older residents"
+  },
+  {
+   "Text": "private lawyers"
+  },
+  {
+   "Text": "a very good job"
+  },
+  {
+   "Text": "the press"
+  },
+  {
+   "Text": "our amendment"
+  },
+  {
+   "Text": "Monday"
+  },
+  {
+   "Text": "the font size"
+  },
+  {
+   "Text": "many ofthe new members"
+  },
+  {
+   "Text": "this chamber"
+  },
+  {
+   "Text": "Hope"
+  },
+  {
+   "Text": "our only"
+  },
+  {
+   "Text": "one scrutiny committee"
+  },
+  {
+   "Text": "your scrutiny committee"
+  },
+  {
+   "Text": "a great service"
+  },
+  {
+   "Text": "tonight"
+  },
+  {
+   "Text": "members"
+  },
+  {
+   "Text": "that capital budget"
+  },
+  {
+   "Text": "the Council"
+  },
+  {
+   "Text": "twenty Fortin"
+  },
+  {
+   "Text": "a long serving Cabinet member"
+  },
+  {
+   "Text": "some advice"
+  },
+  {
+   "Text": "Hey"
+  },
+  {
+   "Text": "the five piece"
+  },
+  {
+   "Text": "The Five Priorities"
+  },
+  {
+   "Text": "planning parking parks"
+  },
+  {
+   "Text": "Potholes"
+  },
+  {
+   "Text": "your list"
+  },
+  {
+   "Text": "proud achievements"
+  },
+  {
+   "Text": "lead members"
+  },
+  {
+   "Text": "the Torrey contributions"
+  },
+  {
+   "Text": "a law"
+  },
+  {
+   "Text": "pride"
+  },
+  {
+   "Text": "the peas"
+  },
+  {
+   "Text": "the new one"
+  },
+  {
+   "Text": "wass five years"
+  },
+  {
+   "Text": "his council"
+  },
+  {
+   "Text": "Campbell"
+  },
+  {
+   "Text": "twenty nineteen twenty"
+  },
+  {
+   "Text": "some clear priorities"
+  },
+  {
+   "Text": "a draught council plan"
+  },
+  {
+   "Text": "late March"
+  },
+  {
+   "Text": "these priorities"
+  },
+  {
+   "Text": "the priority areas"
+  },
+  {
+   "Text": "spending"
+  },
+  {
+   "Text": "our labour group amendments"
+  },
+  {
+   "Text": "the three key priorities"
+  },
+  {
+   "Text": "housing, education and social care"
+  },
+  {
+   "Text": "The message"
+  },
+  {
+   "Text": "more social housing"
+  },
+  {
+   "Text": "local people"
+  },
+  {
+   "Text": "commend Counsellor Taylor Smith"
+  },
+  {
+   "Text": "the crucial role"
+  },
+  {
+   "Text": "Labour Mayor Sadiq Khan"
+  },
+  {
+   "Text": "his housing policies"
+  },
+  {
+   "Text": "thirty three million pounds"
+  },
+  {
+   "Text": "the three hundred social rent homes"
+  },
+  {
+   "Text": "The housing challenge"
+  },
+  {
+   "Text": "the thirty percent"
+  },
+  {
+   "Text": "the private rental sector"
+  },
+  {
+   "Text": "the worst disrepair"
+  },
+  {
+   "Text": "disruption"
+  },
+  {
+   "Text": "rogue and irresponsible Airbnb landlords"
+  },
+  {
+   "Text": "the housing"
+  },
+  {
+   "Text": "two thousand"
+  },
+  {
+   "Text": "a public realm"
+  },
+  {
+   "Text": "rogue landlords"
+  },
+  {
+   "Text": "the good guys"
+  },
+  {
+   "Text": "the bad guys"
+  },
+  {
+   "Text": "my understanding"
+  },
+  {
+   "Text": "the two thousand four housing"
+  },
+  {
+   "Text": "the response"
+  },
+  {
+   "Text": "education"
+  },
+  {
+   "Text": "Young people"
+  },
+  {
+   "Text": "the discredited process"
+  },
+  {
+   "Text": "outsourcing"
+  },
+  {
+   "Text": "more affordable sports and fitness activities"
+  },
+  {
+   "Text": "heart"
+  },
+  {
+   "Text": "Counsellor Lindsay"
+  },
+  {
+   "Text": "no justification"
+  },
+  {
+   "Text": "Council tow"
+  },
+  {
+   "Text": "the offer"
+  },
+  {
+   "Text": "DH True Negotiate"
+  },
+  {
+   "Text": "free swim"
+  },
+  {
+   "Text": "the over sixties"
+  },
+  {
+   "Text": "thirteen"
+  },
+  {
+   "Text": "sixteen year olds"
+  },
+  {
+   "Text": "a pound"
+  },
+  {
+   "Text": "the exercise"
+  },
+  {
+   "Text": "the safe, structured place"
+  },
+  {
+   "Text": "the more places"
+  },
+  {
+   "Text": "half terms"
+  },
+  {
+   "Text": "summer breaks"
+  },
+  {
+   "Text": "weekends"
+  },
+  {
+   "Text": "a structured and safe"
+  },
+  {
+   "Text": "the quote"
+  },
+  {
+   "Text": "the consultation"
+  },
+  {
+   "Text": "The area"
+  },
+  {
+   "Text": "adventure"
+  },
+  {
+   "Text": "playgrounds"
+  },
+  {
+   "Text": "youth clubs"
+  },
+  {
+   "Text": "weekends and school breaks"
+  },
+  {
+   "Text": "adventure playgrounds"
+  },
+  {
+   "Text": "our young people"
+  },
+  {
+   "Text": "safe spaces"
+  },
+  {
+   "Text": "Our young people"
+  },
+  {
+   "Text": "underperforming something tractor"
+  },
+  {
+   "Text": "extra one million"
+  },
+  {
+   "Text": "knife crime"
+  },
+  {
+   "Text": "a very welcome arrangement"
+  },
+  {
+   "Text": "this side"
+  },
+  {
+   "Text": "the funds"
+  },
+  {
+   "Text": "tow"
+  },
+  {
+   "Text": "the ones"
+  },
+  {
+   "Text": "the victims"
+  },
+  {
+   "Text": "knife"
+  },
+  {
+   "Text": "carriers"
+  },
+  {
+   "Text": "fourteen and twenty"
+  },
+  {
+   "Text": "these safe places"
+  },
+  {
+   "Text": "Other London borrowers"
+  },
+  {
+   "Text": "the reality"
+  },
+  {
+   "Text": "low reserves"
+  },
+  {
+   "Text": "austerity"
+  },
+  {
+   "Text": "national government cuts"
+  },
+  {
+   "Text": "many more years"
+  },
+  {
+   "Text": "Casey"
+  },
+  {
+   "Text": "their focus"
+  },
+  {
+   "Text": "thes labour group amendments"
+  },
+  {
+   "Text": "council tax payers money"
+  },
+  {
+   "Text": "council tax payers"
+  },
+  {
+   "Text": "our revenue proposals"
+  },
+  {
+   "Text": "those priorities"
+  },
+  {
+   "Text": "front"
+  },
+  {
+   "Text": "the mid term review"
+  },
+  {
+   "Text": "a contribution"
+  },
+  {
+   "Text": "the new approaches"
+  },
+  {
+   "Text": "budgeting"
+  },
+  {
+   "Text": "the next year"
+  },
+  {
+   "Text": "the head"
+  },
+  {
+   "Text": "finance"
+  },
+  {
+   "Text": "the Resources Department"
+  },
+  {
+   "Text": "capital programmes"
+  },
+  {
+   "Text": "Our proposals"
+  },
+  {
+   "Text": "two Reversal"
+  },
+  {
+   "Text": "the proposed capital projects"
+  },
+  {
+   "Text": "priorities"
+  },
+  {
+   "Text": "notional amounts"
+  },
+  {
+   "Text": "our new commitment"
+  },
+  {
+   "Text": "the boring amounts"
+  },
+  {
+   "Text": "The leader"
+  },
+  {
+   "Text": "the overarching things"
+  },
+  {
+   "Text": "the council plan"
+  },
+  {
+   "Text": "the gap"
+  },
+  {
+   "Text": "North South rich"
+  },
+  {
+   "Text": "poor other issues"
+  },
+  {
+   "Text": "the proposed capital programme"
+  },
+  {
+   "Text": "this counts"
+  },
+  {
+   "Text": "the various lead members"
+  },
+  {
+   "Text": "their departments and policies and priorities"
+  },
+  {
+   "Text": "seemingly different values"
+  },
+  {
+   "Text": "Different choices"
+  },
+  {
+   "Text": "difficult choices"
+  },
+  {
+   "Text": "this proposed programme"
+  },
+  {
+   "Text": "Our residents"
+  },
+  {
+   "Text": "more public participation"
+  },
+  {
+   "Text": "key decisions"
+  },
+  {
+   "Text": "budgets"
+  },
+  {
+   "Text": "annual generous contributions"
+  },
+  {
+   "Text": "Holland Park"
+  },
+  {
+   "Text": "Holland House"
+  },
+  {
+   "Text": "Holland Park Opera"
+  },
+  {
+   "Text": "five million"
+  },
+  {
+   "Text": "our properties"
+  },
+  {
+   "Text": "the Orangerie"
+  },
+  {
+   "Text": "Counsellor Paschal"
+  },
+  {
+   "Text": "urgent health and safety work"
+  },
+  {
+   "Text": "a further million"
+  },
+  {
+   "Text": "twenty nineteen"
+  },
+  {
+   "Text": "twenty North"
+  },
+  {
+   "Text": "Kensington Library"
+  },
+  {
+   "Text": "risks"
+  },
+  {
+   "Text": "its users"
+  },
+  {
+   "Text": "about ten years"
+  },
+  {
+   "Text": "work"
+  },
+  {
+   "Text": "The policies"
+  },
+  {
+   "Text": "the last administration"
+  },
+  {
+   "Text": "residents and uses"
+  },
+  {
+   "Text": "the library"
+  },
+  {
+   "Text": "a library"
+  },
+  {
+   "Text": "public use"
+  },
+  {
+   "Text": "Friends"
+  },
+  {
+   "Text": "other local rest residents"
+  },
+  {
+   "Text": "enemy community groups"
+  },
+  {
+   "Text": "the same opportunity"
+  },
+  {
+   "Text": "the community"
+  },
+  {
+   "Text": "a Save Holland House campaign"
+  },
+  {
+   "Text": "order"
+  },
+  {
+   "Text": "the council half"
+  },
+  {
+   "Text": "twenty"
+  },
+  {
+   "Text": "nineteen twenty commitment"
+  },
+  {
+   "Text": "a fundraising campaign"
+  },
+  {
+   "Text": "Last week"
+  },
+  {
+   "Text": "a queue"
+  },
+  {
+   "Text": "around twenty minutes"
+  },
+  {
+   "Text": "the Japanese garden"
+  },
+  {
+   "Text": "many tourists and visitors"
+  },
+  {
+   "Text": "some contributions"
+  },
+  {
+   "Text": "upkeep boxes"
+  },
+  {
+   "Text": "the steps"
+  },
+  {
+   "Text": "visitors"
+  },
+  {
+   "Text": "counsel taxpayers"
+  },
+  {
+   "Text": "its upkeep"
+  },
+  {
+   "Text": "one hundred thousand"
+  },
+  {
+   "Text": "new home"
+  },
+  {
+   "Text": "so six million"
+  },
+  {
+   "Text": "a further sixty new social rent homes"
+  },
+  {
+   "Text": "the South"
+  },
+  {
+   "Text": "six point"
+  },
+  {
+   "Text": "four million"
+  },
+  {
+   "Text": "one home Leighton House"
+  },
+  {
+   "Text": "a lift"
+  },
+  {
+   "Text": "other improvements"
+  },
+  {
+   "Text": "a jewel"
+  },
+  {
+   "Text": "Orientalism"
+  },
+  {
+   "Text": "more people"
+  },
+  {
+   "Text": "Middle East"
+  },
+  {
+   "Text": "This upgrade"
+  },
+  {
+   "Text": "more tourists"
+  },
+  {
+   "Text": "the blurb visitors"
+  },
+  {
+   "Text": "the upper galleries"
+  },
+  {
+   "Text": "a grant"
+  },
+  {
+   "Text": "Tourists and visitors"
+  },
+  {
+   "Text": "this whole project"
+  },
+  {
+   "Text": "light"
+  },
+  {
+   "Text": "our new priorities"
+  },
+  {
+   "Text": "financial circumstances"
+  },
+  {
+   "Text": "this money and council tax payers"
+  },
+  {
+   "Text": "the use"
+  },
+  {
+   "Text": "this money"
+  },
+  {
+   "Text": "that commitment"
+  },
+  {
+   "Text": "justification"
+  },
+  {
+   "Text": "around three hundred thousand important press produce"
+  },
+  {
+   "Text": "the Sultan"
+  },
+  {
+   "Text": "Brunei"
+  },
+  {
+   "Text": "the emir"
+  },
+  {
+   "Text": "Qatar"
+  },
+  {
+   "Text": "properties"
+  },
+  {
+   "Text": "Abramovich"
+  },
+  {
+   "Text": "projects"
+  },
+  {
+   "Text": "ideas"
+  },
+  {
+   "Text": "fellow members"
+  },
+  {
+   "Text": "these initiatives"
+  },
+  {
+   "Text": "our amended budget"
+  },
+  {
+   "Text": "the wit"
+  },
+  {
+   "Text": "Lindsay and Counsellor Henderson"
+  },
+  {
+   "Text": "Thirty"
+  },
+  {
+   "Text": "your permission"
+  },
+  {
+   "Text": "ten O'Clock"
+  },
+  {
+   "Text": "Count slow"
+  },
+  {
+   "Text": "council presses"
+  },
+  {
+   "Text": "Very polished performance"
+  },
+  {
+   "Text": "my own writing"
+  },
+  {
+   "Text": "its worst"
+  },
+  {
+   "Text": "the kind"
+  },
+  {
+   "Text": "wound"
+  },
+  {
+   "Text": "the frankly bathroom"
+  },
+  {
+   "Text": "sort"
+  },
+  {
+   "Text": "spendthrift"
+  },
+  {
+   "Text": "lawyers"
+  },
+  {
+   "Text": "the same jurisdiction ahs"
+  },
+  {
+   "Text": "Canadians"
+  },
+  {
+   "Text": "our famous silver surfer cancer Taylor Smith"
+  },
+  {
+   "Text": "Google"
+  },
+  {
+   "Text": "Very good ideas"
+  },
+  {
+   "Text": "its murky depths"
+  },
+  {
+   "Text": "an overnight attacks"
+  },
+  {
+   "Text": "Counsellor Atkinson"
+  },
+  {
+   "Text": "our water use"
+  },
+  {
+   "Text": "that project offline"
+  },
+  {
+   "Text": "project"
+  },
+  {
+   "Text": "the items"
+  },
+  {
+   "Text": "Counsellor Hanson"
+  },
+  {
+   "Text": "Call Tio"
+  },
+  {
+   "Text": "a few items"
+  },
+  {
+   "Text": "revenue suggestions"
+  },
+  {
+   "Text": "Late party"
+  },
+  {
+   "Text": "the sake"
+  },
+  {
+   "Text": "clarity"
+  },
+  {
+   "Text": "all mushy"
+  },
+  {
+   "Text": "Town Hall"
+  },
+  {
+   "Text": "a misunderstanding"
+  },
+  {
+   "Text": "expenditure"
+  },
+  {
+   "Text": "flock wallpaper"
+  },
+  {
+   "Text": "the labour members"
+  },
+  {
+   "Text": "vital maintenance"
+  },
+  {
+   "Text": "a previous budget align"
+  },
+  {
+   "Text": "the public parts"
+  },
+  {
+   "Text": "our current budget"
+  },
+  {
+   "Text": "a good idea"
+  },
+  {
+   "Text": "our investment"
+  },
+  {
+   "Text": "the adult social care platform"
+  },
+  {
+   "Text": "a sensible move"
+  },
+  {
+   "Text": "Dr Improvement"
+  },
+  {
+   "Text": "choice and efficiency"
+  },
+  {
+   "Text": "a Labour party"
+  },
+  {
+   "Text": "the spreadsheet"
+  },
+  {
+   "Text": "these times"
+  },
+  {
+   "Text": "a long term cost"
+  },
+  {
+   "Text": "annual cost pressure"
+  },
+  {
+   "Text": "one point"
+  },
+  {
+   "Text": "two million"
+  },
+  {
+   "Text": "all charges"
+  },
+  {
+   "Text": "a financial, public financial folly"
+  },
+  {
+   "Text": "its fanciful"
+  },
+  {
+   "Text": "the CCG"
+  },
+  {
+   "Text": "the N hs"
+  },
+  {
+   "Text": "fifty percent"
+  },
+  {
+   "Text": "paragraph twenty one point"
+  },
+  {
+   "Text": "the papers"
+  },
+  {
+   "Text": "a serious note"
+  },
+  {
+   "Text": "the Labour Party suggestions"
+  },
+  {
+   "Text": "cut"
+  },
+  {
+   "Text": "a very, very vital budget"
+  },
+  {
+   "Text": "our openness and transparency and commitment"
+  },
+  {
+   "Text": "Hillsborough"
+  },
+  {
+   "Text": "untenable long term cuts"
+  },
+  {
+   "Text": "strategic reasons"
+  },
+  {
+   "Text": "our council types"
+  },
+  {
+   "Text": "the maximum"
+  },
+  {
+   "Text": "eight point"
+  },
+  {
+   "Text": "nine percent"
+  },
+  {
+   "Text": "their contributions"
+  },
+  {
+   "Text": "exhort everybody"
+  },
+  {
+   "Text": "our scheme"
+  },
+  {
+   "Text": "voluntary contributions"
+  },
+  {
+   "Text": "both sides"
+  },
+  {
+   "Text": "that money"
+  },
+  {
+   "Text": "a really core ambition"
+  },
+  {
+   "Text": "this council employment and opportunity"
+  },
+  {
+   "Text": "valuable contributions"
+  },
+  {
+   "Text": "the labour"
+  },
+  {
+   "Text": "the minority party"
+  },
+  {
+   "Text": "the votes"
+  },
+  {
+   "Text": "votes"
+  },
+  {
+   "Text": "the revenue and capital budgets"
+  },
+  {
+   "Text": "Onda Council tax"
+  },
+  {
+   "Text": "detail s"
+  },
+  {
+   "Text": "two recorded votes"
+  },
+  {
+   "Text": "The first vote"
+  },
+  {
+   "Text": "the revenue"
+  },
+  {
+   "Text": "capital budgets"
+  },
+  {
+   "Text": "Members"
+  },
+  {
+   "Text": "their vote"
+  },
+  {
+   "Text": "the buttons"
+  },
+  {
+   "Text": "voting"
+  },
+  {
+   "Text": "The voting"
+  },
+  {
+   "Text": "a shown"
+  },
+  {
+   "Text": "the screens"
+  },
+  {
+   "Text": "DH Thie Amendment"
+  },
+  {
+   "Text": "the vote"
+  },
+  {
+   "Text": "the revenue budget"
+  },
+  {
+   "Text": "capital programme"
+  },
+  {
+   "Text": "council tax"
+  },
+  {
+   "Text": "your votes"
+  },
+  {
+   "Text": "the voting"
+  },
+  {
+   "Text": "the screens and details"
+  },
+  {
+   "Text": "the minutes"
+  },
+  {
+   "Text": "the h R"
+  },
+  {
+   "Text": "A business plan"
+  },
+  {
+   "Text": "H R"
+  },
+  {
+   "Text": "A budget report"
+  },
+  {
+   "Text": "the business"
+  },
+  {
+   "Text": "alone the emotions"
+  },
+  {
+   "Text": "brief Counsellor Taylor Smith"
+  },
+  {
+   "Text": "report"
+  },
+  {
+   "Text": "the needed second"
+  },
+  {
+   "Text": "the second housing revenue account business plan"
+  },
+  {
+   "Text": "the first business plan"
+  },
+  {
+   "Text": "the handing"
+  },
+  {
+   "Text": "the housing management"
+  },
+  {
+   "Text": "the PM"
+  },
+  {
+   "Text": "the stock condition survey"
+  },
+  {
+   "Text": "two thousand ten"
+  },
+  {
+   "Text": "an asset management strategy"
+  },
+  {
+   "Text": "regeneration"
+  },
+  {
+   "Text": "the start"
+  },
+  {
+   "Text": "our housing stock"
+  },
+  {
+   "Text": "the threat"
+  },
+  {
+   "Text": "such anxiety"
+  },
+  {
+   "Text": "a firm commitment"
+  },
+  {
+   "Text": "the loss"
+  },
+  {
+   "Text": "homes"
+  },
+  {
+   "Text": "this commitment"
+  },
+  {
+   "Text": "trust"
+  },
+  {
+   "Text": "The leadership team"
+  },
+  {
+   "Text": "a paper"
+  },
+  {
+   "Text": "the Challenge"
+  },
+  {
+   "Text": "the objective"
+  },
+  {
+   "Text": "the design and oversight"
+  },
+  {
+   "Text": "the management"
+  },
+  {
+   "Text": "their homes"
+  },
+  {
+   "Text": "housing management"
+  },
+  {
+   "Text": "our first priority"
+  },
+  {
+   "Text": "Who best"
+  },
+  {
+   "Text": "the monthly tenants consultative meeting"
+  },
+  {
+   "Text": "an important milestone"
+  },
+  {
+   "Text": "building trust"
+  },
+  {
+   "Text": "The meetings"
+  },
+  {
+   "Text": "Contribution"
+  },
+  {
+   "Text": "the numerous task and working groups"
+  },
+  {
+   "Text": "a measurable improvement"
+  },
+  {
+   "Text": "both condition and service"
+  },
+  {
+   "Text": "a long, long way"
+  },
+  {
+   "Text": "the benchmarks"
+  },
+  {
+   "Text": "The residents"
+  },
+  {
+   "Text": "a final decision"
+  },
+  {
+   "Text": "early indications"
+  },
+  {
+   "Text": "Christmas"
+  },
+  {
+   "Text": "the second business plan"
+  },
+  {
+   "Text": "the TCC"
+  },
+  {
+   "Text": "Straight Scrutiny Committee"
+  },
+  {
+   "Text": "the next seven years"
+  },
+  {
+   "Text": "a better understanding"
+  },
+  {
+   "Text": "A new stock condition survey"
+  },
+  {
+   "Text": "our housing"
+  },
+  {
+   "Text": "two hundred"
+  },
+  {
+   "Text": "sixty eight million pounds"
+  },
+  {
+   "Text": "a backlog"
+  },
+  {
+   "Text": "sixty million pounds"
+  },
+  {
+   "Text": "Mr Equates"
+  },
+  {
+   "Text": "an average"
+  },
+  {
+   "Text": "thirty thousand pounds"
+  },
+  {
+   "Text": "hope"
+  },
+  {
+   "Text": "selfie safety"
+  },
+  {
+   "Text": "our main priority"
+  },
+  {
+   "Text": "sixty independent fire risk assessments"
+  },
+  {
+   "Text": "ongoing"
+  },
+  {
+   "Text": "their recommendations replacement"
+  },
+  {
+   "Text": "fire doors"
+  },
+  {
+   "Text": "wet rises"
+  },
+  {
+   "Text": "fire alarms"
+  },
+  {
+   "Text": "the case"
+  },
+  {
+   "Text": "a dare and Hazelwood tower"
+  },
+  {
+   "Text": "the concrete facade"
+  },
+  {
+   "Text": "the manufacturer"
+  },
+  {
+   "Text": "compliance"
+  },
+  {
+   "Text": "A resident"
+  },
+  {
+   "Text": "the statement"
+  },
+  {
+   "Text": "Investment programme"
+  },
+  {
+   "Text": "Lancaster"
+  },
+  {
+   "Text": "West State"
+  },
+  {
+   "Text": "a valuable understanding"
+  },
+  {
+   "Text": "our existing housing stocks"
+  },
+  {
+   "Text": "More than"
+  },
+  {
+   "Text": "nineteen sixty"
+  },
+  {
+   "Text": "thirty million"
+  },
+  {
+   "Text": "the improvement"
+  },
+  {
+   "Text": "The plan"
+  },
+  {
+   "Text": "our commitment"
+  },
+  {
+   "Text": "green housing"
+  },
+  {
+   "Text": "both the environment"
+  },
+  {
+   "Text": "our tenants money"
+  },
+  {
+   "Text": "communal hating"
+  },
+  {
+   "Text": "hot water"
+  },
+  {
+   "Text": "improved insulation"
+  },
+  {
+   "Text": "energy efficient lighting"
+  },
+  {
+   "Text": "a new two million pounds investment"
+  },
+  {
+   "Text": "orderto"
+  },
+  {
+   "Text": "our systems"
+  },
+  {
+   "Text": "link housing management"
+  },
+  {
+   "Text": "other council services"
+  },
+  {
+   "Text": "services and repairs"
+  },
+  {
+   "Text": "Residents"
+  },
+  {
+   "Text": "all day"
+  },
+  {
+   "Text": "a ban repairman"
+  },
+  {
+   "Text": "some convenience"
+  },
+  {
+   "Text": "the same convenience"
+  },
+  {
+   "Text": "ruin Amazon"
+  },
+  {
+   "Text": "A new procurement"
+  },
+  {
+   "Text": "Monstrosity"
+  },
+  {
+   "Text": "the residents"
+  },
+  {
+   "Text": "Procurement"
+  },
+  {
+   "Text": "local traits"
+  },
+  {
+   "Text": "an apprentice"
+  },
+  {
+   "Text": "repairs"
+  },
+  {
+   "Text": "the one"
+  },
+  {
+   "Text": "our plan"
+  },
+  {
+   "Text": "new homes"
+  },
+  {
+   "Text": "a long waiting list"
+  },
+  {
+   "Text": "a new key worker homes policy"
+  },
+  {
+   "Text": "consideration"
+  },
+  {
+   "Text": "workers"
+  },
+  {
+   "Text": "the governor"
+  },
+  {
+   "Text": "my local primary school"
+  },
+  {
+   "Text": "heart attractive track staff"
+  },
+  {
+   "Text": "the outskirts"
+  },
+  {
+   "Text": "House"
+  },
+  {
+   "Text": "our top priority"
+  },
+  {
+   "Text": "six hundred new homes"
+  },
+  {
+   "Text": "three hundred social rent"
+  },
+  {
+   "Text": "Consultation"
+  },
+  {
+   "Text": "the first phase"
+  },
+  {
+   "Text": "one hundred sixty"
+  },
+  {
+   "Text": "The programme"
+  },
+  {
+   "Text": "thirty six point"
+  },
+  {
+   "Text": "thirty three point"
+  },
+  {
+   "Text": "six million"
+  },
+  {
+   "Text": "the as part"
+  },
+  {
+   "Text": "the major works delivery"
+  },
+  {
+   "Text": "opportunities"
+  },
+  {
+   "Text": "more homes"
+  },
+  {
+   "Text": "the roof"
+  },
+  {
+   "Text": "additional storeys"
+  },
+  {
+   "Text": "these new homes"
+  },
+  {
+   "Text": "improvements"
+  },
+  {
+   "Text": "the block"
+  },
+  {
+   "Text": "Paragraph thirteen"
+  },
+  {
+   "Text": "this ambitious programme"
+  },
+  {
+   "Text": "a gap"
+  },
+  {
+   "Text": "the level"
+  },
+  {
+   "Text": "investment"
+  },
+  {
+   "Text": "The subsequent paragraph"
+  },
+  {
+   "Text": "the options"
+  },
+  {
+   "Text": "that gap"
+  },
+  {
+   "Text": "our first two budgets"
+  },
+  {
+   "Text": "an exact science"
+  },
+  {
+   "Text": "steady progress"
+  },
+  {
+   "Text": "the condition and quality"
+  },
+  {
+   "Text": "this budget plan"
+  },
+  {
+   "Text": "approval"
+  },
+  {
+   "Text": "the progress"
+  },
+  {
+   "Text": "Counsellor Taylor"
+  },
+  {
+   "Text": "Smooth count"
+  },
+  {
+   "Text": "so much"
+  },
+  {
+   "Text": "counsellor Taylor Smith"
+  },
+  {
+   "Text": "the HR A budget"
+  },
+  {
+   "Text": "a very understandable response"
+  },
+  {
+   "Text": "circumstances"
+  },
+  {
+   "Text": "the T M O legal fees"
+  },
+  {
+   "Text": "the general fund"
+  },
+  {
+   "Text": "the H r"
+  },
+  {
+   "Text": "welcome business plan"
+  },
+  {
+   "Text": "some remaining discussions and reservations"
+  },
+  {
+   "Text": "the sale"
+  },
+  {
+   "Text": "vacant properties"
+  },
+  {
+   "Text": "this item"
+  },
+  {
+   "Text": "The council"
+  },
+  {
+   "Text": "the HR eight budget"
+  },
+  {
+   "Text": "business plan"
+  },
+  {
+   "Text": "the annual Treasury strategy"
+  },
+  {
+   "Text": "Midyear REVIEW"
+  },
+  {
+   "Text": "the leadership team"
+  },
+  {
+   "Text": "the annual Treasury Stress Team"
+  },
+  {
+   "Text": "Agree Review"
+  },
+  {
+   "Text": "the adoption"
+  },
+  {
+   "Text": "the report"
+  },
+  {
+   "Text": "the lead"
+  },
+  {
+   "Text": "this report"
+  },
+  {
+   "Text": "our money"
+  },
+  {
+   "Text": "an existing policy"
+  },
+  {
+   "Text": "Our policy"
+  },
+  {
+   "Text": "our practise"
+  },
+  {
+   "Text": "very small bit"
+  },
+  {
+   "Text": "council Mason"
+  },
+  {
+   "Text": "the counsellor"
+  },
+  {
+   "Text": "that only two minutes"
+  },
+  {
+   "Text": "two reports"
+  },
+  {
+   "Text": "good scrutiny"
+  },
+  {
+   "Text": "the finances"
+  },
+  {
+   "Text": "the next item"
+  },
+  {
+   "Text": "council wheel"
+  },
+  {
+   "Text": "second Council"
+  },
+  {
+   "Text": "two nights"
+  },
+  {
+   "Text": "a vote"
+  },
+  {
+   "Text": "Great"
+  },
+  {
+   "Text": "Stein"
+  },
+  {
+   "Text": "these reports"
+  },
+  {
+   "Text": "Beans Leadership Team"
+  },
+  {
+   "Text": "reports"
+  },
+  {
+   "Text": "No kids"
+  },
+  {
+   "Text": "That thing"
+  },
+  {
+   "Text": "these items"
+  },
+  {
+   "Text": "numbers"
+  },
+  {
+   "Text": "the labour amendment"
+  },
+  {
+   "Text": "the Revenue budget capital programme"
+  },
+  {
+   "Text": "the rest"
+  },
+  {
+   "Text": "the reports"
+  },
+  {
+   "Text": "a question"
+  },
+  {
+   "Text": "the annual  okay"
+  },
+  {
+   "Text": "the annual Treasury management strategy"
+  },
+  {
+   "Text": "Second Madam"
+  },
+  {
+   "Text": "the same"
+  },
+  {
+   "Text": "no changes"
+  },
+  {
+   "Text": "our approach"
+  },
+  {
+   "Text": "Treasury management"
+  },
+  {
+   "Text": "a process"
+  },
+  {
+   "Text": "the usual scrutiny process"
+  },
+  {
+   "Text": "this Treasury management structure"
+  },
+  {
+   "Text": "favour"
+  },
+  {
+   "Text": "your hands"
+  },
+  {
+   "Text": "those abstaining"
+  },
+  {
+   "Text": "the site committees"
+  },
+  {
+   "Text": "The report"
+  },
+  {
+   "Text": "the administration committee"
+  },
+  {
+   "Text": "Counsellor Lindsay second report"
+  },
+  {
+   "Text": "man"
+  },
+  {
+   "Text": "the recommendation"
+  },
+  {
+   "Text": "paragraph one point"
+  },
+  {
+   "Text": "that carriage"
+  },
+  {
+   "Text": "the members allowances scheme"
+  },
+  {
+   "Text": "recommendation"
+  },
+  {
+   "Text": "carriage change"
+  },
+  {
+   "Text": "the code"
+  },
+  {
+   "Text": "conduct hearings"
+  },
+  {
+   "Text": "My commendation"
+  },
+  {
+   "Text": "Agreed"
+  },
+  {
+   "Text": "the audit"
+  },
+  {
+   "Text": "Transparency Committee"
+  },
+  {
+   "Text": "council husband"
+  },
+  {
+   "Text": "the reception"
+  },
+  {
+   "Text": "the river"
+  },
+  {
+   "Text": "Counsellor Williams"
+  },
+  {
+   "Text": "paragraph"
+  },
+  {
+   "Text": "this France"
+  },
+  {
+   "Text": "a movie"
+  },
+  {
+   "Text": "Tio Motion One"
+  },
+  {
+   "Text": "thie motion"
+  },
+  {
+   "Text": "the Royal Brompton Hospital"
+  },
+  {
+   "Text": "Counsellor Rental"
+  },
+  {
+   "Text": "the motion and council"
+  },
+  {
+   "Text": "second the motion"
+  },
+  {
+   "Text": "Counsellor Bennett"
+  },
+  {
+   "Text": "this extremely important issue"
+  },
+  {
+   "Text": "the last council meeting"
+  },
+  {
+   "Text": "section eleven"
+  },
+  {
+   "Text": "residents and supporters"
+  },
+  {
+   "Text": "the hospital"
+  },
+  {
+   "Text": "contribution"
+  },
+  {
+   "Text": "a communication"
+  },
+  {
+   "Text": "Castle Healy"
+  },
+  {
+   "Text": "the petition"
+  },
+  {
+   "Text": "the six hundred seventy people"
+  },
+  {
+   "Text": "The Royal Brompton"
+  },
+  {
+   "Text": "my ward"
+  },
+  {
+   "Text": "end"
+  },
+  {
+   "Text": "the preeminent lung and heart hospital"
+  },
+  {
+   "Text": "the UK"
+  },
+  {
+   "Text": "a long and proud history"
+  },
+  {
+   "Text": "a pre eminent example"
+  },
+  {
+   "Text": "skill and care"
+  },
+  {
+   "Text": "history"
+  },
+  {
+   "Text": "The hospital"
+  },
+  {
+   "Text": "eighteen forty two"
+  },
+  {
+   "Text": "tuberculosis sufferers"
+  },
+  {
+   "Text": "The famous Swedish soprano Jenny Lind"
+  },
+  {
+   "Text": "an early supporter"
+  },
+  {
+   "Text": "her husband"
+  },
+  {
+   "Text": "the old Brompton Road"
+  },
+  {
+   "Text": "large sums"
+  },
+  {
+   "Text": "its initial stages"
+  },
+  {
+   "Text": "a winking"
+  },
+  {
+   "Text": "her Prince Albert"
+  },
+  {
+   "Text": "the first stones"
+  },
+  {
+   "Text": "the hospital wings"
+  },
+  {
+   "Text": "this royal patronage"
+  },
+  {
+   "Text": "the main wing"
+  },
+  {
+   "Text": "The Sydney Wing"
+  },
+  {
+   "Text": "the queen"
+  },
+  {
+   "Text": "nineteen ninety one"
+  },
+  {
+   "Text": "a royal charter"
+  },
+  {
+   "Text": "that same year"
+  },
+  {
+   "Text": "the success"
+  },
+  {
+   "Text": "twenty seventeen"
+  },
+  {
+   "Text": "counsel Ben"
+  },
+  {
+   "Text": "last time"
+  },
+  {
+   "Text": "more than two hundred thousand patients"
+  },
+  {
+   "Text": "Outpatients"
+  },
+  {
+   "Text": "nearly forty thousand patients"
+  },
+  {
+   "Text": "its wards"
+  },
+  {
+   "Text": "more than ten thousand patient comments"
+  },
+  {
+   "Text": "Thiss"
+  },
+  {
+   "Text": "the recent seek"
+  },
+  {
+   "Text": "last month"
+  },
+  {
+   "Text": "several  errors"
+  },
+  {
+   "Text": "outstanding practise"
+  },
+  {
+   "Text": "The CPC"
+  },
+  {
+   "Text": "the trust"
+  },
+  {
+   "Text": "a systematic approach"
+  },
+  {
+   "Text": "the quality"
+  },
+  {
+   "Text": "high standards"
+  },
+  {
+   "Text": "an environment"
+  },
+  {
+   "Text": "excellence and clinical Claire"
+  },
+  {
+   "Text": "clinical care"
+  },
+  {
+   "Text": "February twenty seventeen"
+  },
+  {
+   "Text": "England"
+  },
+  {
+   "Text": "a consultation"
+  },
+  {
+   "Text": "the Brompton"
+  },
+  {
+   "Text": "its world class services"
+  },
+  {
+   "Text": "congenital heart care"
+  },
+  {
+   "Text": "N hs plans"
+  },
+  {
+   "Text": "thirteen level one"
+  },
+  {
+   "Text": "perform surgery"
+  },
+  {
+   "Text": "ten and nine"
+  },
+  {
+   "Text": "Level"
+  },
+  {
+   "Text": "specialist cardiac centres"
+  },
+  {
+   "Text": "Roll Brompton"
+  },
+  {
+   "Text": "minded"
+  },
+  {
+   "Text": "no lower commissioned"
+  },
+  {
+   "Text": "the prompt"
+  },
+  {
+   "Text": "congenital heart service"
+  },
+  {
+   "Text": "a robust plan"
+  },
+  {
+   "Text": "The Brompton"
+  },
+  {
+   "Text": "discussions"
+  },
+  {
+   "Text": "the King"
+  },
+  {
+   "Text": "Health partners"
+  },
+  {
+   "Text": "arson"
+  },
+  {
+   "Text": "Thomas"
+  },
+  {
+   "Text": "sync"
+  },
+  {
+   "Text": "Guys"
+  },
+  {
+   "Text": "the aim"
+  },
+  {
+   "Text": "thing Brompton Services"
+  },
+  {
+   "Text": "St Thomas"
+  },
+  {
+   "Text": "Centre"
+  },
+  {
+   "Text": "Westerners"
+  },
+  {
+   "Text": "bridge"
+  },
+  {
+   "Text": "this consolidation"
+  },
+  {
+   "Text": "vital losses"
+  },
+  {
+   "Text": "a partnership"
+  },
+  {
+   "Text": "one hundred seventy"
+  },
+  {
+   "Text": "seven years"
+  },
+  {
+   "Text": "his castle Freeman"
+  },
+  {
+   "Text": "Robert"
+  },
+  {
+   "Text": "misquote you"
+  },
+  {
+   "Text": "our fabric"
+  },
+  {
+   "Text": "his longstanding"
+  },
+  {
+   "Text": "other health care"
+  },
+  {
+   "Text": "other health care research bodies"
+  },
+  {
+   "Text": "the other adjoining Burrows"
+  },
+  {
+   "Text": "all counsellors"
+  },
+  {
+   "Text": "this emotion"
+  },
+  {
+   "Text": "a strong signal"
+  },
+  {
+   "Text": "MHS England"
+  },
+  {
+   "Text": "That trust"
+  },
+  {
+   "Text": "phenomenal doctors"
+  },
+  {
+   "Text": "patients"
+  },
+  {
+   "Text": "all those other sports"
+  },
+  {
+   "Text": "r b K C"
+  },
+  {
+   "Text": "N hs England"
+  },
+  {
+   "Text": "provisions"
+  },
+  {
+   "Text": "a new cardiac and respiratory centre"
+  },
+  {
+   "Text": "the Chelsea and Westminster Hospital"
+  },
+  {
+   "Text": "vital services"
+  },
+  {
+   "Text": "Brompton"
+  },
+  {
+   "Text": "other health bodies"
+  },
+  {
+   "Text": "west London"
+  },
+  {
+   "Text": "the privilege"
+  },
+  {
+   "Text": "its many doctors and patients"
+  },
+  {
+   "Text": "the wards"
+  },
+  {
+   "Text": "small children"
+  },
+  {
+   "Text": "Tenth"
+  },
+  {
+   "Text": "home"
+  },
+  {
+   "Text": "amazing specials"
+  },
+  {
+   "Text": "the best care"
+  },
+  {
+   "Text": "Chelsea and RP"
+  },
+  {
+   "Text": "the patients"
+  },
+  {
+   "Text": "the jobs"
+  },
+  {
+   "Text": "the Royal Brompton"
+  },
+  {
+   "Text": "portabello"
+  },
+  {
+   "Text": "the best interest"
+  },
+  {
+   "Text": "the whole journey"
+  },
+  {
+   "Text": "childhood elderly age"
+  },
+  {
+   "Text": "an institution"
+  },
+  {
+   "Text": "Booth"
+  },
+  {
+   "Text": "a mayor"
+  },
+  {
+   "Text": "just five minutes"
+  },
+  {
+   "Text": "a long time"
+  },
+  {
+   "Text": "my maiden speech"
+  },
+  {
+   "Text": "a huge privilege"
+  },
+  {
+   "Text": "Pembridge"
+  },
+  {
+   "Text": "Durin Weatherhead Barbara Campbell"
+  },
+  {
+   "Text": "DH David Campion"
+  },
+  {
+   "Text": "the ward"
+  },
+  {
+   "Text": "a wonderful job"
+  },
+  {
+   "Text": "many, many years"
+  },
+  {
+   "Text": "the smallest ward"
+  },
+  {
+   "Text": "the Barrett"
+  },
+  {
+   "Text": "most character"
+  },
+  {
+   "Text": "not just"
+  },
+  {
+   "Text": "its residents"
+  },
+  {
+   "Text": "a while"
+  },
+  {
+   "Text": "DH visit aunt"
+  },
+  {
+   "Text": "a child"
+  },
+  {
+   "Text": "a few words"
+  },
+  {
+   "Text": "local politics"
+  },
+  {
+   "Text": "a twenty eight year"
+  },
+  {
+   "Text": "some slightly old fashioned people"
+  },
+  {
+   "Text": "your career"
+  },
+  {
+   "Text": "some initial hesitations"
+  },
+  {
+   "Text": "my previous job"
+  },
+  {
+   "Text": "a liberal conservative think tank"
+  },
+  {
+   "Text": "the lack"
+  },
+  {
+   "Text": "women"
+  },
+  {
+   "Text": "politics"
+  },
+  {
+   "Text": "especially younger women"
+  },
+  {
+   "Text": "the conclusions"
+  },
+  {
+   "Text": "the first place"
+  },
+  {
+   "Text": "a problem"
+  },
+  {
+   "Text": "other words"
+  },
+  {
+   "Text": "the younger faces"
+  },
+  {
+   "Text": "our seats"
+  },
+  {
+   "Text": "the long standing members"
+  },
+  {
+   "Text": "some reservations"
+  },
+  {
+   "Text": "so many young faces"
+  },
+  {
+   "Text": "the stereotype"
+  },
+  {
+   "Text": "the Conservative Party"
+  },
+  {
+   "Text": "no no doubt"
+  },
+  {
+   "Text": "US young amendments"
+  },
+  {
+   "Text": "the past number"
+  },
+  {
+   "Text": "months"
+  },
+  {
+   "Text": "our esteem senior colleague"
+  },
+  {
+   "Text": "the benefits"
+  },
+  {
+   "Text": "a council"
+  },
+  {
+   "Text": "a demographic"
+  },
+  {
+   "Text": "representative"
+  },
+  {
+   "Text": "the plunge"
+  },
+  {
+   "Text": "the Scrutiny Committee"
+  },
+  {
+   "Text": "public realm"
+  },
+  {
+   "Text": "health"
+  },
+  {
+   "Text": "counsel Freeman"
+  },
+  {
+   "Text": "the issues"
+  },
+  {
+   "Text": "the local public environment"
+  },
+  {
+   "Text": "our small businesses"
+  },
+  {
+   "Text": "the iconic Portabello market"
+  },
+  {
+   "Text": "just its charm"
+  },
+  {
+   "Text": "its role"
+  },
+  {
+   "Text": "a vital"
+  },
+  {
+   "Text": "the integral part"
+  },
+  {
+   "Text": "a thriving small business community"
+  },
+  {
+   "Text": "council resource"
+  },
+  {
+   "Text": "those residents"
+  },
+  {
+   "Text": "this community"
+  },
+  {
+   "Text": "my capacities"
+  },
+  {
+   "Text": "member"
+  },
+  {
+   "Text": "the Adult Social Can Health Committee"
+  },
+  {
+   "Text": "second Counsellor Randall"
+  },
+  {
+   "Text": "Motion"
+  },
+  {
+   "Text": "this issue"
+  },
+  {
+   "Text": "an amazing hospital"
+  },
+  {
+   "Text": "the largest heart"
+  },
+  {
+   "Text": "lung hospital"
+  },
+  {
+   "Text": "an integral part"
+  },
+  {
+   "Text": "Kensington and Chelsea community"
+  },
+  {
+   "Text": "healthcare provision"
+  },
+  {
+   "Text": "this bar"
+  },
+  {
+   "Text": "all our residents"
+  },
+  {
+   "Text": "this hospital"
+  },
+  {
+   "Text": "an integral dimension"
+  },
+  {
+   "Text": "its health service offering"
+  },
+  {
+   "Text": "no doubt"
+  },
+  {
+   "Text": "some point"
+  },
+  {
+   "Text": "their life"
+  },
+  {
+   "Text": "cardiac and pulmonary care"
+  },
+  {
+   "Text": "first hand"
+  },
+  {
+   "Text": "the great benefits"
+  },
+  {
+   "Text": "such such specialised care"
+  },
+  {
+   "Text": "a great loss"
+  },
+  {
+   "Text": "that care"
+  },
+  {
+   "Text": "visitation"
+  },
+  {
+   "Text": "Counsellor Freeman"
+  },
+  {
+   "Text": "two really excellent speeches"
+  },
+  {
+   "Text": "counsel round"
+  },
+  {
+   "Text": "an outstanding maiden speech"
+  },
+  {
+   "Text": "anything else"
+  },
+  {
+   "Text": "the quite wrongly"
+  },
+  {
+   "Text": "my chariot"
+  },
+  {
+   "Text": "context"
+  },
+  {
+   "Text": "a duty"
+  },
+  {
+   "Text": "the commissioners"
+  },
+  {
+   "Text": "the prompter"
+  },
+  {
+   "Text": "the Ccgs"
+  },
+  {
+   "Text": "a statue"
+  },
+  {
+   "Text": "duty"
+  },
+  {
+   "Text": "This council lightless councils"
+  },
+  {
+   "Text": "the adult social care"
+  },
+  {
+   "Text": "health Scrutiny Committee"
+  },
+  {
+   "Text": "the best interests"
+  },
+  {
+   "Text": "Varvara"
+  },
+  {
+   "Text": "health care"
+  },
+  {
+   "Text": "essentially N H s England"
+  },
+  {
+   "Text": "some significance"
+  },
+  {
+   "Text": "three possibilities"
+  },
+  {
+   "Text": "The one"
+  },
+  {
+   "Text": "Chelsea and sorry"
+  },
+  {
+   "Text": "an interest"
+  },
+  {
+   "Text": "a governor"
+  },
+  {
+   "Text": "the Royal Marsden"
+  },
+  {
+   "Text": "the second possibility"
+  },
+  {
+   "Text": "the board"
+  },
+  {
+   "Text": "the governors"
+  },
+  {
+   "Text": "the move"
+  },
+  {
+   "Text": "health care site"
+  },
+  {
+   "Text": "the guys"
+  },
+  {
+   "Text": "Tommy"
+  },
+  {
+   "Text": "Hospital"
+  },
+  {
+   "Text": "the Evelina"
+  },
+  {
+   "Text": "The third possibility"
+  },
+  {
+   "Text": "the most complicated"
+  },
+  {
+   "Text": "a sort"
+  },
+  {
+   "Text": "a merger"
+  },
+  {
+   "Text": "the Imperial"
+  },
+  {
+   "Text": "prime"
+  },
+  {
+   "Text": "the Hammersmith Hospital"
+  },
+  {
+   "Text": "some berries"
+  },
+  {
+   "Text": "the monster"
+  },
+  {
+   "Text": "the Charleston West"
+  },
+  {
+   "Text": "Myskina"
+  },
+  {
+   "Text": "anybody"
+  },
+  {
+   "Text": "this wonderful hospital"
+  },
+  {
+   "Text": "its strong links"
+  },
+  {
+   "Text": "the Chelsea and Westminster"
+  },
+  {
+   "Text": "Rome"
+  },
+  {
+   "Text": "Austin"
+  },
+  {
+   "Text": "one minute"
+  },
+  {
+   "Text": "someone else"
+  },
+  {
+   "Text": "Counterterror Smith"
+  },
+  {
+   "Text": "mixed emotion"
+  },
+  {
+   "Text": "this motion"
+  },
+  {
+   "Text": "these support"
+  },
+  {
+   "Text": "Sidney Street"
+  },
+  {
+   "Text": "the pros"
+  },
+  {
+   "Text": "Proposed expansion"
+  },
+  {
+   "Text": "site"
+  },
+  {
+   "Text": "The local residents"
+  },
+  {
+   "Text": "our loved farmers market"
+  },
+  {
+   "Text": "DH intensification"
+  },
+  {
+   "Text": "development"
+  },
+  {
+   "Text": "the retaining"
+  },
+  {
+   "Text": "the site"
+  },
+  {
+   "Text": "a threat"
+  },
+  {
+   "Text": "the development"
+  },
+  {
+   "Text": "no hospital"
+  },
+  {
+   "Text": "the our planning department"
+  },
+  {
+   "Text": "that site"
+  },
+  {
+   "Text": "the hospital community use"
+  },
+  {
+   "Text": "house building"
+  },
+  {
+   "Text": "the Weapons Council"
+  },
+  {
+   "Text": "Evans"
+  },
+  {
+   "Text": "Laura"
+  },
+  {
+   "Text": "her wonderful maiden speech"
+  },
+  {
+   "Text": "Josh Randall"
+  },
+  {
+   "Text": "this important  motion"
+  },
+  {
+   "Text": "a win win situation"
+  },
+  {
+   "Text": "four l"
+  },
+  {
+   "Text": "largest  lungs"
+  },
+  {
+   "Text": "local and latest technology"
+  },
+  {
+   "Text": "US Chelsea  cardiac diseases"
+  },
+  {
+   "Text": "cardio oncology"
+  },
+  {
+   "Text": "complex coronary diseases"
+  },
+  {
+   "Text": "age"
+  },
+  {
+   "Text": "race or background"
+  },
+  {
+   "Text": "Particulary important"
+  },
+  {
+   "Text": "respiratory diseases"
+  },
+  {
+   "Text": "the rise"
+  },
+  {
+   "Text": "pollution"
+  },
+  {
+   "Text": "The location"
+  },
+  {
+   "Text": "distance"
+  },
+  {
+   "Text": "numerous social housing"
+  },
+  {
+   "Text": "a very densely populated borough"
+  },
+  {
+   "Text": "People"
+  },
+  {
+   "Text": "a bus"
+  },
+  {
+   "Text": "the tube"
+  },
+  {
+   "Text": "many convenient roots"
+  },
+  {
+   "Text": "this jewel"
+  },
+  {
+   "Text": "the crown"
+  },
+  {
+   "Text": "a state"
+  },
+  {
+   "Text": "the art hospital"
+  },
+  {
+   "Text": "blues"
+  },
+  {
+   "Text": "such a treasure"
+  },
+  {
+   "Text": "Counsellor Healy"
+  },
+  {
+   "Text": "America"
+  },
+  {
+   "Text": "cast"
+  },
+  {
+   "Text": "her maiden speech"
+  },
+  {
+   "Text": "Dawn Counsellor Rendall"
+  },
+  {
+   "Text": "once this evening"
+  },
+  {
+   "Text": "Only those"
+  },
+  {
+   "Text": "a signed"
+  },
+  {
+   "Text": "the other conservative MP"
+  },
+  {
+   "Text": "councils"
+  },
+  {
+   "Text": "the decision"
+  },
+  {
+   "Text": "N Hs England"
+  },
+  {
+   "Text": "commissioning children"
+  },
+  {
+   "Text": "hearts services"
+  },
+  {
+   "Text": "an arbitrary decision"
+  },
+  {
+   "Text": "all services children"
+  },
+  {
+   "Text": "the same hospital site"
+  },
+  {
+   "Text": "Clinicians"
+  },
+  {
+   "Text": "an appropriate idea"
+  },
+  {
+   "Text": "No evidence"
+  },
+  {
+   "Text": "the claim"
+  },
+  {
+   "Text": "co location"
+  },
+  {
+   "Text": "the present system"
+  },
+  {
+   "Text": "Only a minority"
+  },
+  {
+   "Text": "the Robert Child patients"
+  },
+  {
+   "Text": "those specialist services"
+  },
+  {
+   "Text": "Westminster and Co"
+  },
+  {
+   "Text": "Location"
+  },
+  {
+   "Text": "thes services"
+  },
+  {
+   "Text": "other hospital sites"
+  },
+  {
+   "Text": "the other part"
+  },
+  {
+   "Text": "the romped"
+  },
+  {
+   "Text": "child west"
+  },
+  {
+   "Text": "Ernest"
+  },
+  {
+   "Text": "three ways"
+  },
+  {
+   "Text": "the destruction"
+  },
+  {
+   "Text": "the world renowned services"
+  },
+  {
+   "Text": "letters"
+  },
+  {
+   "Text": "stool"
+  },
+  {
+   "Text": "Henderson"
+  },
+  {
+   "Text": "the motion"
+  },
+  {
+   "Text": "those Council"
+  },
+  {
+   "Text": "any change"
+  },
+  {
+   "Text": "The idea"
+  },
+  {
+   "Text": "a new hospital"
+  },
+  {
+   "Text": "the change"
+  },
+  {
+   "Text": "residential"
+  },
+  {
+   "Text": "few locals"
+  },
+  {
+   "Text": "counsel"
+  },
+  {
+   "Text": "Theo"
+  },
+  {
+   "Text": "favour peace show"
+  },
+  {
+   "Text": "the other two motions"
+  },
+  {
+   "Text": "the April council meeting"
+  },
+  {
+   "Text": "counsellor"
+  },
+  {
+   "Text": "the meeting"
+  },
+  {
+   "Text": "a further half hour"
+  },
+  {
+   "Text": "the matter"
+  },
+  {
+   "Text": "the third time"
+  },
+  {
+   "Text": "any debate"
+  },
+  {
+   "Text": "Wei"
+  },
+  {
+   "Text": "a number"
+  },
+  {
+   "Text": "all evening"
+  },
+  {
+   "Text": "this debate"
+  },
+  {
+   "Text": "the permission"
+  },
+  {
+   "Text": "the whips"
+  },
+  {
+   "Text": "permission"
+  },
+  {
+   "Text": "each side"
+  },
+  {
+   "Text": "two minutes"
+  },
+  {
+   "Text": "each debate"
+  },
+  {
+   "Text": "the next meeting"
+  },
+  {
+   "Text": "Lindsay"
+  },
+  {
+   "Text": "ten"
+  },
+  {
+   "Text": "Thie answers"
+  },
+  {
+   "Text": "side"
+  },
+  {
+   "Text": "the answer"
+  },
+  {
+   "Text": "bone"
+  },
+  {
+   "Text": "Counsel A Palme"
+  },
+  {
+   "Text": "meeting"
+  },
+  {
+   "Text": "a great way"
+  },
+  {
+   "Text": "our whips"
+  },
+  {
+   "Text": "earlier this week"
+  },
+  {
+   "Text": "a agreement"
+  },
+  {
+   "Text": "both eyes"
+  },
+  {
+   "Text": "the Labour Party"
+  },
+  {
+   "Text": "our party"
+  },
+  {
+   "Text": "a debate"
+  },
+  {
+   "Text": "a very poor"
+  },
+  {
+   "Text": "nationals"
+  },
+  {
+   "Text": "the two"
+  },
+  {
+   "Text": "the two constituencies"
+  },
+  {
+   "Text": "our resident"
+  },
+  {
+   "Text": "Stop"
+  },
+  {
+   "Text": "your politics"
+  },
+  {
+   "Text": "Justin Camacho residents"
+  },
+  {
+   "Text": "Lindsay Madam"
+  },
+  {
+   "Text": "the reference"
+  },
+  {
+   "Text": "this month"
+  },
+  {
+   "Text": "a close"
+  },
+  {
+   "Text": "the appointments"
+  },
+  {
+   "Text": "the chamber"
+  },
+  {
+   "Text": "The next council meeting"
+  },
+  {
+   "Text": "the twenty fourth"
+  },
+  {
+   "Text": "April"
+  }
+ ]
+}
