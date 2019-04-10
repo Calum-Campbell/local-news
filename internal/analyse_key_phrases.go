@@ -23,7 +23,8 @@ type KeyPhraseApiResult struct {
 	KeyPhrases []KeyPhrase
 }
 
-func StartKeyPhrasesJob(client *comprehend.Comprehend, fileName string) *string {
+func StartKeyPhrasesJob(client *comprehend.Comprehend, fileName string) (*string, error) {
+	var jobId *string
 	inputConfig := comprehend.InputDataConfig{}
 	inputConfig.SetInputFormat("ONE_DOC_PER_FILE")
 	inputConfig.SetS3Uri("s3://lauren-temp/" + fileName)
@@ -39,12 +40,14 @@ func StartKeyPhrasesJob(client *comprehend.Comprehend, fileName string) *string 
 
 	submittedJob, err := client.StartKeyPhrasesDetectionJob(&keyPhrasesJobInput)
 	if err != nil {
-		log.Fatal(err)
+		return jobId, err
 	}
-	return submittedJob.JobId
+	jobId = submittedJob.JobId
+
+	return jobId, nil
 }
 
-func GetKeyPhrasesFileOutputPath(client *comprehend.Comprehend, jobId *string) *string {
+func GetKeyPhrasesFileOutputPath(client *comprehend.Comprehend, jobId *string) (*string, error) {
 	var outputPath *string
 	describeInput := comprehend.DescribeKeyPhrasesDetectionJobInput{
 		JobId: jobId,
@@ -53,19 +56,21 @@ func GetKeyPhrasesFileOutputPath(client *comprehend.Comprehend, jobId *string) *
 		time.Sleep(10 * time.Second)
 		res, err := client.DescribeKeyPhrasesDetectionJob(&describeInput)
 		if err != nil {
-			log.Fatal("Cannot check status of key phrases detection job", err)
+			return outputPath, err
 		}
-		fmt.Println("Key phrases analysis: ")
-		fmt.Print(*res.KeyPhrasesDetectionJobProperties.JobStatus)
+		log.Print("Key phrases analysis: ")
+		log.Println(*res.KeyPhrasesDetectionJobProperties.JobStatus)
 		if *res.KeyPhrasesDetectionJobProperties.JobStatus == "COMPLETED" {
 			outputPath = res.KeyPhrasesDetectionJobProperties.OutputDataConfig.S3Uri
 			break
 		}
 	}
-	return outputPath
+	return outputPath, nil
 }
 
-func KeyPhrasesFileToJson(outputPath string, session *session.Session) []KeyPhrase {
+func KeyPhrasesFileToJson(outputPath string, session *session.Session) ([]KeyPhrase, error) {
+	var keyPhrasesArray []KeyPhrase
+	var dat KeyPhraseApiResult
 	outputId := strings.Split(outputPath, "/")[4]
 	item := "key-phrases/" + outputId + "/output/output.tar.gz"
 	bucket := "lauren-temp"
@@ -73,21 +78,27 @@ func KeyPhrasesFileToJson(outputPath string, session *session.Session) []KeyPhra
 	writer := aws.NewWriteAtBuffer([]byte{})
 	downloader := s3manager.NewDownloader(session)
 
-	fmt.Printf("Downloading key phrase file from S3 bucket: %s", bucket)
+	log.Printf("Downloading key phrase file from S3 bucket: %s", bucket)
+
 	_, err := downloader.Download(writer,
 		&s3.GetObjectInput{
 			Bucket: aws.String(bucket),
 			Key:    aws.String(item),
 		})
+
+	if err != nil {
+		return keyPhrasesArray, err
+	}
+
 	content, err := getFirstFileFromTarGzip(writer.Bytes())
 
 	if err != nil {
-		log.Fatalf("Unable to download item %q, %v", item, err)
+		return keyPhrasesArray, err
 	}
 
-	var dat KeyPhraseApiResult
 	json.Unmarshal(content, &dat)
-	return dat.KeyPhrases
+	keyPhrasesArray = dat.KeyPhrases
+	return keyPhrasesArray, nil
 }
 
 func AddKeyPhraseIfUnique(keyPhrasesArray []KeyPhrase, keyPhrase KeyPhrase) []KeyPhrase {

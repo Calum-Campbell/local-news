@@ -1,5 +1,5 @@
 {
- "DataSource": "this.txt",
+ "DataSource": "",
  "TopNegativeSentiment": [
   {
    "Sentence": "Blood is splashed on the walls and seeping into the drenched mattress",

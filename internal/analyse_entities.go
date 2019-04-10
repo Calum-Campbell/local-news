@@ -2,7 +2,6 @@ package internal
 
 import (
 	"encoding/json"
-	"fmt"
 	"log"
 	"time"
 
@@ -31,7 +30,8 @@ type TypedEntityResult struct {
 	Organisations []Entity
 }
 
-func StartEntitiesJob(client *comprehend.Comprehend, fileName string) *string {
+func StartEntitiesJob(client *comprehend.Comprehend, fileName string) (*string, error) {
+	var jobId *string
 	inputConfig := comprehend.InputDataConfig{}
 	inputConfig.SetInputFormat("ONE_DOC_PER_FILE")
 	inputConfig.SetS3Uri("s3://lauren-temp/" + fileName)
@@ -47,12 +47,14 @@ func StartEntitiesJob(client *comprehend.Comprehend, fileName string) *string {
 
 	submittedJob, err := client.StartEntitiesDetectionJob(&entityJobInput)
 	if err != nil {
-		log.Fatal(err)
+		return jobId, err
 	}
-	return submittedJob.JobId
+	jobId = submittedJob.JobId
+
+	return jobId, nil
 }
 
-func GetEntitiesFileOutputPath(client *comprehend.Comprehend, jobId *string) *string {
+func GetEntitiesFileOutputPath(client *comprehend.Comprehend, jobId *string) (*string, error) {
 	var outputPath *string
 	describeInput := comprehend.DescribeEntitiesDetectionJobInput{
 		JobId: jobId,
@@ -61,19 +63,21 @@ func GetEntitiesFileOutputPath(client *comprehend.Comprehend, jobId *string) *st
 		time.Sleep(10 * time.Second)
 		res, err := client.DescribeEntitiesDetectionJob(&describeInput)
 		if err != nil {
-			log.Fatal("Cannot check status of entity detection job", err)
+			return outputPath, err
 		}
-		fmt.Println("Entities analysis: ")
-		fmt.Print(*res.EntitiesDetectionJobProperties.JobStatus)
+		log.Print("Entities analysis: ")
+		log.Println(*res.EntitiesDetectionJobProperties.JobStatus)
 		if *res.EntitiesDetectionJobProperties.JobStatus == "COMPLETED" {
 			outputPath = res.EntitiesDetectionJobProperties.OutputDataConfig.S3Uri
 			break
 		}
 	}
-	return outputPath
+	return outputPath, nil
 }
 
-func EntityFileToJson(outputPath string, session *session.Session) []Entity {
+func EntityFileToJson(outputPath string, session *session.Session) ([]Entity, error) {
+	var entitiesArray []Entity
+	var dat EntityApiResult
 	outputId := strings.Split(outputPath, "/")[4]
 	item := "entities/" + outputId + "/output/output.tar.gz"
 	bucket := "lauren-temp"
@@ -81,22 +85,26 @@ func EntityFileToJson(outputPath string, session *session.Session) []Entity {
 	writer := aws.NewWriteAtBuffer([]byte{})
 	downloader := s3manager.NewDownloader(session)
 
-	fmt.Printf("Downloading entity file from S3 bucket: %s", bucket)
+	log.Printf("Downloading entity file from S3 bucket: %s", bucket)
 
 	_, err := downloader.Download(writer,
 		&s3.GetObjectInput{
 			Bucket: aws.String(bucket),
 			Key:    aws.String(item),
 		})
-	content, err := getFirstFileFromTarGzip(writer.Bytes())
 
 	if err != nil {
-		log.Fatalf("Unable to download item %q, %v", item, err)
+		return entitiesArray, err
 	}
 
-	var dat EntityApiResult
+	content, err := getFirstFileFromTarGzip(writer.Bytes())
+	if err != nil {
+		return entitiesArray, err
+	}
+
 	json.Unmarshal(content, &dat)
-	return dat.Entities
+	entitiesArray = dat.Entities
+	return entitiesArray, nil
 }
 
 func AddEntityIfUnique(typeArray []Entity, entity Entity) []Entity {
@@ -114,7 +122,7 @@ func AnalyseEntities(entityArray []Entity) TypedEntityResult {
 	var dates []Entity
 	var organisations []Entity
 
-	fmt.Println("Structuring entity data")
+	log.Println("Structuring entity data")
 
 	for _, entity := range entityArray {
 		switch entityType := entity.Type; entityType {
