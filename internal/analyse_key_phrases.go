@@ -23,6 +23,22 @@ type KeyPhraseApiResult struct {
 	KeyPhrases []KeyPhrase
 }
 
+func SmallerFileKeyPhraseAnalysis(text string, client *comprehend.Comprehend) ([]KeyPhrase, error) {
+	var input comprehend.BatchDetectKeyPhrasesInput
+	var keyPhraseArray []KeyPhrase
+	input.SetLanguageCode("en")
+	input.SetTextList([]*string{aws.String(text)})
+
+	output, err := client.BatchDetectKeyPhrases(&input)
+	if err != nil {
+		return keyPhraseArray, err
+	}
+	for _, keyPhrase := range output.ResultList[0].KeyPhrases {
+		keyPhraseArray = append(keyPhraseArray, KeyPhrase{Text: *keyPhrase.Text})
+	}
+	return keyPhraseArray, nil
+}
+
 func StartKeyPhrasesJob(client *comprehend.Comprehend, fileName string) (*string, error) {
 	var jobId *string
 	inputConfig := comprehend.InputDataConfig{}

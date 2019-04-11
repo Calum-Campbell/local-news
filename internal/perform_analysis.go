@@ -19,47 +19,64 @@ type AnalysisResult struct {
 	KeyPhrases           []KeyPhrase
 }
 
+// If a file size is over 5000 bytes then we require it to use Amazon Comprehend's background 'asynchronous detection jobs'.
+// This takes longer but can handle files up to 100,000 bytes
+func RequiresJob(textBytes []byte) bool {
+	if len(textBytes) < 5000 {
+		log.Println("File size is under 5000 bytes:", len(textBytes))
+		return false
+	} else {
+		log.Println("File size is over 5000 bytes:", len(textBytes))
+		return true
+	}
+}
+
 func PerformSentimentAnalysis(
 	client *comprehend.Comprehend,
-	s3FileName string,
-	sess *session.Session) ([]SentimentResult, error) {
-	merr := NewMultiError()
-
-	fileContentAsString, err := GetText(sess, s3FileName)
+	text string) ([]SentimentResult, error) {
+	var sentimentResult []SentimentResult
+	analyseSentiment, err := AnalyseTextSentiment(client, text)
 	if err != nil {
-		merr.AddError(errors.Wrap(err, "Unable to get file from S3"))
+		return sentimentResult, err
 	}
 
-	analyseSentiment, err := AnalyseTextSentiment(client, fileContentAsString)
-	if err != nil {
-		merr.AddError(errors.Wrap(err, "Unable to perform sentiment analysis job"))
-	}
-
-	return analyseSentiment, merr.Build()
+	sentimentResult = analyseSentiment
+	return sentimentResult, nil
 }
 
 func PerformEntityAnalysis(
 	client *comprehend.Comprehend,
 	s3FileName string,
-	sess *session.Session) (TypedEntityResult, error) {
+	sess *session.Session,
+	textBytes []byte,
+	requiresJob bool) (TypedEntityResult, error) {
+	var entitiesArray []Entity
 	merr := NewMultiError()
 
-	entityJobId, err := StartEntitiesJob(client, s3FileName)
-	if err != nil {
-		merr.AddError(errors.Wrap(err, "Unable to perform entity analysis job"))
+	if requiresJob {
+		entityJobId, err := StartEntitiesJob(client, s3FileName)
+		if err != nil {
+			merr.AddError(errors.Wrap(err, "Unable to perform entity analysis job"))
+		}
+		entityOutputPath, err := GetEntitiesFileOutputPath(client, entityJobId)
+		if err != nil {
+			merr.AddError(errors.Wrap(err, "Unable to get entity output path"))
+		}
+
+		entities, err := EntityFileToJson(*entityOutputPath, sess)
+		if err != nil {
+			merr.AddError(errors.Wrap(err, "Unable to download file and convert to JSON"))
+		}
+		entitiesArray = entities
+	} else {
+		entities, err := SmallerFileEntityAnalysis(string(textBytes), client)
+		if err != nil {
+			merr.AddError(errors.Wrap(err, "Unable to perform entity analysis"))
+		}
+		entitiesArray = entities
 	}
 
-	entityOutputPath, err := GetEntitiesFileOutputPath(client, entityJobId)
-	if err != nil {
-		merr.AddError(errors.Wrap(err, "Unable to get entity output path"))
-	}
-
-	entities, err := EntityFileToJson(*entityOutputPath, sess)
-	if err != nil {
-		merr.AddError(errors.Wrap(err, "Unable to download file and convert to JSON"))
-	}
-
-	analyseEntities := AnalyseEntities(entities)
+	analyseEntities := AnalyseEntities(entitiesArray)
 
 	return analyseEntities, merr.Build()
 }
@@ -67,25 +84,37 @@ func PerformEntityAnalysis(
 func PerformKeyPhraseAnalysis(
 	client *comprehend.Comprehend,
 	s3FileName string,
-	sess *session.Session) ([]KeyPhrase, error) {
+	sess *session.Session,
+	textBytes []byte,
+	requiresJob bool) ([]KeyPhrase, error) {
+	var keyPhrasesArray []KeyPhrase
 	merr := NewMultiError()
 
-	keyPhrasesJobId, err := StartKeyPhrasesJob(client, s3FileName)
-	if err != nil {
-		merr.AddError(errors.Wrap(err, "Unable to perform key phrase job"))
+	if requiresJob {
+		keyPhrasesJobId, err := StartKeyPhrasesJob(client, s3FileName)
+		if err != nil {
+			merr.AddError(errors.Wrap(err, "Unable to perform key phrase job"))
+		}
+
+		keyPhrasesOutputPath, err := GetKeyPhrasesFileOutputPath(client, keyPhrasesJobId)
+		if err != nil {
+			merr.AddError(errors.Wrap(err, "Unable to get key phrase output path"))
+		}
+
+		keyPhrases, err := KeyPhrasesFileToJson(*keyPhrasesOutputPath, sess)
+		if err != nil {
+			merr.AddError(errors.Wrap(err, "Unable to download file and convert to JSON"))
+		}
+		keyPhrasesArray = keyPhrases
+	} else {
+		keyPhrases, err := SmallerFileKeyPhraseAnalysis(string(textBytes), client)
+		if err != nil {
+			merr.AddError(errors.Wrap(err, "Unable to perform key phrases analysis"))
+		}
+		keyPhrasesArray = keyPhrases
 	}
 
-	keyPhrasesOutputPath, err := GetKeyPhrasesFileOutputPath(client, keyPhrasesJobId)
-	if err != nil {
-		merr.AddError(errors.Wrap(err, "Unable to get key phrase output path"))
-	}
-
-	keyPhrases, err := KeyPhrasesFileToJson(*keyPhrasesOutputPath, sess)
-	if err != nil {
-		merr.AddError(errors.Wrap(err, "Unable to download file and convert to JSON"))
-	}
-
-	analyseKeyPhrases := AnalyseKeyPhrases(keyPhrases)
+	analyseKeyPhrases := AnalyseKeyPhrases(keyPhrasesArray)
 
 	return analyseKeyPhrases, nil
 }
@@ -93,9 +122,11 @@ func PerformKeyPhraseAnalysis(
 func PerformAnalysis(
 	client *comprehend.Comprehend,
 	s3FileName string,
-	sess *session.Session) (AnalysisResult, error) {
+	sess *session.Session,
+	textBytes []byte) (AnalysisResult, error) {
 
 	log.Println("Beginning text analysis")
+	requiresJob := RequiresJob(textBytes)
 
 	var result AnalysisResult
 	merr := NewMultiError()
@@ -108,7 +139,7 @@ func PerformAnalysis(
 
 	go func() {
 		defer wg.Done()
-		sentimentResult, err := PerformSentimentAnalysis(client, s3FileName, sess)
+		sentimentResult, err := PerformSentimentAnalysis(client, string(textBytes))
 		if err != nil {
 			merr.AddError(errors.Wrap(err, "Unable to perform sentiment analysis"))
 			return
@@ -120,7 +151,7 @@ func PerformAnalysis(
 
 	go func() {
 		defer wg.Done()
-		entityResult, err := PerformEntityAnalysis(client, s3FileName, sess)
+		entityResult, err := PerformEntityAnalysis(client, s3FileName, sess, textBytes, requiresJob)
 		if err != nil {
 			merr.AddError(errors.Wrap(err, "Unable to perform entity analysis"))
 			return
@@ -135,7 +166,7 @@ func PerformAnalysis(
 
 	go func() {
 		defer wg.Done()
-		keyPhraseResult, err := PerformKeyPhraseAnalysis(client, s3FileName, sess)
+		keyPhraseResult, err := PerformKeyPhraseAnalysis(client, s3FileName, sess, textBytes, requiresJob)
 		if err != nil {
 			merr.AddError(errors.Wrap(err, "Unable to perform key phrase analysis"))
 			return

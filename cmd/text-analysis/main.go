@@ -29,7 +29,12 @@ func main() {
 
 	client := comprehend.New(sess)
 
-	result, err := internal.PerformAnalysis(client, s3FileName, sess)
+	textBytes, err := internal.GetTextBytes(sess, s3FileName)
+	if err != nil {
+		log.Fatal(err)
+	}
+
+	result, err := internal.PerformAnalysis(client, s3FileName, sess, textBytes)
 	if err != nil {
 		log.Fatal(err)
 	}

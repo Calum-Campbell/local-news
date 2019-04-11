@@ -1,0 +1,546 @@
+{
+ "DataSource": "short.txt",
+ "TopNegativeSentiment": [
+  {
+   "Sentence": "This council's reliance on outsource provisioned has failed to produce the standards of care necessary to ensure the older and disabled residents can live with dignity free from degrading treatment",
+   "SurroundingSentences": "Optimistic on valuable officer time is spent trying to recoup rising debt from  you clearly cannot afford to pay  madam, where the bars record on both social care and care homes is no longer as good as it wass. This council's reliance on outsource provisioned has failed to produce the standards of care necessary to ensure the older and disabled residents can live with dignity free from degrading treatment. This is shown by numerous adverse reports from the Hollis Commission, the large amount of senior managers time spent trying to bring providers up to standard on the desperate search for alternatives to replace providers",
+   "NegativeSentiment": 0.9724554419517517
+  },
+  {
+   "Sentence": "But these do not go far enough, given the need on what residents are telling us from the listening forums on stronger communities consultation",
+   "SurroundingSentences": "They have taken some difficult decisions and come up with innovative solutions to the river services despite the cut off funding available. But these do not go far enough, given the need on what residents are telling us from the listening forums on stronger communities consultation. I welcome the recommendations from the Youth Working Group has to create and you approached your services through consultations involving use in making decisions are listening to their view",
+   "NegativeSentiment": 0.9271305799484253
+  },
+  {
+   "Sentence": "Both that had no consideration towards families that struggle to provide for the children",
+   "SurroundingSentences": "I know how it feels when you can't afford to items off each toe. Both that had no consideration towards families that struggle to provide for the children. Parents and students should be able to buy no prize genetic items from any number off and still comply with the policy ofthe school uniforms",
+   "NegativeSentiment": 0.7602730393409729
+  },
+  {
+   "Sentence": "Parents and students should be able to buy no prize genetic items from any number off and still comply with the policy ofthe school uniforms",
+   "SurroundingSentences": "Both that had no consideration towards families that struggle to provide for the children. Parents and students should be able to buy no prize genetic items from any number off and still comply with the policy ofthe school uniforms. Schools should keep branded uniforms to a minimum, the Department of Education guidance on uniforms instead, that no school uniforms should be so expensive as to leave family unable to apply or two I can the school off their choice",
+   "NegativeSentiment": 0.7406744956970215
+  },
+  {
+   "Sentence": "I know how it feels when you can't afford to items off each toe",
+   "SurroundingSentences": "As a parent, I have struggled to provide for my two children in secondary school, where I have been given a compulsory list off items to purchase from one retailer at higher prices. I know how it feels when you can't afford to items off each toe. Both that had no consideration towards families that struggle to provide for the children",
+   "NegativeSentiment": 0.6879891157150269
+  },
+  {
+   "Sentence": "They have taken some difficult decisions and come up with innovative solutions to the river services despite the cut off funding available",
+   "SurroundingSentences": "I commend the league member on council officers in family and children services on the way. They have taken some difficult decisions and come up with innovative solutions to the river services despite the cut off funding available. But these do not go far enough, given the need on what residents are telling us from the listening forums on stronger communities consultation",
+   "NegativeSentiment": 0.6817787885665894
+  },
+  {
+   "Sentence": "Schools should keep branded uniforms to a minimum, the Department of Education guidance on uniforms instead, that no school uniforms should be so expensive as to leave family unable to apply or two I can the school off their choice",
+   "SurroundingSentences": "Parents and students should be able to buy no prize genetic items from any number off and still comply with the policy ofthe school uniforms. Schools should keep branded uniforms to a minimum, the Department of Education guidance on uniforms instead, that no school uniforms should be so expensive as to leave family unable to apply or two I can the school off their choice. Yet currently, it costs a family three hundred fifty pounds per child to purchase a full uniform for Holland Park School",
+   "NegativeSentiment": 0.41296935081481934
+  },
+  {
+   "Sentence": "Optimistic on valuable officer time is spent trying to recoup rising debt from  you clearly cannot afford to pay  madam, where the bars record on both social care and care homes is no longer as good as it wass",
+   "SurroundingSentences": "In London 21st January. Optimistic on valuable officer time is spent trying to recoup rising debt from  you clearly cannot afford to pay  madam, where the bars record on both social care and care homes is no longer as good as it wass. This council's reliance on outsource provisioned has failed to produce the standards of care necessary to ensure the older and disabled residents can live with dignity free from degrading treatment",
+   "NegativeSentiment": 0.3716212213039398
+  },
+  {
+   "Sentence": "The other review is on a personal  independence payments, where it is taking nine weeks from assessment to decision, which means it must mean that many disabled people are having to live on next to nothing for more than two months on left side is they're terminally ill when the weight is only six working days",
+   "SurroundingSentences": "We're also fruit, fifty thousand pounds to study of how that really Could you sum up, please? Okay, Just very briefly. The other review is on a personal  independence payments, where it is taking nine weeks from assessment to decision, which means it must mean that many disabled people are having to live on next to nothing for more than two months on left side is they're terminally ill when the weight is only six working days. Thank you",
+   "NegativeSentiment": 0.2862801253795624
+  },
+  {
+   "Sentence": "As a parent, I have struggled to provide for my two children in secondary school, where I have been given a compulsory list off items to purchase from one retailer at higher prices",
+   "SurroundingSentences": "Our alternative budget is to spend sixty thousand pounds, so these vulnerable community assets valuable community as its can stay open during the holiday and weekend, keeping children safe, secure and healthy. As a parent, I have struggled to provide for my two children in secondary school, where I have been given a compulsory list off items to purchase from one retailer at higher prices. I know how it feels when you can't afford to items off each toe",
+   "NegativeSentiment": 0.2531884014606476
+  }
+ ],
+ "People": [
+  {
+   "Text": "Ellie",
+   "Type": "PERSON"
+  }
+ ],
+ "Places": [
+  {
+   "Text": "London",
+   "Type": "LOCATION"
+  }
+ ],
+ "Dates": [
+  {
+   "Text": "21st January",
+   "Type": "DATE"
+  }
+ ],
+ "Organisations": [
+  {
+   "Text": "Hollis Commission",
+   "Type": "ORGANIZATION"
+  },
+  {
+   "Text": "Youth Working Group",
+   "Type": "ORGANIZATION"
+  },
+  {
+   "Text": "Department of Education",
+   "Type": "ORGANIZATION"
+  },
+  {
+   "Text": "Holland Park School",
+   "Type": "ORGANIZATION"
+  }
+ ],
+ "KeyPhrases": [
+  {
+   "Text": "London 21st"
+  },
+  {
+   "Text": "January"
+  },
+  {
+   "Text": "Optimistic"
+  },
+  {
+   "Text": "valuable officer time"
+  },
+  {
+   "Text": "rising debt"
+  },
+  {
+   "Text": "madam"
+  },
+  {
+   "Text": "the bars record"
+  },
+  {
+   "Text": "both social care"
+  },
+  {
+   "Text": "care homes"
+  },
+  {
+   "Text": "This council"
+  },
+  {
+   "Text": "reliance"
+  },
+  {
+   "Text": "outsource provisioned"
+  },
+  {
+   "Text": "the standards"
+  },
+  {
+   "Text": "care"
+  },
+  {
+   "Text": "the older and disabled residents"
+  },
+  {
+   "Text": "dignity"
+  },
+  {
+   "Text": "degrading treatment"
+  },
+  {
+   "Text": "numerous adverse reports"
+  },
+  {
+   "Text": "the Hollis Commission"
+  },
+  {
+   "Text": "the large amount"
+  },
+  {
+   "Text": "senior managers time"
+  },
+  {
+   "Text": "providers"
+  },
+  {
+   "Text": "standard"
+  },
+  {
+   "Text": "the desperate search"
+  },
+  {
+   "Text": "alternatives"
+  },
+  {
+   "Text": "the other two items"
+  },
+  {
+   "Text": "our alternative adult social social care budget"
+  },
+  {
+   "Text": "life"
+  },
+  {
+   "Text": "those vulnerable groups"
+  },
+  {
+   "Text": "evidence"
+  },
+  {
+   "Text": "a review"
+  },
+  {
+   "Text": "people"
+  },
+  {
+   "Text": "the special projects reserve"
+  },
+  {
+   "Text": "the boroughs care homes"
+  },
+  {
+   "Text": "a view"
+  },
+  {
+   "Text": "the house"
+  },
+  {
+   "Text": "fruit"
+  },
+  {
+   "Text": "fifty thousand pounds"
+  },
+  {
+   "Text": "study"
+  },
+  {
+   "Text": "Just very"
+  },
+  {
+   "Text": "The other review"
+  },
+  {
+   "Text": "a personal  independence payments"
+  },
+  {
+   "Text": "nine weeks"
+  },
+  {
+   "Text": "assessment"
+  },
+  {
+   "Text": "decision"
+  },
+  {
+   "Text": "many disabled people"
+  },
+  {
+   "Text": "more than two months"
+  },
+  {
+   "Text": "left side"
+  },
+  {
+   "Text": "the weight"
+  },
+  {
+   "Text": "only six working days"
+  },
+  {
+   "Text": "the league member"
+  },
+  {
+   "Text": "council officers"
+  },
+  {
+   "Text": "family and children services"
+  },
+  {
+   "Text": "the way"
+  },
+  {
+   "Text": "some difficult decisions"
+  },
+  {
+   "Text": "innovative solutions"
+  },
+  {
+   "Text": "the river services"
+  },
+  {
+   "Text": "the cut"
+  },
+  {
+   "Text": "the need"
+  },
+  {
+   "Text": "residents"
+  },
+  {
+   "Text": "the listening forums"
+  },
+  {
+   "Text": "stronger communities consultation"
+  },
+  {
+   "Text": "the recommendations"
+  },
+  {
+   "Text": "the Youth Working Group"
+  },
+  {
+   "Text": "your services"
+  },
+  {
+   "Text": "consultations"
+  },
+  {
+   "Text": "decisions"
+  },
+  {
+   "Text": "their view"
+  },
+  {
+   "Text": "the fund"
+  },
+  {
+   "Text": "the new youth parliament"
+  },
+  {
+   "Text": "the labour group"
+  },
+  {
+   "Text": "some years"
+  },
+  {
+   "Text": "The council leadership"
+  },
+  {
+   "Text": "young people"
+  },
+  {
+   "Text": "their needs"
+  },
+  {
+   "Text": "the bulk"
+  },
+  {
+   "Text": "Mrs Delivery"
+  },
+  {
+   "Text": "house"
+  },
+  {
+   "Text": "more youth clubs"
+  },
+  {
+   "Text": "the We"
+  },
+  {
+   "Text": "integrated services"
+  },
+  {
+   "Text": "unhealed account"
+  },
+  {
+   "Text": "other part"
+  },
+  {
+   "Text": "our children services"
+  },
+  {
+   "Text": "Ellie Help"
+  },
+  {
+   "Text": "youth offending team"
+  },
+  {
+   "Text": "The current contract"
+  },
+  {
+   "Text": "the years"
+  },
+  {
+   "Text": "a significant provisions"
+  },
+  {
+   "Text": "the delivery"
+  },
+  {
+   "Text": "these services"
+  },
+  {
+   "Text": "our alternative budget"
+  },
+  {
+   "Text": "additional budget"
+  },
+  {
+   "Text": "a location"
+  },
+  {
+   "Text": "one hundred thousand pounds"
+  },
+  {
+   "Text": "services"
+  },
+  {
+   "Text": "no renewal"
+  },
+  {
+   "Text": "epic"
+  },
+  {
+   "Text": "establishment"
+  },
+  {
+   "Text": "House team"
+  },
+  {
+   "Text": "the details"
+  },
+  {
+   "Text": "commitments"
+  },
+  {
+   "Text": "some way"
+  },
+  {
+   "Text": "structured toh goto"
+  },
+  {
+   "Text": "holidays and weekends"
+  },
+  {
+   "Text": "Our alternative budget"
+  },
+  {
+   "Text": "sixty thousand pounds"
+  },
+  {
+   "Text": "these vulnerable community assets"
+  },
+  {
+   "Text": "valuable community"
+  },
+  {
+   "Text": "the holiday and weekend"
+  },
+  {
+   "Text": "children"
+  },
+  {
+   "Text": "a parent"
+  },
+  {
+   "Text": "my two children"
+  },
+  {
+   "Text": "secondary school"
+  },
+  {
+   "Text": "a compulsory list"
+  },
+  {
+   "Text": "items"
+  },
+  {
+   "Text": "one retailer"
+  },
+  {
+   "Text": "higher prices"
+  },
+  {
+   "Text": "each toe"
+  },
+  {
+   "Text": "no consideration"
+  },
+  {
+   "Text": "families"
+  },
+  {
+   "Text": "the children"
+  },
+  {
+   "Text": "Parents and students"
+  },
+  {
+   "Text": "no prize genetic items"
+  },
+  {
+   "Text": "any number"
+  },
+  {
+   "Text": "the policy"
+  },
+  {
+   "Text": "ofthe school uniforms"
+  },
+  {
+   "Text": "Schools"
+  },
+  {
+   "Text": "branded uniforms"
+  },
+  {
+   "Text": "a minimum"
+  },
+  {
+   "Text": "the Department"
+  },
+  {
+   "Text": "Education guidance"
+  },
+  {
+   "Text": "uniforms"
+  },
+  {
+   "Text": "no school uniforms"
+  },
+  {
+   "Text": "family"
+  },
+  {
+   "Text": "the school"
+  },
+  {
+   "Text": "their choice"
+  },
+  {
+   "Text": "a family"
+  },
+  {
+   "Text": "three hundred fifty pounds"
+  },
+  {
+   "Text": "child"
+  },
+  {
+   "Text": "a full uniform"
+  },
+  {
+   "Text": "Holland Park School"
+  },
+  {
+   "Text": "two or more teenage children"
+  },
+  {
+   "Text": "poverty"
+  },
+  {
+   "Text": "low income families"
+  },
+  {
+   "Text": "a provision"
+  },
+  {
+   "Text": "seventy thousand pounds"
+  },
+  {
+   "Text": "Alternative project"
+  },
+  {
+   "Text": "two thousand nineteen twenty Tow pilot"
+  },
+  {
+   "Text": "A school uniform grand scheme"
+  },
+  {
+   "Text": "that right"
+  }
+ ]
+}

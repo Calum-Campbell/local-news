@@ -30,6 +30,22 @@ type TypedEntityResult struct {
 	Organisations []Entity
 }
 
+func SmallerFileEntityAnalysis(text string, client *comprehend.Comprehend) ([]Entity, error) {
+	var input comprehend.BatchDetectEntitiesInput
+	var entityArray []Entity
+	input.SetLanguageCode("en")
+	input.SetTextList([]*string{aws.String(text)})
+
+	output, err := client.BatchDetectEntities(&input)
+	if err != nil {
+		return entityArray, err
+	}
+	for _, entity := range output.ResultList[0].Entities {
+		entityArray = append(entityArray, Entity{Text: *entity.Text, Type: *entity.Type})
+	}
+	return entityArray, nil
+}
+
 func StartEntitiesJob(client *comprehend.Comprehend, fileName string) (*string, error) {
 	var jobId *string
 	inputConfig := comprehend.InputDataConfig{}
