@@ -41,7 +41,11 @@ func AnalyseTextSentiment(client *comprehend.Comprehend, text string) ([]Sentime
 	sort.Slice(sentimentArray, func(i, j int) bool {
 		return *sentimentArray[i].NegativeSentiment > *sentimentArray[j].NegativeSentiment
 	})
-	return sentimentArray[0:10], nil
+	if len(sentimentArray) > 10 {
+		return sentimentArray[0:10], nil
+	} else {
+		return sentimentArray, nil
+	}
 }
 
 func AnalyseSentenceSentiment(client *comprehend.Comprehend, sentence string, surroundingSentences string) (SentimentResult, error) {

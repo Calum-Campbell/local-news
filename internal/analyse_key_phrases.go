@@ -43,14 +43,14 @@ func StartKeyPhrasesJob(client *comprehend.Comprehend, fileName string) (*string
 	var jobId *string
 	inputConfig := comprehend.InputDataConfig{}
 	inputConfig.SetInputFormat("ONE_DOC_PER_FILE")
-	inputConfig.SetS3Uri("s3://lauren-temp/" + fileName)
+	inputConfig.SetS3Uri("s3://whatif-local-news-le/" + fileName)
 
 	outputConfig := comprehend.OutputDataConfig{}
-	outputConfig.SetS3Uri("s3://lauren-temp/key-phrases")
+	outputConfig.SetS3Uri("s3://whatif-local-news-le/key-phrases")
 
 	keyPhrasesJobInput := comprehend.StartKeyPhrasesDetectionJobInput{}
 	keyPhrasesJobInput.SetLanguageCode("en")
-	keyPhrasesJobInput.SetDataAccessRoleArn("arn:aws:iam::942464564246:role/comprehend-s3-access")
+	keyPhrasesJobInput.SetDataAccessRoleArn("arn:aws:iam::702972749545:role/comprehend-s3-access")
 	keyPhrasesJobInput.SetInputDataConfig(&inputConfig)
 	keyPhrasesJobInput.SetOutputDataConfig(&outputConfig)
 
@@ -89,7 +89,7 @@ func KeyPhrasesFileToJson(outputPath string, session *session.Session) ([]KeyPhr
 	var dat KeyPhraseApiResult
 	outputId := strings.Split(outputPath, "/")[4]
 	item := "key-phrases/" + outputId + "/output/output.tar.gz"
-	bucket := "lauren-temp"
+	bucket := "whatif-local-news-le"
 
 	writer := aws.NewWriteAtBuffer([]byte{})
 	downloader := s3manager.NewDownloader(session)

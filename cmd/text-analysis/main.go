@@ -1,14 +1,17 @@
 package main
 
 import (
-	"io/ioutil"
-	"os"
-
 	"encoding/json"
+	"io/ioutil"
 
 	"log"
 
 	"textanalysis/internal"
+
+	"flag"
+
+	"fmt"
+	"os"
 
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/aws/credentials"
@@ -17,29 +20,44 @@ import (
 	"github.com/pkg/errors"
 )
 
-func main() {
-	// pass the input s3 file name
-	s3FileName := os.Args[1]
-	outputFileName := os.Args[2]
+var (
+	inputFile  = flag.String("input", "", "name of input file - should be in bucket whatif-local-news-le")
+	outputFile = flag.String("output", "", "name of output file")
+)
 
-	sess, err := CreateSession("identity")
+func main() {
+
+	flag.Usage = func() {
+		fmt.Fprintf(os.Stderr, "Run text analysis in developer playground:\n")
+		flag.PrintDefaults()
+	}
+
+	// pass the input s3 file name
+	flag.Parse()
+
+	if *inputFile == "" || *outputFile == "" {
+		fmt.Println("invalid input, to see usage: ./text-analysis -h")
+		os.Exit(1)
+	}
+
+	sess, err := CreateSession("developerPlayground")
 	if err != nil {
 		log.Fatal(err)
 	}
 
 	client := comprehend.New(sess)
 
-	textBytes, err := internal.GetTextBytes(sess, s3FileName)
+	textBytes, err := internal.GetTextBytes(sess, *inputFile)
 	if err != nil {
 		log.Fatal(err)
 	}
 
-	result, err := internal.PerformAnalysis(client, s3FileName, sess, textBytes)
+	result, err := internal.PerformAnalysis(client, *inputFile, sess, textBytes)
 	if err != nil {
 		log.Fatal(err)
 	}
 
-	WriteToFile(result, outputFileName)
+	WriteToFile(result, *outputFile)
 }
 
 func CreateSession(profile string) (*session.Session, error) {

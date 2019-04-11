@@ -50,14 +50,14 @@ func StartEntitiesJob(client *comprehend.Comprehend, fileName string) (*string, 
 	var jobId *string
 	inputConfig := comprehend.InputDataConfig{}
 	inputConfig.SetInputFormat("ONE_DOC_PER_FILE")
-	inputConfig.SetS3Uri("s3://lauren-temp/" + fileName)
+	inputConfig.SetS3Uri("s3://whatif-local-news-le/" + fileName)
 
 	outputConfig := comprehend.OutputDataConfig{}
-	outputConfig.SetS3Uri("s3://lauren-temp/entities")
+	outputConfig.SetS3Uri("s3://whatif-local-news-le/entities")
 
 	entityJobInput := comprehend.StartEntitiesDetectionJobInput{}
 	entityJobInput.SetLanguageCode("en")
-	entityJobInput.SetDataAccessRoleArn("arn:aws:iam::942464564246:role/comprehend-s3-access")
+	entityJobInput.SetDataAccessRoleArn("arn:aws:iam::702972749545:role/comprehend-s3-access")
 	entityJobInput.SetInputDataConfig(&inputConfig)
 	entityJobInput.SetOutputDataConfig(&outputConfig)
 
@@ -96,7 +96,7 @@ func EntityFileToJson(outputPath string, session *session.Session) ([]Entity, er
 	var dat EntityApiResult
 	outputId := strings.Split(outputPath, "/")[4]
 	item := "entities/" + outputId + "/output/output.tar.gz"
-	bucket := "lauren-temp"
+	bucket := "whatif-local-news-le"
 
 	writer := aws.NewWriteAtBuffer([]byte{})
 	downloader := s3manager.NewDownloader(session)

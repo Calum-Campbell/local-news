@@ -35,7 +35,7 @@ func getFirstFileFromTarGzip(b []byte) ([]byte, error) {
 func GetTextBytes(session *session.Session, fileName string) ([]byte, error) {
 	var bytesArray []byte
 	item := fileName
-	bucket := "lauren-temp"
+	bucket := "whatif-local-news-le"
 	writer := aws.NewWriteAtBuffer([]byte{})
 	downloader := s3manager.NewDownloader(session)
 
