@@ -19,18 +19,6 @@ type AnalysisResult struct {
 	KeyPhrases           []KeyPhrase
 }
 
-// If a file size is over 5000 bytes then we require it to use Amazon Comprehend's background 'asynchronous detection jobs'.
-// This takes longer but can handle files up to 100,000 bytes
-func RequiresJob(textBytes []byte) bool {
-	if len(textBytes) < 5000 {
-		log.Println("File size is under 5000 bytes:", len(textBytes))
-		return false
-	} else {
-		log.Println("File size is over 5000 bytes:", len(textBytes))
-		return true
-	}
-}
-
 func PerformSentimentAnalysis(
 	client *comprehend.Comprehend,
 	text string) ([]SentimentResult, error) {
@@ -44,16 +32,18 @@ func PerformSentimentAnalysis(
 	return sentimentResult, nil
 }
 
+// If a file size is over 5000 bytes then we require it to use Amazon Comprehend's background 'asynchronous detection jobs'.
+// This takes longer but can handle files up to 100,000 bytes
 func PerformEntityAnalysis(
 	client *comprehend.Comprehend,
 	s3FileName string,
 	sess *session.Session,
-	textBytes []byte,
-	requiresJob bool) (TypedEntityResult, error) {
+	textBytes []byte) (TypedEntityResult, error) {
 	var entitiesArray []Entity
 	merr := NewMultiError()
 
-	if requiresJob {
+	if len(textBytes) >= 5000 {
+		log.Println("File size is over 5000 bytes:", len(textBytes))
 		entityJobId, err := StartEntitiesJob(client, s3FileName)
 		if err != nil {
 			merr.AddError(errors.Wrap(err, "Unable to perform entity analysis job"))
@@ -69,6 +59,7 @@ func PerformEntityAnalysis(
 		}
 		entitiesArray = entities
 	} else {
+		log.Println("File size is under 5000 bytes:", len(textBytes))
 		entities, err := SmallerFileEntityAnalysis(string(textBytes), client)
 		if err != nil {
 			merr.AddError(errors.Wrap(err, "Unable to perform entity analysis"))
@@ -81,16 +72,18 @@ func PerformEntityAnalysis(
 	return analyseEntities, merr.Build()
 }
 
+// If a file size is over 5000 bytes then we require it to use Amazon Comprehend's background 'asynchronous detection jobs'.
+// This takes longer but can handle files up to 100,000 bytes
 func PerformKeyPhraseAnalysis(
 	client *comprehend.Comprehend,
 	s3FileName string,
 	sess *session.Session,
-	textBytes []byte,
-	requiresJob bool) ([]KeyPhrase, error) {
+	textBytes []byte) ([]KeyPhrase, error) {
 	var keyPhrasesArray []KeyPhrase
 	merr := NewMultiError()
 
-	if requiresJob {
+	if len(textBytes) >= 5000 {
+		log.Println("File size is over 5000 bytes:", len(textBytes))
 		keyPhrasesJobId, err := StartKeyPhrasesJob(client, s3FileName)
 		if err != nil {
 			merr.AddError(errors.Wrap(err, "Unable to perform key phrase job"))
@@ -107,6 +100,7 @@ func PerformKeyPhraseAnalysis(
 		}
 		keyPhrasesArray = keyPhrases
 	} else {
+		log.Println("File size is under 5000 bytes:", len(textBytes))
 		keyPhrases, err := SmallerFileKeyPhraseAnalysis(string(textBytes), client)
 		if err != nil {
 			merr.AddError(errors.Wrap(err, "Unable to perform key phrases analysis"))
@@ -126,7 +120,6 @@ func PerformAnalysis(
 	textBytes []byte) (AnalysisResult, error) {
 
 	log.Println("Beginning text analysis")
-	requiresJob := RequiresJob(textBytes)
 
 	var result AnalysisResult
 	merr := NewMultiError()
@@ -151,7 +144,7 @@ func PerformAnalysis(
 
 	go func() {
 		defer wg.Done()
-		entityResult, err := PerformEntityAnalysis(client, s3FileName, sess, textBytes, requiresJob)
+		entityResult, err := PerformEntityAnalysis(client, s3FileName, sess, textBytes)
 		if err != nil {
 			merr.AddError(errors.Wrap(err, "Unable to perform entity analysis"))
 			return
@@ -166,7 +159,7 @@ func PerformAnalysis(
 
 	go func() {
 		defer wg.Done()
-		keyPhraseResult, err := PerformKeyPhraseAnalysis(client, s3FileName, sess, textBytes, requiresJob)
+		keyPhraseResult, err := PerformKeyPhraseAnalysis(client, s3FileName, sess, textBytes)
 		if err != nil {
 			merr.AddError(errors.Wrap(err, "Unable to perform key phrase analysis"))
 			return
